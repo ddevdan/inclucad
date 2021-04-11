@@ -37,7 +37,7 @@ Karol é uma mulher muito comunicativa, além de sincera e objetiva, o que a aju
 
 Ela acredita que a prefeitura poderia desenvolver mais soluções voltadas para acessibilidade dela, pois considera despadronização das calçadas e a falta de rampas uma barreira para o exercício da sua liberdade de ir e vir.
 
-![INCLUCAD%20fb0253337cff4831bbd8ec37af1dee58/Untitled.png](INCLUCAD%20fb0253337cff4831bbd8ec37af1dee58/Untitled.png =100x100)
+<img src="INCLUCAD%20fb0253337cff4831bbd8ec37af1dee58/Untitled.png" width="100">
 
 > Joana Macaral, 57
 
