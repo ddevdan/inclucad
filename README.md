@@ -27,7 +27,7 @@ Esse fato faz com que as pessoas com deficiências sejam invisibilidades, impedi
 
 # Personas
 
-<img src="INCLUCAD%20fb0253337cff4831bbd8ec37af1dee58" width="200">
+<img src="INCLUCAD%20fb0253337cff4831bbd8ec37af1dee58/image.jpg" width="200">
 
 > Karol Pessoa, 34
 
