@@ -27,7 +27,7 @@ Esse fato faz com que as pessoas com deficiências sejam invisibilidades, impedi
 
 # Personas
 
-<img src="INCLUCAD%20fb0253337cff4831bbd8ec37af1dee58/image.jpg" width="200">
+<img src="docs/assets/image.jpg" width="200">
 
 > Karol Pessoa, 34
 
@@ -37,7 +37,7 @@ Karol é uma mulher muito comunicativa, além de sincera e objetiva, o que a aju
 
 Ela acredita que a prefeitura poderia desenvolver mais soluções voltadas para acessibilidade dela, pois considera despadronização das calçadas e a falta de rampas uma barreira para o exercício da sua liberdade de ir e vir.
 
-<img src="INCLUCAD%20fb0253337cff4831bbd8ec37af1dee58/Untitled.png" width="200">
+<img src="docs/assets/Untitled.png" width="200">
 
 > Joana Macaral, 57
 
@@ -64,35 +64,35 @@ Após analisar as respostas do formulário de expectativas do stakeholders para 
 
 ### Telas
 
-![INCLUCAD%20fb0253337cff4831bbd8ec37af1dee58/login.png](INCLUCAD%20fb0253337cff4831bbd8ec37af1dee58/login.png)
+![docs/assets/login.png](docs/assets/login.png)
 
 > Login
 
-![INCLUCAD%20fb0253337cff4831bbd8ec37af1dee58/iPhone_SE_-_2.png](INCLUCAD%20fb0253337cff4831bbd8ec37af1dee58/iPhone_SE_-_2.png)
+![docs/assets/iPhone_SE_-_2.png](docs/assets/iPhone_SE_-_2.png)
 
 > Inicio
 
-![INCLUCAD%20fb0253337cff4831bbd8ec37af1dee58/graficos.png](INCLUCAD%20fb0253337cff4831bbd8ec37af1dee58/graficos.png)
+![docs/assets/graficos.png](docs/assets/graficos.png)
 
 > Gráfico de mapa
 
-![INCLUCAD%20fb0253337cff4831bbd8ec37af1dee58/formulario_1.png](INCLUCAD%20fb0253337cff4831bbd8ec37af1dee58/formulario_1.png)
+![docs/assets/formulario_1.png](docs/assets/formulario_1.png)
 
 > Formulário de cadastro (input)
 
-![INCLUCAD%20fb0253337cff4831bbd8ec37af1dee58/graficos_(3).png](<INCLUCAD%20fb0253337cff4831bbd8ec37af1dee58/graficos_(3).png>)
+![docs/assets/graficos_(3).png](<docs/assets/graficos_(3).png>)
 
 > Gráfico de teia
 
-![INCLUCAD%20fb0253337cff4831bbd8ec37af1dee58/formulario_5.png](INCLUCAD%20fb0253337cff4831bbd8ec37af1dee58/formulario_5.png)
+![docs/assets/formulario_5.png](docs/assets/formulario_5.png)
 
 > Formulário de cadastro (select)
 
-![INCLUCAD%20fb0253337cff4831bbd8ec37af1dee58/graficos_(1).png](<INCLUCAD%20fb0253337cff4831bbd8ec37af1dee58/graficos_(1).png>)
+![docs/assets/graficos_(1).png](<docs/assets/graficos_(1).png>)
 
 > Gráfico barra
 
-![INCLUCAD%20fb0253337cff4831bbd8ec37af1dee58/formulario_4.png](INCLUCAD%20fb0253337cff4831bbd8ec37af1dee58/formulario_4.png)
+![docs/assets/formulario_4.png](docs/assets/formulario_4.png)
 
 > Formulário de cadastro (vários campos)
 
