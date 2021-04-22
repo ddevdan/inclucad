@@ -10,7 +10,7 @@ class DisabledPeopleController < ApplicationController
 
   # GET /disabled_people/:cpf
   def show
-    render json: @disabled_person.as_json(include: { phone_number: { only: [:number, :type] }, address: { except: [:_id, :address_id, :address_type] } })
+    render json: format_response
   end
 
   # POST /disabled_people
@@ -24,7 +24,7 @@ class DisabledPeopleController < ApplicationController
     if @disabled_person.save
       @disabled_person.phone_number = @phone
       @disabled_person.address = @address
-      render json: {status: "created", created: true,  created_at:"#{Time.now}"}
+      render json: format_response
       
     else
       render json: @disabled_person.errors, status: :unprocessable_entity
@@ -36,7 +36,7 @@ class DisabledPeopleController < ApplicationController
     if @disabled_person.update(disabled_person_params)
       @disabled_person.phone_number.update_attributes(phone_params)
       @disabled_person.address.update_attributes(address_params)
-      render json: @disabled_person.phone_number
+      render json: format_response
     else
       render json: @disabled_person.errors, status: :unprocessable_entity
     end
@@ -51,9 +51,13 @@ class DisabledPeopleController < ApplicationController
   end
 
   private
+
+    def format_response
+      @disabled_person.as_json(include: { phone_number: { only: [:number, :type] }, address: { except: [:_id, :address_id, :address_type] } })
+    end
     # Use callbacks to share common setup or constraints between actions.
     def set_disabled_person
-      @disabled_person = DisabledPerson.find_by(cpf: params[:id])
+      @disabled_person = DisabledPerson.find_by(cpf: disabled_person_params[:cpf])
     end
 
     # Only allow a list of trusted parameters through.
