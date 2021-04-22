@@ -20,10 +20,11 @@ class DisabledPeopleController < ApplicationController
     @disabled_person = DisabledPerson.new(disabled_person_params)
     @phone = PhoneNumber.create(phone_params)
     @address = Address.create(address_params)
-    
+    @disabled_person.phone_number = @phone
+    @disabled_person.address = @address
+    @disabled_person.posto = Posto.first
     if @disabled_person.save
-      @disabled_person.phone_number = @phone
-      @disabled_person.address = @address
+      
       render json: format_response
       
     else
@@ -33,9 +34,12 @@ class DisabledPeopleController < ApplicationController
 
   # PATCH/PUT /disabled_people/1
   def update
+    
     if @disabled_person.update(disabled_person_params)
+      @disabled_person.posto.update_attributes(posto_params)
       @disabled_person.phone_number.update_attributes(phone_params)
       @disabled_person.address.update_attributes(address_params)
+      
       render json: format_response
     else
       render json: @disabled_person.errors, status: :unprocessable_entity
@@ -57,7 +61,7 @@ class DisabledPeopleController < ApplicationController
     end
     # Use callbacks to share common setup or constraints between actions.
     def set_disabled_person
-      @disabled_person = DisabledPerson.find_by(cpf: disabled_person_params[:cpf])
+      @disabled_person = DisabledPerson.find_by(cpf: params[:cpf])
     end
 
     # Only allow a list of trusted parameters through.
@@ -75,6 +79,11 @@ class DisabledPeopleController < ApplicationController
 
     def phone_params
       params.require(:phone_number).permit(:number, :type)
+    end
+
+    def posto_params
+      byebug
+      params.require(:posto).permit(:name, :posto_code)
     end
 
     
