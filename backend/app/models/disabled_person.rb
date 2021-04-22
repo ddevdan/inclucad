@@ -16,10 +16,11 @@ class DisabledPerson
   field :social_situation, type: String
   field :infos_add, type: String
   field :deficiency_type, type: String
-
+  belongs_to :posto
   has_one :address, as: :address, dependent: :destroy 
   has_one :phone_number, as: :phone, dependent: :destroy 
+  validates :address, :phone_number, presence: true
 
-  accepts_nested_attributes_for :address, :phone_number
+  accepts_nested_attributes_for :address, :phone_number, :posto
   # validates :cpf, length: {is: 11}, uniqueness: true
 end
