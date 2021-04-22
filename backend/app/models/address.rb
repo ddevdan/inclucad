@@ -1,6 +1,7 @@
 class Address
   include Mongoid::Document
 
+  field :cep, type: String
   field :street, type: String
   field :number, type: String
   field :neighborhood, type: String
