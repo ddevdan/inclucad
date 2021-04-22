@@ -34,3 +34,6 @@ gem 'tzinfo-data', '~> 1.2019', '>= 1.2019.2', platforms: [:mingw, :mswin, :x64_
 
 # MongoID
 gem 'mongoid', '~> 7.0.5'
+
+# RDoc for api documentation
+gem 'rdoc'
