@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   
 
+  resources :disabled_people
   resources :cif_codes,  only: [:index] do
     collection do
       get 'search'
