@@ -1,0 +1,6254 @@
+[
+  {
+    "Categoria": "b1",
+    "Descrição": "Funções mentais"
+  },
+  {
+    "Categoria": "b110",
+    "Descrição": "Funções da consciência"
+  },
+  {
+    "Categoria": "b1100",
+    "Descrição": "Nível de consciência"
+  },
+  {
+    "Categoria": "b1101",
+    "Descrição": "Continuidade da consciência"
+  },
+  {
+    "Categoria": "b1102",
+    "Descrição": "Qualidade da consciência"
+  },
+  {
+    "Categoria": "b1108",
+    "Descrição": "Funções da consciência"
+  },
+  {
+    "Categoria": "b1109",
+    "Descrição": "Funções da consciência"
+  },
+  {
+    "Categoria": "b114",
+    "Descrição": "Funções da orientação"
+  },
+  {
+    "Categoria": "b1140",
+    "Descrição": "Orientação em relação ao tempo"
+  },
+  {
+    "Categoria": "b1141",
+    "Descrição": "Orientação em relação ao lugar"
+  },
+  {
+    "Categoria": "b1142",
+    "Descrição": "Orientação em relação à pessoa"
+  },
+  {
+    "Categoria": "b11420",
+    "Descrição": "Orientação em relação a si próprio"
+  },
+  {
+    "Categoria": "b11421",
+    "Descrição": "Orientação em relação a outros"
+  },
+  {
+    "Categoria": "b11428",
+    "Descrição": "Orientação em relação à pessoa"
+  },
+  {
+    "Categoria": "b11429",
+    "Descrição": "Orientação em relação à pessoa"
+  },
+  {
+    "Categoria": "b1143",
+    "Descrição": "Orientação em relação a objetos"
+  },
+  {
+    "Categoria": "b1144",
+    "Descrição": "Orientação em relação ao espaço"
+  },
+  {
+    "Categoria": "b1148",
+    "Descrição": "Funções de orientação"
+  },
+  {
+    "Categoria": "b1149",
+    "Descrição": "Funções de orientação"
+  },
+  {
+    "Categoria": "b117",
+    "Descrição": "Funções intelectuais"
+  },
+  {
+    "Categoria": "b122",
+    "Descrição": "Funções psicossociais globais"
+  },
+  {
+    "Categoria": "b126",
+    "Descrição": "Funções do temperamento e da personalidade"
+  },
+  {
+    "Categoria": "b1260",
+    "Descrição": "Extroversão"
+  },
+  {
+    "Categoria": "b1261",
+    "Descrição": "Amabilidade"
+  },
+  {
+    "Categoria": "b1262",
+    "Descrição": "Responsabilidade"
+  },
+  {
+    "Categoria": "b1263",
+    "Descrição": "Estabilidade psíquica"
+  },
+  {
+    "Categoria": "b1264",
+    "Descrição": "Disposição de viver novas experiências"
+  },
+  {
+    "Categoria": "b1265",
+    "Descrição": "Otimismo"
+  },
+  {
+    "Categoria": "b1266",
+    "Descrição": "Confiança"
+  },
+  {
+    "Categoria": "b1267",
+    "Descrição": "Confiabilidade"
+  },
+  {
+    "Categoria": "b1268",
+    "Descrição": "Funções do temperamento e da personalidade"
+  },
+  {
+    "Categoria": "b1269",
+    "Descrição": "Funções do temperamento e da personalidade"
+  },
+  {
+    "Categoria": "b130",
+    "Descrição": "Funções da energia e dos impulsos"
+  },
+  {
+    "Categoria": "b1300",
+    "Descrição": "Nível de energia"
+  },
+  {
+    "Categoria": "b1301",
+    "Descrição": "Motivação"
+  },
+  {
+    "Categoria": "b1302",
+    "Descrição": "Apetite"
+  },
+  {
+    "Categoria": "b1303",
+    "Descrição": "Ânsia"
+  },
+  {
+    "Categoria": "b1304",
+    "Descrição": "Controle dos impulsos"
+  },
+  {
+    "Categoria": "b1308",
+    "Descrição": "Funções da energia e dos impulsos"
+  },
+  {
+    "Categoria": "b1309",
+    "Descrição": "Funções da energia e dos impulsos"
+  },
+  {
+    "Categoria": "b134",
+    "Descrição": "Funções do sono"
+  },
+  {
+    "Categoria": "b1340",
+    "Descrição": "Quantidade de sono"
+  },
+  {
+    "Categoria": "b1341",
+    "Descrição": "Início do sono"
+  },
+  {
+    "Categoria": "b1342",
+    "Descrição": "Manutenção do sono"
+  },
+  {
+    "Categoria": "b1343",
+    "Descrição": "Qualidade do sono"
+  },
+  {
+    "Categoria": "b1344",
+    "Descrição": "Funções que envolvem o ciclo do sono"
+  },
+  {
+    "Categoria": "b1348",
+    "Descrição": "Funções do sono"
+  },
+  {
+    "Categoria": "b1349",
+    "Descrição": "Funções do sono"
+  },
+  {
+    "Categoria": "b139",
+    "Descrição": "Funções mentais globais"
+  },
+  {
+    "Categoria": "b140",
+    "Descrição": "Funções da atenção"
+  },
+  {
+    "Categoria": "b1400",
+    "Descrição": "Manutenção da atenção"
+  },
+  {
+    "Categoria": "b1401",
+    "Descrição": "Mudança da atenção"
+  },
+  {
+    "Categoria": "b1402",
+    "Descrição": "Divisão da atenção"
+  },
+  {
+    "Categoria": "b1403",
+    "Descrição": "Compartilhar a atenção"
+  },
+  {
+    "Categoria": "b1408",
+    "Descrição": "Funções da atenção"
+  },
+  {
+    "Categoria": "b1409",
+    "Descrição": "Funções da atenção"
+  },
+  {
+    "Categoria": "b144",
+    "Descrição": "Funções da memória"
+  },
+  {
+    "Categoria": "b1440",
+    "Descrição": "Memória de curto prazo"
+  },
+  {
+    "Categoria": "b1441",
+    "Descrição": "Memória de longo prazo"
+  },
+  {
+    "Categoria": "b1442",
+    "Descrição": "Recuperação e processamento da memória"
+  },
+  {
+    "Categoria": "b1443",
+    "Descrição": "Memória de trabalho"
+  },
+  {
+    "Categoria": "b1448",
+    "Descrição": "Funções da memória"
+  },
+  {
+    "Categoria": "b1449",
+    "Descrição": "Funções da memória"
+  },
+  {
+    "Categoria": "b147",
+    "Descrição": "Funções psicomotoras"
+  },
+  {
+    "Categoria": "b1470",
+    "Descrição": "Controle psicomotor"
+  },
+  {
+    "Categoria": "b1471",
+    "Descrição": "Qualidade das funções psicomotoras"
+  },
+  {
+    "Categoria": "b1478",
+    "Descrição": "Funções psicomotoras"
+  },
+  {
+    "Categoria": "b1479",
+    "Descrição": "Funções psicomotoras"
+  },
+  {
+    "Categoria": "b152",
+    "Descrição": "Funções emocionais"
+  },
+  {
+    "Categoria": "b1520",
+    "Descrição": "Adequação da emoção"
+  },
+  {
+    "Categoria": "b1521",
+    "Descrição": "Regulação da emoção"
+  },
+  {
+    "Categoria": "b1522",
+    "Descrição": "Faixa de emoções"
+  },
+  {
+    "Categoria": "b1528",
+    "Descrição": "Funções emocionais"
+  },
+  {
+    "Categoria": "b1529",
+    "Descrição": "Funções emocionais"
+  },
+  {
+    "Categoria": "b156",
+    "Descrição": "Funções da percepção"
+  },
+  {
+    "Categoria": "b1560",
+    "Descrição": "Percepção auditiva"
+  },
+  {
+    "Categoria": "b1561",
+    "Descrição": "Percepção visual"
+  },
+  {
+    "Categoria": "b1562",
+    "Descrição": "Percepção olfativa"
+  },
+  {
+    "Categoria": "b1563",
+    "Descrição": "Percepção gustativa"
+  },
+  {
+    "Categoria": "b1564",
+    "Descrição": "Percepção tátil"
+  },
+  {
+    "Categoria": "b1565",
+    "Descrição": "Percepção visioespacial"
+  },
+  {
+    "Categoria": "b1568",
+    "Descrição": "Funções da percepção"
+  },
+  {
+    "Categoria": "b1569",
+    "Descrição": "Funções da percepção"
+  },
+  {
+    "Categoria": "b160",
+    "Descrição": "Funções do pensamento"
+  },
+  {
+    "Categoria": "b1600",
+    "Descrição": "Fluxo do pensamento"
+  },
+  {
+    "Categoria": "b1601",
+    "Descrição": "Forma do pensamento"
+  },
+  {
+    "Categoria": "b1602",
+    "Descrição": "Conteúdo do pensamento"
+  },
+  {
+    "Categoria": "b1603",
+    "Descrição": "Controle do pensamento"
+  },
+  {
+    "Categoria": "b1608",
+    "Descrição": "Funções do pensamento"
+  },
+  {
+    "Categoria": "b1609",
+    "Descrição": "Funções do pensamento"
+  },
+  {
+    "Categoria": "b164",
+    "Descrição": "Funções cognitivas superiores"
+  },
+  {
+    "Categoria": "b1640",
+    "Descrição": "Abstração"
+  },
+  {
+    "Categoria": "b1641",
+    "Descrição": "Organização e planeamento"
+  },
+  {
+    "Categoria": "b1642",
+    "Descrição": "Gerenciamento do tempo"
+  },
+  {
+    "Categoria": "b1643",
+    "Descrição": "Flexibilidade cognitiva"
+  },
+  {
+    "Categoria": "b1644",
+    "Descrição": "Autoconhecimento (insight)"
+  },
+  {
+    "Categoria": "b1645",
+    "Descrição": "Julgamento"
+  },
+  {
+    "Categoria": "b1646",
+    "Descrição": "Resolução de problemas"
+  },
+  {
+    "Categoria": "b1648",
+    "Descrição": "Funções cognitivas superiores"
+  },
+  {
+    "Categoria": "b1649",
+    "Descrição": "Funções cognitivas de nível superior"
+  },
+  {
+    "Categoria": "b167",
+    "Descrição": "Funções mentais da linguagem"
+  },
+  {
+    "Categoria": "b1670",
+    "Descrição": "Recepção da linguagem"
+  },
+  {
+    "Categoria": "b16700",
+    "Descrição": "Recepção da linguagem oral"
+  },
+  {
+    "Categoria": "b16701",
+    "Descrição": "Recepção de linguagem escrita"
+  },
+  {
+    "Categoria": "b16702",
+    "Descrição": "Recepção da linguagem de sinais"
+  },
+  {
+    "Categoria": "b16703",
+    "Descrição": "Recepção de linguagem corporal"
+  },
+  {
+    "Categoria": "b16708",
+    "Descrição": "Recepção de linguagem"
+  },
+  {
+    "Categoria": "b16709",
+    "Descrição": "Recepção de linguagem"
+  },
+  {
+    "Categoria": "b1671",
+    "Descrição": "Expressão da linguagem"
+  },
+  {
+    "Categoria": "b16710",
+    "Descrição": "Expressão da linguagem oral"
+  },
+  {
+    "Categoria": "b16711",
+    "Descrição": "Expressão da linguagem escrita"
+  },
+  {
+    "Categoria": "b16712",
+    "Descrição": "Expressão da linguagem de sinais"
+  },
+  {
+    "Categoria": "b16713",
+    "Descrição": "Expressão da linguagem corporal"
+  },
+  {
+    "Categoria": "b16718",
+    "Descrição": "Expressão da linguagem"
+  },
+  {
+    "Categoria": "b16719",
+    "Descrição": "Expressão da linguagem"
+  },
+  {
+    "Categoria": "b1672",
+    "Descrição": "Funções integradoras da linguagem"
+  },
+  {
+    "Categoria": "b1678",
+    "Descrição": "Funções mentais de linguagem"
+  },
+  {
+    "Categoria": "b1679",
+    "Descrição": "Funções mentais de linguagem"
+  },
+  {
+    "Categoria": "b172",
+    "Descrição": "Funções de cálculo"
+  },
+  {
+    "Categoria": "b1720",
+    "Descrição": "Cálculo simples"
+  },
+  {
+    "Categoria": "b1721",
+    "Descrição": "Cálculo complexo"
+  },
+  {
+    "Categoria": "b1728",
+    "Descrição": "Funções de cálculo"
+  },
+  {
+    "Categoria": "b1729",
+    "Descrição": "Funções de cálculo"
+  },
+  {
+    "Categoria": "b176",
+    "Descrição": "Funções mentais de sequenciamento de movimentos complexos"
+  },
+  {
+    "Categoria": "b180",
+    "Descrição": "Funções de experiência pessoal e do tempo"
+  },
+  {
+    "Categoria": "b1800",
+    "Descrição": "Experiência pessoal"
+  },
+  {
+    "Categoria": "b1801",
+    "Descrição": "Imagem do corpo"
+  },
+  {
+    "Categoria": "b1802",
+    "Descrição": "Experiência do tempo"
+  },
+  {
+    "Categoria": "b1808",
+    "Descrição": "Funções da experiência pessoal e do tempo"
+  },
+  {
+    "Categoria": "b1809",
+    "Descrição": "Funções da experiência pessoal e do tempo"
+  },
+  {
+    "Categoria": "b189",
+    "Descrição": "Funções mentais específicas"
+  },
+  {
+    "Categoria": "b198",
+    "Descrição": "Funções mentais"
+  },
+  {
+    "Categoria": "b199",
+    "Descrição": "Funções mentais"
+  },
+  {
+    "Categoria": "b2",
+    "Descrição": "Funções sensoriais e dor"
+  },
+  {
+    "Categoria": "b210",
+    "Descrição": "Funções da visão"
+  },
+  {
+    "Categoria": "b2100",
+    "Descrição": "Funções da acuidade visual"
+  },
+  {
+    "Categoria": "b21000",
+    "Descrição": "Acuidade binocular da visão de longe"
+  },
+  {
+    "Categoria": "b21001",
+    "Descrição": "Acuidade monocular da visão de longe"
+  },
+  {
+    "Categoria": "b21002",
+    "Descrição": "Acuidade binocular da visão de perto"
+  },
+  {
+    "Categoria": "b21003",
+    "Descrição": "Acuidade monocular da visão de perto"
+  },
+  {
+    "Categoria": "b21008",
+    "Descrição": "Funções da acuidade visual"
+  },
+  {
+    "Categoria": "b21009",
+    "Descrição": "Funções da acuidade visual"
+  },
+  {
+    "Categoria": "b2101",
+    "Descrição": "Funções do campo visual"
+  },
+  {
+    "Categoria": "b2102",
+    "Descrição": "Qualidade da visão"
+  },
+  {
+    "Categoria": "b21020",
+    "Descrição": "Sensibilidade à luz"
+  },
+  {
+    "Categoria": "b21021",
+    "Descrição": "Visão de cores"
+  },
+  {
+    "Categoria": "b21022",
+    "Descrição": "Sensibilidade ao contraste"
+  },
+  {
+    "Categoria": "b21023",
+    "Descrição": "Qualidade da imagem visual"
+  },
+  {
+    "Categoria": "b21028",
+    "Descrição": "Qualidade da visão"
+  },
+  {
+    "Categoria": "b21029",
+    "Descrição": "Qualidade da visão"
+  },
+  {
+    "Categoria": "b2108",
+    "Descrição": "Funções da visão"
+  },
+  {
+    "Categoria": "b2109",
+    "Descrição": "Funções da visão"
+  },
+  {
+    "Categoria": "b215",
+    "Descrição": "Funções das estruturas adjacentes ao olho"
+  },
+  {
+    "Categoria": "b2150",
+    "Descrição": "Funções dos músculos internos do olho"
+  },
+  {
+    "Categoria": "b2151",
+    "Descrição": "Funções da pálpebra"
+  },
+  {
+    "Categoria": "b2152",
+    "Descrição": "Funções dos músculos externos do olho"
+  },
+  {
+    "Categoria": "b2153",
+    "Descrição": "Funções das glândulas lacrimais"
+  },
+  {
+    "Categoria": "b2158",
+    "Descrição": "Funções das estruturas adjacentes ao olho"
+  },
+  {
+    "Categoria": "b2159",
+    "Descrição": "Funções das estruturas adjacente ao olho"
+  },
+  {
+    "Categoria": "b220",
+    "Descrição": "Sensações associadas ao olho e estruturas adjacentes"
+  },
+  {
+    "Categoria": "b229",
+    "Descrição": "Visão e funções relacionadas"
+  },
+  {
+    "Categoria": "b230",
+    "Descrição": "Funções auditivas"
+  },
+  {
+    "Categoria": "b2300",
+    "Descrição": "Detecção do som"
+  },
+  {
+    "Categoria": "b2301",
+    "Descrição": "Discriminação do som"
+  },
+  {
+    "Categoria": "b2302",
+    "Descrição": "Localização da fonte sonora"
+  },
+  {
+    "Categoria": "b2303",
+    "Descrição": "Lateralização do som"
+  },
+  {
+    "Categoria": "b2304",
+    "Descrição": "Discriminação da fala"
+  },
+  {
+    "Categoria": "b2308",
+    "Descrição": "Funções auditivas"
+  },
+  {
+    "Categoria": "b2309",
+    "Descrição": "Funções auditivas"
+  },
+  {
+    "Categoria": "b235",
+    "Descrição": "Função vestibular"
+  },
+  {
+    "Categoria": "b2350",
+    "Descrição": "Função vestibular de posição"
+  },
+  {
+    "Categoria": "b2351",
+    "Descrição": "Função vestibular de equilíbrio"
+  },
+  {
+    "Categoria": "b2352",
+    "Descrição": "Função vestibular do movimento"
+  },
+  {
+    "Categoria": "b2358",
+    "Descrição": "Funções vestibulares"
+  },
+  {
+    "Categoria": "b2359",
+    "Descrição": "Funções vestibulares"
+  },
+  {
+    "Categoria": "b240",
+    "Descrição": "Sensações associadas à audição e à função vestibular"
+  },
+  {
+    "Categoria": "b2400",
+    "Descrição": "Zumbido nas orelhas"
+  },
+  {
+    "Categoria": "b2401",
+    "Descrição": "Tontura"
+  },
+  {
+    "Categoria": "b2402",
+    "Descrição": "Sensação de cair"
+  },
+  {
+    "Categoria": "b2403",
+    "Descrição": "Náusea associada à tontura ou vertigem"
+  },
+  {
+    "Categoria": "b2404",
+    "Descrição": "Irritação na orelha"
+  },
+  {
+    "Categoria": "b2405",
+    "Descrição": "Pressão na orelha"
+  },
+  {
+    "Categoria": "b2408",
+    "Descrição": "Sensações associadas à audição e à função vestibular"
+  },
+  {
+    "Categoria": "b2409",
+    "Descrição": "Sensações associadas à audição e à função vestibular"
+  },
+  {
+    "Categoria": "b249",
+    "Descrição": "Funções auditivas vestibulares"
+  },
+  {
+    "Categoria": "b250",
+    "Descrição": "Função gustativa"
+  },
+  {
+    "Categoria": "b255",
+    "Descrição": "Função olfativa"
+  },
+  {
+    "Categoria": "b260",
+    "Descrição": "Função proprioceptiva"
+  },
+  {
+    "Categoria": "b265",
+    "Descrição": "Função tátil"
+  },
+  {
+    "Categoria": "b270",
+    "Descrição": "Funções sensoriais relacionadas com a temperatura e outros estímulos"
+  },
+  {
+    "Categoria": "b2700",
+    "Descrição": "Sensibilidade à temperatura"
+  },
+  {
+    "Categoria": "b2701",
+    "Descrição": "Sensibilidade à vibração"
+  },
+  {
+    "Categoria": "b2702",
+    "Descrição": "Sensibilidade à pressão"
+  },
+  {
+    "Categoria": "b2703",
+    "Descrição": "Sensibilidade a estímulos nocivos"
+  },
+  {
+    "Categoria": "b2708",
+    "Descrição": "Funções sensoriais relacionadas com a temperatura e outros estímulos"
+  },
+  {
+    "Categoria": "b2709",
+    "Descrição": "Funções sensoriais relacionadas com a temperatura e outros estímulos"
+  },
+  {
+    "Categoria": "b279",
+    "Descrição": "Funções sensoriais adicionais"
+  },
+  {
+    "Categoria": "b280",
+    "Descrição": "Sensação de dor"
+  },
+  {
+    "Categoria": "b2800",
+    "Descrição": "Dor generalizada"
+  },
+  {
+    "Categoria": "b2801",
+    "Descrição": "Dor localizada"
+  },
+  {
+    "Categoria": "b28010",
+    "Descrição": "Dor na cabeça ou pescoço"
+  },
+  {
+    "Categoria": "b28011",
+    "Descrição": "Dor no peito"
+  },
+  {
+    "Categoria": "b28012",
+    "Descrição": "Dor no estômago ou abdome"
+  },
+  {
+    "Categoria": "b28013",
+    "Descrição": "Dor nas costas"
+  },
+  {
+    "Categoria": "b28014",
+    "Descrição": "Dor em membro superior"
+  },
+  {
+    "Categoria": "b28015",
+    "Descrição": "Dor em membro inferior"
+  },
+  {
+    "Categoria": "b28016",
+    "Descrição": "Dor nas articulações"
+  },
+  {
+    "Categoria": "b28018",
+    "Descrição": "Dor localizada"
+  },
+  {
+    "Categoria": "b28019",
+    "Descrição": "Dor localizada"
+  },
+  {
+    "Categoria": "b2802",
+    "Descrição": "Dor em múltiplas partes do corpo"
+  },
+  {
+    "Categoria": "b2803",
+    "Descrição": "Dor irradiante em um dermátomo"
+  },
+  {
+    "Categoria": "b2804",
+    "Descrição": "Dor irradiante em um segmento ou região"
+  },
+  {
+    "Categoria": "b289",
+    "Descrição": "Sensação de dor"
+  },
+  {
+    "Categoria": "b298",
+    "Descrição": "Funções sensoriais e dor"
+  },
+  {
+    "Categoria": "b299",
+    "Descrição": "Funções sensoriais e dor"
+  },
+  {
+    "Categoria": "b3",
+    "Descrição": "Funções da voz e da fala"
+  },
+  {
+    "Categoria": "b310",
+    "Descrição": "Funções da voz"
+  },
+  {
+    "Categoria": "b3100",
+    "Descrição": "Produção da voz"
+  },
+  {
+    "Categoria": "b3101",
+    "Descrição": "Qualidade da voz"
+  },
+  {
+    "Categoria": "b3108",
+    "Descrição": "Funções da voz"
+  },
+  {
+    "Categoria": "b3109",
+    "Descrição": "Funções da voz"
+  },
+  {
+    "Categoria": "b320",
+    "Descrição": "Funções da articulação"
+  },
+  {
+    "Categoria": "b330",
+    "Descrição": "Funções da fluência e do ritmo da fala"
+  },
+  {
+    "Categoria": "b3300",
+    "Descrição": "Fluência da fala"
+  },
+  {
+    "Categoria": "b3301",
+    "Descrição": "Ritmo da fala"
+  },
+  {
+    "Categoria": "b3302",
+    "Descrição": "Velocidade da fala"
+  },
+  {
+    "Categoria": "b3303",
+    "Descrição": "Melodia da fala"
+  },
+  {
+    "Categoria": "b3308",
+    "Descrição": "Funções da fluência e ritmo da fala"
+  },
+  {
+    "Categoria": "b3309",
+    "Descrição": "Funções da fluência e ritmo da fala"
+  },
+  {
+    "Categoria": "b340",
+    "Descrição": "Funções alternativas de vocalização"
+  },
+  {
+    "Categoria": "b3400",
+    "Descrição": "Produção de tons"
+  },
+  {
+    "Categoria": "b3401",
+    "Descrição": "Produção de uma variedade de sons"
+  },
+  {
+    "Categoria": "b3408",
+    "Descrição": "Funções alternativas de vocalização"
+  },
+  {
+    "Categoria": "b3409",
+    "Descrição": "Funções alternativas de vocalização"
+  },
+  {
+    "Categoria": "b398",
+    "Descrição": "Funções da voz e da fala"
+  },
+  {
+    "Categoria": "b399",
+    "Descrição": "Funções da voz e da fala"
+  },
+  {
+    "Categoria": "b4",
+    "Descrição": "Funções dos sistemas cardiovascular"
+  },
+  {
+    "Categoria": "b410",
+    "Descrição": "Funções do coração"
+  },
+  {
+    "Categoria": "b4100",
+    "Descrição": "Frequência cardíaca"
+  },
+  {
+    "Categoria": "b4101",
+    "Descrição": "Ritmo cardíaco"
+  },
+  {
+    "Categoria": "b4102",
+    "Descrição": "Força de contração dos músculos ventriculares"
+  },
+  {
+    "Categoria": "b4103",
+    "Descrição": "Fornecimento de sangue ao coração"
+  },
+  {
+    "Categoria": "b4108",
+    "Descrição": "Funções do coração"
+  },
+  {
+    "Categoria": "b4109",
+    "Descrição": "Funções do coração"
+  },
+  {
+    "Categoria": "b415",
+    "Descrição": "Funções dos vasos sanguíneos"
+  },
+  {
+    "Categoria": "b4150",
+    "Descrição": "Funções das artérias"
+  },
+  {
+    "Categoria": "b4151",
+    "Descrição": "Funções dos capilares"
+  },
+  {
+    "Categoria": "b4152",
+    "Descrição": "Funções das veias"
+  },
+  {
+    "Categoria": "b4158",
+    "Descrição": "Funções dos vasos sanguíneos"
+  },
+  {
+    "Categoria": "b4159",
+    "Descrição": "Funções dos vasos sanguíneos"
+  },
+  {
+    "Categoria": "b420",
+    "Descrição": "Funções da pressão sanguínea"
+  },
+  {
+    "Categoria": "b4200",
+    "Descrição": "Aumento da pressão sanguínea"
+  },
+  {
+    "Categoria": "b4201",
+    "Descrição": "Diminuição da pressão sanguínea"
+  },
+  {
+    "Categoria": "b4202",
+    "Descrição": "Manutenção da pressão sanguínea"
+  },
+  {
+    "Categoria": "b4208",
+    "Descrição": "Funções da pressão sanguínea"
+  },
+  {
+    "Categoria": "b4209",
+    "Descrição": "Funções da pressão sanguínea"
+  },
+  {
+    "Categoria": "b429",
+    "Descrição": "Funções do sistema cardiovascular"
+  },
+  {
+    "Categoria": "b430",
+    "Descrição": "Funções do sistema hematológico"
+  },
+  {
+    "Categoria": "b4300",
+    "Descrição": "Produção de sangue"
+  },
+  {
+    "Categoria": "b4301",
+    "Descrição": "Funções sanguíneas de transporte de oxigênio"
+  },
+  {
+    "Categoria": "b4302",
+    "Descrição": "Funções sanguíneas de transporte de metabólitos"
+  },
+  {
+    "Categoria": "b4303",
+    "Descrição": "Funções de coagulação"
+  },
+  {
+    "Categoria": "b4308",
+    "Descrição": "Funções do sistema hematológico"
+  },
+  {
+    "Categoria": "b4309",
+    "Descrição": "Funções do sistema hematológico"
+  },
+  {
+    "Categoria": "b435",
+    "Descrição": "Funções do sistema imunológico"
+  },
+  {
+    "Categoria": "b4350",
+    "Descrição": "Resposta imunológica"
+  },
+  {
+    "Categoria": "b43500",
+    "Descrição": "Resposta imunológica específica"
+  },
+  {
+    "Categoria": "b43501",
+    "Descrição": "Resposta imunológica não específica"
+  },
+  {
+    "Categoria": "b43508",
+    "Descrição": "Resposta imunológica"
+  },
+  {
+    "Categoria": "b43509",
+    "Descrição": "Resposta imunológica"
+  },
+  {
+    "Categoria": "b4351",
+    "Descrição": "Reações de hipersensibilidade"
+  },
+  {
+    "Categoria": "b4352",
+    "Descrição": "Funções dos vasos linfáticos"
+  },
+  {
+    "Categoria": "b4353",
+    "Descrição": "Funções dos nódulos linfáticos"
+  },
+  {
+    "Categoria": "b4358",
+    "Descrição": "Funções do sistema imunológico"
+  },
+  {
+    "Categoria": "b4359",
+    "Descrição": "Funções do sistema imunológico"
+  },
+  {
+    "Categoria": "b439",
+    "Descrição": "Funções dos sistemas hematológico e imunológico"
+  },
+  {
+    "Categoria": "b440",
+    "Descrição": "Funções respiratórias"
+  },
+  {
+    "Categoria": "b4400",
+    "Descrição": "Frequência respiratória"
+  },
+  {
+    "Categoria": "b4401",
+    "Descrição": "Ritmo respiratório"
+  },
+  {
+    "Categoria": "b4402",
+    "Descrição": "Profundidade da respiração"
+  },
+  {
+    "Categoria": "b4408",
+    "Descrição": "Funções respiratórias"
+  },
+  {
+    "Categoria": "b4409",
+    "Descrição": "Funções respiratórias"
+  },
+  {
+    "Categoria": "b445",
+    "Descrição": "Funções dos músculos respiratórios"
+  },
+  {
+    "Categoria": "b4450",
+    "Descrição": "Funções dos músculos respiratórios torácicos"
+  },
+  {
+    "Categoria": "b4451",
+    "Descrição": "Funções do diafragma"
+  },
+  {
+    "Categoria": "b4452",
+    "Descrição": "Funções dos músculos respiratórios acessórios"
+  },
+  {
+    "Categoria": "b4458",
+    "Descrição": "Funções dos músculos respiratórios"
+  },
+  {
+    "Categoria": "b4459",
+    "Descrição": "Funções dos músculos respiratórios"
+  },
+  {
+    "Categoria": "b449",
+    "Descrição": "Funções do sistema respiratório"
+  },
+  {
+    "Categoria": "b450",
+    "Descrição": "Funções respiratórias adicionais"
+  },
+  {
+    "Categoria": "b4500",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "b4501",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "b4502",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "b4503",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "b4504",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "b45040",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "b45041",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "b45048",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "b45049",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "b4508",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "b455",
+    "Descrição": "Funções de tolerância a exercícios"
+  },
+  {
+    "Categoria": "b4550",
+    "Descrição": "Resistência física geral"
+  },
+  {
+    "Categoria": "b4551",
+    "Descrição": "Capacidade aeróbica"
+  },
+  {
+    "Categoria": "b4552",
+    "Descrição": "Fadiga"
+  },
+  {
+    "Categoria": "b4558",
+    "Descrição": "Funções de tolerância a exercícios"
+  },
+  {
+    "Categoria": "b4559",
+    "Descrição": "Funções de tolerância a exercícios"
+  },
+  {
+    "Categoria": "b460",
+    "Descrição": "Sensações associadas às funções cardiovasculares e respiratórias"
+  },
+  {
+    "Categoria": "b469",
+    "Descrição": "Funções e sensações adicionais dos sistemas cardiovascular e respiratório"
+  },
+  {
+    "Categoria": "b498",
+    "Descrição": "Funções dos sistemas cardiovascular"
+  },
+  {
+    "Categoria": "b499",
+    "Descrição": "Funções dos sistemas cardiovascular"
+  },
+  {
+    "Categoria": "b5",
+    "Descrição": "Funções dos sistemas digestório"
+  },
+  {
+    "Categoria": "b510",
+    "Descrição": "Funções de ingestão"
+  },
+  {
+    "Categoria": "b5100",
+    "Descrição": "Sugar"
+  },
+  {
+    "Categoria": "b5101",
+    "Descrição": "Morder"
+  },
+  {
+    "Categoria": "b5102",
+    "Descrição": "Mastigar"
+  },
+  {
+    "Categoria": "b5103",
+    "Descrição": "Manipulação dos alimentos na boca"
+  },
+  {
+    "Categoria": "b5104",
+    "Descrição": "Salivação"
+  },
+  {
+    "Categoria": "b5105",
+    "Descrição": "Deglutição"
+  },
+  {
+    "Categoria": "b51050",
+    "Descrição": "Deglutição oral"
+  },
+  {
+    "Categoria": "b51051",
+    "Descrição": "Deglutição faríngea"
+  },
+  {
+    "Categoria": "b51052",
+    "Descrição": "Deglutição esofágica"
+  },
+  {
+    "Categoria": "b51058",
+    "Descrição": "Deglutição"
+  },
+  {
+    "Categoria": "b51059",
+    "Descrição": "Deglutição"
+  },
+  {
+    "Categoria": "b5106",
+    "Descrição": "Regurgitação e vômito"
+  },
+  {
+    "Categoria": "b5108",
+    "Descrição": "Funções da ingestão"
+  },
+  {
+    "Categoria": "b5109",
+    "Descrição": "Funções da ingestão"
+  },
+  {
+    "Categoria": "b515",
+    "Descrição": "Funções digestivas"
+  },
+  {
+    "Categoria": "b5150",
+    "Descrição": "Transporte dos alimentos através do estômago e intestinos"
+  },
+  {
+    "Categoria": "b5151",
+    "Descrição": "Degradação dos alimentos"
+  },
+  {
+    "Categoria": "b5152",
+    "Descrição": "Absorção de nutrientes"
+  },
+  {
+    "Categoria": "b5153",
+    "Descrição": "Tolerância aos alimentos"
+  },
+  {
+    "Categoria": "b5158",
+    "Descrição": "Funções digestivas"
+  },
+  {
+    "Categoria": "b5159",
+    "Descrição": "Funções digestivas"
+  },
+  {
+    "Categoria": "b520",
+    "Descrição": "Funções de assimilação"
+  },
+  {
+    "Categoria": "b525",
+    "Descrição": "Funções de defecação"
+  },
+  {
+    "Categoria": "b5250",
+    "Descrição": "Eliminação de fezes"
+  },
+  {
+    "Categoria": "b5251",
+    "Descrição": "Consistência fecal"
+  },
+  {
+    "Categoria": "b5252",
+    "Descrição": "Frequência da defecação"
+  },
+  {
+    "Categoria": "b5253",
+    "Descrição": "Continência fecal"
+  },
+  {
+    "Categoria": "b5254",
+    "Descrição": "Flatulência"
+  },
+  {
+    "Categoria": "b5258",
+    "Descrição": "Funções de defecação"
+  },
+  {
+    "Categoria": "b5259",
+    "Descrição": "Funções de defecação"
+  },
+  {
+    "Categoria": "b530",
+    "Descrição": "Funções de manutenção do peso"
+  },
+  {
+    "Categoria": "b535",
+    "Descrição": "Sensações associadas ao sistema digestório"
+  },
+  {
+    "Categoria": "b5350",
+    "Descrição": "Sensação de náusea"
+  },
+  {
+    "Categoria": "b5351",
+    "Descrição": "Sensação de inchaço"
+  },
+  {
+    "Categoria": "b5352",
+    "Descrição": "Sensação de cólica abdominal"
+  },
+  {
+    "Categoria": "b5358",
+    "Descrição": "Sensações associadas ao sistema digestório"
+  },
+  {
+    "Categoria": "b5359",
+    "Descrição": "Sensações associadas ao sistema digestório"
+  },
+  {
+    "Categoria": "b539",
+    "Descrição": "Funções relacionadas ao sistema digestório"
+  },
+  {
+    "Categoria": "b540",
+    "Descrição": "Funções metabólicas gerais"
+  },
+  {
+    "Categoria": "b5400",
+    "Descrição": "Taxa de metabolismo basal"
+  },
+  {
+    "Categoria": "b5401",
+    "Descrição": "Metabolismo dos carboidratos"
+  },
+  {
+    "Categoria": "b5402",
+    "Descrição": "Metabolismo das proteínas"
+  },
+  {
+    "Categoria": "b5403",
+    "Descrição": "Metabolismo das gorduras"
+  },
+  {
+    "Categoria": "b5408",
+    "Descrição": "Funções metabólicas gerais"
+  },
+  {
+    "Categoria": "b5409",
+    "Descrição": "Funções metabólicas gerais"
+  },
+  {
+    "Categoria": "b545",
+    "Descrição": "Funções de equilíbrio hídrico"
+  },
+  {
+    "Categoria": "b5450",
+    "Descrição": "Equilíbrio hídrico"
+  },
+  {
+    "Categoria": "b54500",
+    "Descrição": "Retenção de água"
+  },
+  {
+    "Categoria": "b54501",
+    "Descrição": "Manutenção do equilíbrio hídrico"
+  },
+  {
+    "Categoria": "b54508",
+    "Descrição": "Funções de equilíbrio hídrico"
+  },
+  {
+    "Categoria": "b54509",
+    "Descrição": "Funções de equilíbrio hídrico"
+  },
+  {
+    "Categoria": "b5451",
+    "Descrição": "Equilíbrio mineral"
+  },
+  {
+    "Categoria": "b5452",
+    "Descrição": "Equilíbrio eletrolítico"
+  },
+  {
+    "Categoria": "b5458",
+    "Descrição": "Funções de equilíbrio hídrico"
+  },
+  {
+    "Categoria": "b5459",
+    "Descrição": "Funções de equilíbrio hídrico"
+  },
+  {
+    "Categoria": "b550",
+    "Descrição": "Funções termorreguladoras"
+  },
+  {
+    "Categoria": "b5500",
+    "Descrição": "Temperatura do corpo"
+  },
+  {
+    "Categoria": "b5501",
+    "Descrição": "Manutenção da temperatura do corpo"
+  },
+  {
+    "Categoria": "b5508",
+    "Descrição": "Funções termorreguladoras"
+  },
+  {
+    "Categoria": "b5509",
+    "Descrição": "Funções termorreguladoras"
+  },
+  {
+    "Categoria": "b555",
+    "Descrição": "Funções das glândulas endócrinas"
+  },
+  {
+    "Categoria": "b5550",
+    "Descrição": "Funções puberais"
+  },
+  {
+    "Categoria": "b55500",
+    "Descrição": "Desenvolvimento de pelos no corpo e na região pubiana"
+  },
+  {
+    "Categoria": "b55501",
+    "Descrição": "Desenvolvimento da mama e da aréola da mama"
+  },
+  {
+    "Categoria": "b55502",
+    "Descrição": "Desenvolvimento do pênis"
+  },
+  {
+    "Categoria": "b55508",
+    "Descrição": "Função puberal"
+  },
+  {
+    "Categoria": "b55509",
+    "Descrição": "Função puberal"
+  },
+  {
+    "Categoria": "b559",
+    "Descrição": "Funções relacionadas com os sistemas metabólico e endócrino"
+  },
+  {
+    "Categoria": "b598",
+    "Descrição": "Funções dos sistemas digestório"
+  },
+  {
+    "Categoria": "b599",
+    "Descrição": "Funções dos sistemas digestório"
+  },
+  {
+    "Categoria": "b6",
+    "Descrição": "Funções genitourinárias e reprodutivas"
+  },
+  {
+    "Categoria": "b610",
+    "Descrição": "Funções relacionadas à excreção urinária"
+  },
+  {
+    "Categoria": "b6100",
+    "Descrição": "Filtragem da urina"
+  },
+  {
+    "Categoria": "b6101",
+    "Descrição": "Coleta da urina"
+  },
+  {
+    "Categoria": "b6108",
+    "Descrição": "Funções relacionadas à excreção urinária"
+  },
+  {
+    "Categoria": "b6109",
+    "Descrição": "Funções relacionadas à excreção urinária"
+  },
+  {
+    "Categoria": "b620",
+    "Descrição": "Funções urinárias"
+  },
+  {
+    "Categoria": "b6200",
+    "Descrição": "Micção"
+  },
+  {
+    "Categoria": "b6201",
+    "Descrição": "Frequência da micção"
+  },
+  {
+    "Categoria": "b6202",
+    "Descrição": "Continência urinária"
+  },
+  {
+    "Categoria": "b6208",
+    "Descrição": "Funções urinárias"
+  },
+  {
+    "Categoria": "b6209",
+    "Descrição": "Funções urinárias"
+  },
+  {
+    "Categoria": "b630",
+    "Descrição": "Sensações associadas às funções urinárias"
+  },
+  {
+    "Categoria": "b639",
+    "Descrição": "Funções urinárias"
+  },
+  {
+    "Categoria": "b640",
+    "Descrição": "Funções sexuais"
+  },
+  {
+    "Categoria": "b6400",
+    "Descrição": "Funções da fase de excitação sexual"
+  },
+  {
+    "Categoria": "b6401",
+    "Descrição": "Funções da fase sexual de preparatória"
+  },
+  {
+    "Categoria": "b6402",
+    "Descrição": "Funções da fase orgásmica"
+  },
+  {
+    "Categoria": "b6403",
+    "Descrição": "Funções da fase de resolução sexual"
+  },
+  {
+    "Categoria": "b6408",
+    "Descrição": "Funções sexuais"
+  },
+  {
+    "Categoria": "b6409",
+    "Descrição": "Funções sexuais"
+  },
+  {
+    "Categoria": "b650",
+    "Descrição": "Funções da menstruação"
+  },
+  {
+    "Categoria": "b6500",
+    "Descrição": "Regularidade do ciclo menstrual"
+  },
+  {
+    "Categoria": "b6501",
+    "Descrição": "Intervalo entre menstruações"
+  },
+  {
+    "Categoria": "b6502",
+    "Descrição": "Volume do sangramento menstrual"
+  },
+  {
+    "Categoria": "b6503",
+    "Descrição": "Início da menstruação"
+  },
+  {
+    "Categoria": "b6504",
+    "Descrição": "Interrupção da menstruação"
+  },
+  {
+    "Categoria": "b6508",
+    "Descrição": "Funções da menstruação"
+  },
+  {
+    "Categoria": "b6509",
+    "Descrição": "Funções da menstruação"
+  },
+  {
+    "Categoria": "b660",
+    "Descrição": "Funções de procriação"
+  },
+  {
+    "Categoria": "b6600",
+    "Descrição": "Funções relacionadas à fertilidade"
+  },
+  {
+    "Categoria": "b6601",
+    "Descrição": "Funções relacionadas à gravidez"
+  },
+  {
+    "Categoria": "b6602",
+    "Descrição": "Funções relacionadas ao parto"
+  },
+  {
+    "Categoria": "b6603",
+    "Descrição": "Lactação"
+  },
+  {
+    "Categoria": "b6608",
+    "Descrição": "Funções de procriação"
+  },
+  {
+    "Categoria": "b6609",
+    "Descrição": "Funções de procriação"
+  },
+  {
+    "Categoria": "b670",
+    "Descrição": "Sensações associadas às funções genitais e reprodutivas"
+  },
+  {
+    "Categoria": "b6700",
+    "Descrição": "Desconforto associado à relação sexual"
+  },
+  {
+    "Categoria": "b6701",
+    "Descrição": "Desconforto associado ao ciclo menstrual"
+  },
+  {
+    "Categoria": "b6702",
+    "Descrição": "Desconforto associado à menopausa"
+  },
+  {
+    "Categoria": "b6708",
+    "Descrição": "Sensações associadas às funções genitais e reprodutivas"
+  },
+  {
+    "Categoria": "b6709",
+    "Descrição": "Sensações associadas às funções genitais e reprodutivas"
+  },
+  {
+    "Categoria": "b679",
+    "Descrição": "Funções genitais e reprodutivas"
+  },
+  {
+    "Categoria": "b698",
+    "Descrição": "Funções genitourinárias e reprodutivas"
+  },
+  {
+    "Categoria": "b699",
+    "Descrição": "Funções genitourinárias e reprodutivas"
+  },
+  {
+    "Categoria": "b7",
+    "Descrição": "Funções neuromusculoesqueléticas e relacionadas ao movimento"
+  },
+  {
+    "Categoria": "b710",
+    "Descrição": "Funções relacionadas à mobilidade das articulações"
+  },
+  {
+    "Categoria": "b7100",
+    "Descrição": "Mobilidade de uma única articulação"
+  },
+  {
+    "Categoria": "b7101",
+    "Descrição": "Mobilidade de várias articulações"
+  },
+  {
+    "Categoria": "b7102",
+    "Descrição": "Mobilidade generalizada das articulações"
+  },
+  {
+    "Categoria": "b7108",
+    "Descrição": "Funções relacionadas à mobilidade das articulações"
+  },
+  {
+    "Categoria": "b7109",
+    "Descrição": "Funções relacionadas à mobilidade das articulações"
+  },
+  {
+    "Categoria": "b715",
+    "Descrição": "Funções relacionadas à estabilidade das articulações"
+  },
+  {
+    "Categoria": "b7150",
+    "Descrição": "Estabilidade de uma única articulação"
+  },
+  {
+    "Categoria": "b7151",
+    "Descrição": "Estabilidade de várias articulações"
+  },
+  {
+    "Categoria": "b7152",
+    "Descrição": "Estabilidade generalizada das articulações"
+  },
+  {
+    "Categoria": "b7158",
+    "Descrição": "Funções relacionadas à estabilidade das articulações"
+  },
+  {
+    "Categoria": "b7159",
+    "Descrição": "Funções relacionadas à estabilidade das articulação"
+  },
+  {
+    "Categoria": "b720",
+    "Descrição": "Funções da mobilidade óssea"
+  },
+  {
+    "Categoria": "b7200",
+    "Descrição": "Mobilidade da escápula"
+  },
+  {
+    "Categoria": "b7201",
+    "Descrição": "Mobilidade da pelve"
+  },
+  {
+    "Categoria": "b7202",
+    "Descrição": "Mobilidade dos ossos do carpo"
+  },
+  {
+    "Categoria": "b7203",
+    "Descrição": "Mobilidade dos ossos társicos"
+  },
+  {
+    "Categoria": "b7208",
+    "Descrição": "Funções da mobilidade óssea"
+  },
+  {
+    "Categoria": "b7209",
+    "Descrição": "Funções da mobilidade óssea"
+  },
+  {
+    "Categoria": "b729",
+    "Descrição": "Funções das articulações e dos ossos"
+  },
+  {
+    "Categoria": "b730",
+    "Descrição": "Funções relacionadas à força muscular"
+  },
+  {
+    "Categoria": "b7300",
+    "Descrição": "Força de músculos isolados e de grupos de músculos"
+  },
+  {
+    "Categoria": "b7301",
+    "Descrição": "Força dos músculos de um membro"
+  },
+  {
+    "Categoria": "b7302",
+    "Descrição": "Força dos músculos de um lado do corpo"
+  },
+  {
+    "Categoria": "b7303",
+    "Descrição": "Força dos músculos da metade inferior do corpo"
+  },
+  {
+    "Categoria": "b7304",
+    "Descrição": "Força dos músculos de todos os membros"
+  },
+  {
+    "Categoria": "b7305",
+    "Descrição": "Força dos músculos do tronco"
+  },
+  {
+    "Categoria": "b7306",
+    "Descrição": "Força de todos os músculos do corpo"
+  },
+  {
+    "Categoria": "b7308",
+    "Descrição": "Funções relacionadas à força muscular"
+  },
+  {
+    "Categoria": "b7309",
+    "Descrição": "Funções relacionadas à força muscular"
+  },
+  {
+    "Categoria": "b735",
+    "Descrição": "Funções relacionadas ao tônus muscular"
+  },
+  {
+    "Categoria": "b7350",
+    "Descrição": "Tônus de músculos isolados e grupos de músculos"
+  },
+  {
+    "Categoria": "b7351",
+    "Descrição": "Tônus dos músculos de um membro"
+  },
+  {
+    "Categoria": "b7352",
+    "Descrição": "Tônus dos músculos de um lado do corpo"
+  },
+  {
+    "Categoria": "b7353",
+    "Descrição": "Tônus dos músculos da metade inferior do corpo"
+  },
+  {
+    "Categoria": "b7354",
+    "Descrição": "Tônus dos músculos de todos os membros"
+  },
+  {
+    "Categoria": "b7355",
+    "Descrição": "Tônus dos músculos do tronco"
+  },
+  {
+    "Categoria": "b7356",
+    "Descrição": "Tônus de todos os músculos do corpo"
+  },
+  {
+    "Categoria": "b7358",
+    "Descrição": "Funções relacionadas ao tônus muscular"
+  },
+  {
+    "Categoria": "b7359",
+    "Descrição": "Funções relacionadas ao tônus muscular"
+  },
+  {
+    "Categoria": "b740",
+    "Descrição": "Funções de resistência muscular"
+  },
+  {
+    "Categoria": "b7400",
+    "Descrição": "Resistência de músculos isolados"
+  },
+  {
+    "Categoria": "b7401",
+    "Descrição": "Resistência de grupos de músculos"
+  },
+  {
+    "Categoria": "b7402",
+    "Descrição": "Resistência de todos os músculos do corpo"
+  },
+  {
+    "Categoria": "b7408",
+    "Descrição": "Funções de resistência muscular"
+  },
+  {
+    "Categoria": "b7409",
+    "Descrição": "Funções de resistência muscular"
+  },
+  {
+    "Categoria": "b749",
+    "Descrição": "Funções musculares"
+  },
+  {
+    "Categoria": "b750",
+    "Descrição": "Funções relacionadas ao reflexo motor"
+  },
+  {
+    "Categoria": "b7500",
+    "Descrição": "Reflexo de extensão motora"
+  },
+  {
+    "Categoria": "b7501",
+    "Descrição": "Reflexos gerados por estímulos nocivos"
+  },
+  {
+    "Categoria": "b7502",
+    "Descrição": "Reflexos gerados por outros estímulos exteroceptivos"
+  },
+  {
+    "Categoria": "b7508",
+    "Descrição": "Funções relacionadas ao reflexo motor"
+  },
+  {
+    "Categoria": "b7509",
+    "Descrição": "Funções relacionadas ao reflexo motor"
+  },
+  {
+    "Categoria": "b755",
+    "Descrição": "Funções relacionadas aos reflexos de movimentos involuntários"
+  },
+  {
+    "Categoria": "b760",
+    "Descrição": "Funções relacionadas ao controle dos movimentos voluntários"
+  },
+  {
+    "Categoria": "b7600",
+    "Descrição": "Controle de movimentos voluntários simples"
+  },
+  {
+    "Categoria": "b7601",
+    "Descrição": "Controle de movimentos voluntários complexos"
+  },
+  {
+    "Categoria": "b7602",
+    "Descrição": "Coordenação de movimentos voluntários"
+  },
+  {
+    "Categoria": "b7603",
+    "Descrição": "Funções de apoio do braço ou perna"
+  },
+  {
+    "Categoria": "b7608",
+    "Descrição": "Funções relacionadas ao controle dos movimentos voluntários"
+  },
+  {
+    "Categoria": "b7609",
+    "Descrição": "Funções relacionadas ao controle dos movimentos voluntários"
+  },
+  {
+    "Categoria": "b765",
+    "Descrição": "Funções relacionadas aos movimentos involuntários"
+  },
+  {
+    "Categoria": "b7650",
+    "Descrição": "Contração involuntária dos músculos"
+  },
+  {
+    "Categoria": "b7651",
+    "Descrição": "Tremor"
+  },
+  {
+    "Categoria": "b7652",
+    "Descrição": "Tiques e maneirismos"
+  },
+  {
+    "Categoria": "b7653",
+    "Descrição": "Estereótipos e perseverança motora"
+  },
+  {
+    "Categoria": "b7658",
+    "Descrição": "Funções relacionadas aos movimentos involuntários"
+  },
+  {
+    "Categoria": "b7659",
+    "Descrição": "Funções relacionadas aos movimentos involuntários"
+  },
+  {
+    "Categoria": "b770",
+    "Descrição": "Funções relacionadas ao padrão de marcha"
+  },
+  {
+    "Categoria": "b780",
+    "Descrição": "Sensações relacionadas aos músculos e funções do movimento"
+  },
+  {
+    "Categoria": "b7800",
+    "Descrição": "Sensação de rigidez muscular"
+  },
+  {
+    "Categoria": "b7801",
+    "Descrição": "Sensação de espasmo muscular"
+  },
+  {
+    "Categoria": "b7808",
+    "Descrição": "Sensações relacionadas aos músculos e funções de movimento"
+  },
+  {
+    "Categoria": "b7809",
+    "Descrição": "Sensações relacionadas aos músculos e funções de movimento"
+  },
+  {
+    "Categoria": "b789",
+    "Descrição": "Funções do movimento"
+  },
+  {
+    "Categoria": "b798",
+    "Descrição": "Funções neuromusculoesqueléticas e relacionadas aos movimentos"
+  },
+  {
+    "Categoria": "b799",
+    "Descrição": "Funções neuromusculoesqueléticas e relacionadas aos movimentos"
+  },
+  {
+    "Categoria": "b8",
+    "Descrição": "Funções da pele e estruturas relacionadas"
+  },
+  {
+    "Categoria": "b810",
+    "Descrição": "Funções protetoras da pele"
+  },
+  {
+    "Categoria": "b820",
+    "Descrição": "Funções reparadoras da pele"
+  },
+  {
+    "Categoria": "b830",
+    "Descrição": "Outras funções da pele"
+  },
+  {
+    "Categoria": "b840",
+    "Descrição": "Sensação relacionada à pele"
+  },
+  {
+    "Categoria": "b849",
+    "Descrição": "Funções da pele"
+  },
+  {
+    "Categoria": "b850",
+    "Descrição": "Funções dos pelos"
+  },
+  {
+    "Categoria": "b860",
+    "Descrição": "Funções das unhas"
+  },
+  {
+    "Categoria": "b869",
+    "Descrição": "Funções dos pelos e das unhas"
+  },
+  {
+    "Categoria": "b898",
+    "Descrição": "Funções da pele e estruturas relacionadas"
+  },
+  {
+    "Categoria": "b899",
+    "Descrição": "Funções da pele e estruturas relacionadas"
+  },
+  {
+    "Categoria": "d",
+    "Descrição": "Atividades e Participação"
+  },
+  {
+    "Categoria": "d1",
+    "Descrição": "Aprendizagem e aplicação do conhecimento"
+  },
+  {
+    "Categoria": "d110",
+    "Descrição": "Observar"
+  },
+  {
+    "Categoria": "d115",
+    "Descrição": "Ouvir"
+  },
+  {
+    "Categoria": "d120",
+    "Descrição": "Outras percepções sensoriais intencionais"
+  },
+  {
+    "Categoria": "d1200",
+    "Descrição": "Colocando na boca"
+  },
+  {
+    "Categoria": "d1201",
+    "Descrição": "Tocando"
+  },
+  {
+    "Categoria": "d1202",
+    "Descrição": "Cheirando"
+  },
+  {
+    "Categoria": "d1203",
+    "Descrição": "Paladar"
+  },
+  {
+    "Categoria": "d129",
+    "Descrição": "Experiências sensoriais intencionais"
+  },
+  {
+    "Categoria": "d130",
+    "Descrição": "Imitar"
+  },
+  {
+    "Categoria": "d131",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d1310",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d1311",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d1312",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d1313",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d1318",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d1319",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d132",
+    "Descrição": "Aquisição de linguagem"
+  },
+  {
+    "Categoria": "d1320",
+    "Descrição": "Aquisição de palavras simples ou símbolos com significado."
+  },
+  {
+    "Categoria": "d1321",
+    "Descrição": "Combinar palavras para formar frases"
+  },
+  {
+    "Categoria": "d1322",
+    "Descrição": "Aquisição de sintaxe"
+  },
+  {
+    "Categoria": "d1328",
+    "Descrição": "Aquisição de linguagem"
+  },
+  {
+    "Categoria": "d1329",
+    "Descrição": "Aquisição de linguagem"
+  },
+  {
+    "Categoria": "d133",
+    "Descrição": "Aquisição de linguagem adicional"
+  },
+  {
+    "Categoria": "d135",
+    "Descrição": "Ensaiar (Repetir)"
+  },
+  {
+    "Categoria": "d137",
+    "Descrição": "Aquisição de conceitos"
+  },
+  {
+    "Categoria": "d1370",
+    "Descrição": "Aquisição de conceitos básicos"
+  },
+  {
+    "Categoria": "d1371",
+    "Descrição": "Aquisição de conceitos complexos"
+  },
+  {
+    "Categoria": "d1378",
+    "Descrição": "Aquisição de conceitos"
+  },
+  {
+    "Categoria": "d1379",
+    "Descrição": "Aquisição de conceitos"
+  },
+  {
+    "Categoria": "d138",
+    "Descrição": "Aquisição de informação"
+  },
+  {
+    "Categoria": "d140",
+    "Descrição": "Aprender a ler"
+  },
+  {
+    "Categoria": "d1400",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d1401",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d1402",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d1408",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d1409",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d145",
+    "Descrição": "Aprender a escrever"
+  },
+  {
+    "Categoria": "d1450",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d1451",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d1452",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d1458",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d1459",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d150",
+    "Descrição": "Aprender a calcular"
+  },
+  {
+    "Categoria": "d1500",
+    "Descrição": "Aquisição de habilidades básicas com números"
+  },
+  {
+    "Categoria": "d1501",
+    "Descrição": "Aquisição de habilidades para reconhecer numerais"
+  },
+  {
+    "Categoria": "d1502",
+    "Descrição": "Aquisição da capacidade para usar as operações básicas"
+  },
+  {
+    "Categoria": "d1508",
+    "Descrição": "Aquisição da capacidade de cálculo"
+  },
+  {
+    "Categoria": "d1509",
+    "Descrição": "Aquisição da capacidade de cálculo"
+  },
+  {
+    "Categoria": "d155",
+    "Descrição": "Aquisição de habilidades"
+  },
+  {
+    "Categoria": "d1550",
+    "Descrição": "Aquisição de habilidades básicas"
+  },
+  {
+    "Categoria": "d1551",
+    "Descrição": "Aquisição de habilidades complexas"
+  },
+  {
+    "Categoria": "d1558",
+    "Descrição": "Aquisição de habilidades"
+  },
+  {
+    "Categoria": "d1559",
+    "Descrição": "Aquisição de habilidades"
+  },
+  {
+    "Categoria": "d159",
+    "Descrição": "Aprendizado básico"
+  },
+  {
+    "Categoria": "d160",
+    "Descrição": "Concentrar a atenção"
+  },
+  {
+    "Categoria": "d1600",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d1601",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d1608",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d1609",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d163",
+    "Descrição": "Pensar"
+  },
+  {
+    "Categoria": "d166",
+    "Descrição": "Ler"
+  },
+  {
+    "Categoria": "d170",
+    "Descrição": "Escrever"
+  },
+  {
+    "Categoria": "d1700",
+    "Descrição": "Usar habilidades gerais e estratégias do processo de escrita"
+  },
+  {
+    "Categoria": "d1701",
+    "Descrição": "Usar convenções gramaticais na redação de um texto"
+  },
+  {
+    "Categoria": "d1702",
+    "Descrição": "Usar habilidades gerais e estratégias pra escrever um texto"
+  },
+  {
+    "Categoria": "d1708",
+    "Descrição": "Escrever"
+  },
+  {
+    "Categoria": "d1709",
+    "Descrição": "Escrever"
+  },
+  {
+    "Categoria": "d172",
+    "Descrição": "Calcular"
+  },
+  {
+    "Categoria": "d1720",
+    "Descrição": "Usar capacidade e estratégias para realizar cálculos numéricos simples"
+  },
+  {
+    "Categoria": "d1721",
+    "Descrição": "Usar capacidade e estratégias para realizar operações e cálculos numéricos complexos"
+  },
+  {
+    "Categoria": "d1728",
+    "Descrição": "Calcular"
+  },
+  {
+    "Categoria": "d1729",
+    "Descrição": "Calcular"
+  },
+  {
+    "Categoria": "d175",
+    "Descrição": "Resolver problemas"
+  },
+  {
+    "Categoria": "d1750",
+    "Descrição": "Resolver problemas simples"
+  },
+  {
+    "Categoria": "d1751",
+    "Descrição": "Resolver problemas complexos"
+  },
+  {
+    "Categoria": "d1758",
+    "Descrição": "Resolver problemas"
+  },
+  {
+    "Categoria": "d1759",
+    "Descrição": "Resolver problemas"
+  },
+  {
+    "Categoria": "d177",
+    "Descrição": "Tomar decisões"
+  },
+  {
+    "Categoria": "d179",
+    "Descrição": "Aplicação de conhecimento"
+  },
+  {
+    "Categoria": "d198",
+    "Descrição": "Aprendizagem e aplicação de conhecimento"
+  },
+  {
+    "Categoria": "d199",
+    "Descrição": "Aprendizagem e aplicação de conhecimento"
+  },
+  {
+    "Categoria": "d2",
+    "Descrição": "Tarefas e demandas gerais"
+  },
+  {
+    "Categoria": "d210",
+    "Descrição": "Realizar uma única tarefa"
+  },
+  {
+    "Categoria": "d2100",
+    "Descrição": "Realizar uma tarefa simples"
+  },
+  {
+    "Categoria": "d2101",
+    "Descrição": "Realizar uma tarefa complexa"
+  },
+  {
+    "Categoria": "d2102",
+    "Descrição": "Realizar uma única tarefa"
+  },
+  {
+    "Categoria": "d2103",
+    "Descrição": "Realizar uma tarefa única em um grupo"
+  },
+  {
+    "Categoria": "d2108",
+    "Descrição": "Realizar uma única tarefa"
+  },
+  {
+    "Categoria": "d2109",
+    "Descrição": "Realizar uma única tarefa"
+  },
+  {
+    "Categoria": "d220",
+    "Descrição": "Realizar tarefas múltiplas"
+  },
+  {
+    "Categoria": "d2200",
+    "Descrição": "Realizar tarefas múltiplas"
+  },
+  {
+    "Categoria": "d2201",
+    "Descrição": "Concluir tarefas múltiplas"
+  },
+  {
+    "Categoria": "d2202",
+    "Descrição": "Realizar tarefas múltiplas"
+  },
+  {
+    "Categoria": "d2203",
+    "Descrição": "Realizar tarefas múltiplas em um grupo"
+  },
+  {
+    "Categoria": "d2208",
+    "Descrição": "Realizar tarefas múltiplas"
+  },
+  {
+    "Categoria": "d2209",
+    "Descrição": "Realizar tarefas múltiplas"
+  },
+  {
+    "Categoria": "d230",
+    "Descrição": "Realizar a rotina diária"
+  },
+  {
+    "Categoria": "d2301",
+    "Descrição": "Gerenciar a rotina diária"
+  },
+  {
+    "Categoria": "d2302",
+    "Descrição": "Concluir a rotina diária"
+  },
+  {
+    "Categoria": "d2303",
+    "Descrição": "Gerenciar o nível de atividade pessoal"
+  },
+  {
+    "Categoria": "d2304",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d2308",
+    "Descrição": "Realizar a rotina diária"
+  },
+  {
+    "Categoria": "d2309",
+    "Descrição": "Realizar a rotina diária"
+  },
+  {
+    "Categoria": "d240",
+    "Descrição": "Lidar com o estresse e outras demandas psicológicas"
+  },
+  {
+    "Categoria": "d2400",
+    "Descrição": "Lidar com responsabilidades"
+  },
+  {
+    "Categoria": "d2401",
+    "Descrição": "Lidar com o estresse"
+  },
+  {
+    "Categoria": "d2402",
+    "Descrição": "Lidar com crise"
+  },
+  {
+    "Categoria": "d2408",
+    "Descrição": "Lidar com o estresse e outras demandas psicológicas"
+  },
+  {
+    "Categoria": "d2409",
+    "Descrição": "Lidar com o estresse e outras demandas psicológicas"
+  },
+  {
+    "Categoria": "d298",
+    "Descrição": "Tarefas e demandas gerais"
+  },
+  {
+    "Categoria": "d299",
+    "Descrição": "Tarefas e demandas gerais"
+  },
+  {
+    "Categoria": "d3",
+    "Descrição": "Comunicação"
+  },
+  {
+    "Categoria": "d310",
+    "Descrição": "Comunicação-recepção de mensagens orais"
+  },
+  {
+    "Categoria": "d3100",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d3101",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d3108",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d3109",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d315",
+    "Descrição": "Comunicação-recepção de mensagens não verbais"
+  },
+  {
+    "Categoria": "d3150",
+    "Descrição": "Comunicação-recepção de gestos corporais"
+  },
+  {
+    "Categoria": "d3151",
+    "Descrição": "Comunicação-recepção de sinais e símbolos gerais"
+  },
+  {
+    "Categoria": "d3152",
+    "Descrição": "Comunicação-recepção de desenhos e fotografias"
+  },
+  {
+    "Categoria": "d3158",
+    "Descrição": "Comunicação-recepção de mensagens não verbais"
+  },
+  {
+    "Categoria": "d3159",
+    "Descrição": "Comunicação-recepção de mensagens não verbais"
+  },
+  {
+    "Categoria": "d320",
+    "Descrição": "Comunicação-recepção de mensagens na linguagem de sinais convencionais"
+  },
+  {
+    "Categoria": "d325",
+    "Descrição": "Comunicação-recepção de mensagens escritas"
+  },
+  {
+    "Categoria": "d329",
+    "Descrição": "Comunicação-recepção"
+  },
+  {
+    "Categoria": "d330",
+    "Descrição": "Fala"
+  },
+  {
+    "Categoria": "d3300",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d3301",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d3302",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d3308",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d3309",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d331",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d332",
+    "Descrição": "Cantar"
+  },
+  {
+    "Categoria": "d335",
+    "Descrição": "Produção de mensagens não verbais"
+  },
+  {
+    "Categoria": "d3350",
+    "Descrição": "Produção de linguagem corporal"
+  },
+  {
+    "Categoria": "d3351",
+    "Descrição": "Produção de sinais e símbolos"
+  },
+  {
+    "Categoria": "d3352",
+    "Descrição": "Produção de desenhos e fotografias"
+  },
+  {
+    "Categoria": "d3358",
+    "Descrição": "Produção de mensagens não verbais"
+  },
+  {
+    "Categoria": "d3359",
+    "Descrição": "Produção de mensagens não verbais"
+  },
+  {
+    "Categoria": "d340",
+    "Descrição": "Produção de mensagens na linguagem formal dos sinais"
+  },
+  {
+    "Categoria": "d345",
+    "Descrição": "Escrever mensagens"
+  },
+  {
+    "Categoria": "d349",
+    "Descrição": "Comunicação-produção"
+  },
+  {
+    "Categoria": "d350",
+    "Descrição": "Conversação"
+  },
+  {
+    "Categoria": "d3500",
+    "Descrição": "Iniciar uma conversa"
+  },
+  {
+    "Categoria": "d3501",
+    "Descrição": "Manter uma conversação"
+  },
+  {
+    "Categoria": "d3502",
+    "Descrição": "Terminar uma conversa"
+  },
+  {
+    "Categoria": "d3503",
+    "Descrição": "Conversar com uma pessoa"
+  },
+  {
+    "Categoria": "d3504",
+    "Descrição": "Conversar com muitas pessoas"
+  },
+  {
+    "Categoria": "d3508",
+    "Descrição": "Conversação"
+  },
+  {
+    "Categoria": "d3509",
+    "Descrição": "Conversação"
+  },
+  {
+    "Categoria": "d355",
+    "Descrição": "Discussão"
+  },
+  {
+    "Categoria": "d3550",
+    "Descrição": "Discussão com uma pessoa"
+  },
+  {
+    "Categoria": "d3551",
+    "Descrição": "Discussão com várias pessoas"
+  },
+  {
+    "Categoria": "d3558",
+    "Descrição": "Discussão"
+  },
+  {
+    "Categoria": "d3559",
+    "Descrição": "Discussão"
+  },
+  {
+    "Categoria": "d360",
+    "Descrição": "Utilização de dispositivos e técnicas de comunicação"
+  },
+  {
+    "Categoria": "d3600",
+    "Descrição": "Utilização de dispositivos de comunicação"
+  },
+  {
+    "Categoria": "d3601",
+    "Descrição": "Utilização de máquina de escrever"
+  },
+  {
+    "Categoria": "d3602",
+    "Descrição": "Utilização de técnicas de comunicação"
+  },
+  {
+    "Categoria": "d3608",
+    "Descrição": "Utilização de dispositivos e técnicas de comunicação"
+  },
+  {
+    "Categoria": "d3609",
+    "Descrição": "Utilização de dispositivos e técnicas de comunicação"
+  },
+  {
+    "Categoria": "d369",
+    "Descrição": "Conversação e utilização de dispositivos e técnicas de comunicação"
+  },
+  {
+    "Categoria": "d398",
+    "Descrição": "Comunicação"
+  },
+  {
+    "Categoria": "d399",
+    "Descrição": "Comunicação"
+  },
+  {
+    "Categoria": "d4",
+    "Descrição": "Mobilidade"
+  },
+  {
+    "Categoria": "d410",
+    "Descrição": "Mudar a posição básica do corpo"
+  },
+  {
+    "Categoria": "d4100",
+    "Descrição": "Deitar-se"
+  },
+  {
+    "Categoria": "d4101",
+    "Descrição": "Agachar-se"
+  },
+  {
+    "Categoria": "d4102",
+    "Descrição": "Ajoelhar-se"
+  },
+  {
+    "Categoria": "d4103",
+    "Descrição": "Sentar-se"
+  },
+  {
+    "Categoria": "d4104",
+    "Descrição": "Levantar-se"
+  },
+  {
+    "Categoria": "d4105",
+    "Descrição": "Inclinar-se"
+  },
+  {
+    "Categoria": "d4106",
+    "Descrição": "Mudar o centro de gravidade do corpo"
+  },
+  {
+    "Categoria": "d4107",
+    "Descrição": "Rolar"
+  },
+  {
+    "Categoria": "d4108",
+    "Descrição": "Mudar a posição básica do corpo"
+  },
+  {
+    "Categoria": "d4109",
+    "Descrição": "Mudar a posição básica do corpo"
+  },
+  {
+    "Categoria": "d415",
+    "Descrição": "Manter a posição do corpo"
+  },
+  {
+    "Categoria": "d4150",
+    "Descrição": "Permanecer deitado"
+  },
+  {
+    "Categoria": "d4151",
+    "Descrição": "Permanecer agachado"
+  },
+  {
+    "Categoria": "d4152",
+    "Descrição": "Permanecer ajoelhado"
+  },
+  {
+    "Categoria": "d4153",
+    "Descrição": "Permanecer sentado"
+  },
+  {
+    "Categoria": "d4154",
+    "Descrição": "Permanecer em pé"
+  },
+  {
+    "Categoria": "d4155",
+    "Descrição": "Manter a posição da cabeça"
+  },
+  {
+    "Categoria": "d4158",
+    "Descrição": "Manter a posição do corpo"
+  },
+  {
+    "Categoria": "d4159",
+    "Descrição": "Manter a posição do corpo"
+  },
+  {
+    "Categoria": "d420",
+    "Descrição": "Transferir a própria posição"
+  },
+  {
+    "Categoria": "d4200",
+    "Descrição": "Transferir-se enquanto estiver sentado"
+  },
+  {
+    "Categoria": "d4201",
+    "Descrição": "Transferir-se enquanto estiver deitado"
+  },
+  {
+    "Categoria": "d4208",
+    "Descrição": "Transferir a própria posição"
+  },
+  {
+    "Categoria": "d4209",
+    "Descrição": "Transferir a própria posição"
+  },
+  {
+    "Categoria": "d429",
+    "Descrição": "Mudar e manter a posição do corpo"
+  },
+  {
+    "Categoria": "d430",
+    "Descrição": "Levantar e carregar objetos"
+  },
+  {
+    "Categoria": "d4300",
+    "Descrição": "Levantar objetos"
+  },
+  {
+    "Categoria": "d4301",
+    "Descrição": "Carregar nas mãos"
+  },
+  {
+    "Categoria": "d4302",
+    "Descrição": "Carregar nos braços"
+  },
+  {
+    "Categoria": "d4303",
+    "Descrição": "Carregar nos ombros"
+  },
+  {
+    "Categoria": "d4304",
+    "Descrição": "Carregar na cabeça"
+  },
+  {
+    "Categoria": "d4305",
+    "Descrição": "Abaixar objetos"
+  },
+  {
+    "Categoria": "d4308",
+    "Descrição": "Levantar e carregar"
+  },
+  {
+    "Categoria": "d4309",
+    "Descrição": "Levantar e carregar"
+  },
+  {
+    "Categoria": "d435",
+    "Descrição": "Mover objetos com as extremidades inferiores"
+  },
+  {
+    "Categoria": "d4350",
+    "Descrição": "Empurrar com as extremidades inferiores"
+  },
+  {
+    "Categoria": "d4351",
+    "Descrição": "Chutar"
+  },
+  {
+    "Categoria": "d4358",
+    "Descrição": "Mover objetos com as extremidades inferiores"
+  },
+  {
+    "Categoria": "d4359",
+    "Descrição": "Mover objetos com as extremidades inferiores"
+  },
+  {
+    "Categoria": "d440",
+    "Descrição": "Uso fino da mão"
+  },
+  {
+    "Categoria": "d4400",
+    "Descrição": "Pegar"
+  },
+  {
+    "Categoria": "d4401",
+    "Descrição": "Agarrar"
+  },
+  {
+    "Categoria": "d4402",
+    "Descrição": "Manipular"
+  },
+  {
+    "Categoria": "d4403",
+    "Descrição": "Soltar"
+  },
+  {
+    "Categoria": "d4408",
+    "Descrição": "Uso fino da mão"
+  },
+  {
+    "Categoria": "d4409",
+    "Descrição": "Uso fino da mão"
+  },
+  {
+    "Categoria": "d445",
+    "Descrição": "Uso da mão e do braço"
+  },
+  {
+    "Categoria": "d4450",
+    "Descrição": "Puxar"
+  },
+  {
+    "Categoria": "d4451",
+    "Descrição": "Empurrar"
+  },
+  {
+    "Categoria": "d4452",
+    "Descrição": "Alcançar"
+  },
+  {
+    "Categoria": "d4453",
+    "Descrição": "Girar ou torcer as mãos ou os braços"
+  },
+  {
+    "Categoria": "d4454",
+    "Descrição": "Jogar"
+  },
+  {
+    "Categoria": "d4455",
+    "Descrição": "Apanhar"
+  },
+  {
+    "Categoria": "d4458",
+    "Descrição": "Uso da mão e do braço"
+  },
+  {
+    "Categoria": "d4459",
+    "Descrição": "Uso da mão e do braço"
+  },
+  {
+    "Categoria": "d446",
+    "Descrição": "Uso fino dos pés"
+  },
+  {
+    "Categoria": "d449",
+    "Descrição": "Carregar"
+  },
+  {
+    "Categoria": "d450",
+    "Descrição": "Andar"
+  },
+  {
+    "Categoria": "d4500",
+    "Descrição": "Andar distâncias curtas"
+  },
+  {
+    "Categoria": "d4501",
+    "Descrição": "Andar distâncias longas"
+  },
+  {
+    "Categoria": "d4502",
+    "Descrição": "Andar sobre superfícies diferentes"
+  },
+  {
+    "Categoria": "d4503",
+    "Descrição": "Andar desviando-se de obstáculos"
+  },
+  {
+    "Categoria": "d4508",
+    "Descrição": "Andar"
+  },
+  {
+    "Categoria": "d4509",
+    "Descrição": "Andar"
+  },
+  {
+    "Categoria": "d455",
+    "Descrição": "Deslocar-se"
+  },
+  {
+    "Categoria": "d4550",
+    "Descrição": "Engatinhar"
+  },
+  {
+    "Categoria": "d4551",
+    "Descrição": "Subir/descer"
+  },
+  {
+    "Categoria": "d4552",
+    "Descrição": "Correr"
+  },
+  {
+    "Categoria": "d4553",
+    "Descrição": "Pular"
+  },
+  {
+    "Categoria": "d4554",
+    "Descrição": "Nadar"
+  },
+  {
+    "Categoria": "d4558",
+    "Descrição": "Deslocar-se"
+  },
+  {
+    "Categoria": "d4559",
+    "Descrição": "Deslocar-se"
+  },
+  {
+    "Categoria": "d460",
+    "Descrição": "Deslocar-se por diferentes locais"
+  },
+  {
+    "Categoria": "d4600",
+    "Descrição": "Deslocar-se dentro de casa"
+  },
+  {
+    "Categoria": "d4601",
+    "Descrição": "Deslocar-se dentro de outros edifícios que não a própria casa"
+  },
+  {
+    "Categoria": "d4602",
+    "Descrição": "Deslocar-se fora de casa e de outros prédios"
+  },
+  {
+    "Categoria": "d4608",
+    "Descrição": "Deslocar-se por diferentes locais"
+  },
+  {
+    "Categoria": "d4609",
+    "Descrição": "Deslocar-se por diferentes locais"
+  },
+  {
+    "Categoria": "d465",
+    "Descrição": "Deslocar-se utilizando algum tipo de equipamento"
+  },
+  {
+    "Categoria": "d469",
+    "Descrição": "Andar e mover-se"
+  },
+  {
+    "Categoria": "d470",
+    "Descrição": "Utilização de transporte"
+  },
+  {
+    "Categoria": "d4700",
+    "Descrição": "Utilização de transporte com tração humana"
+  },
+  {
+    "Categoria": "d4701",
+    "Descrição": "Utilizar transporte motorizado privado"
+  },
+  {
+    "Categoria": "d4702",
+    "Descrição": "Utilização de transporte público"
+  },
+  {
+    "Categoria": "d4703",
+    "Descrição": "Usar humanos para o transporte"
+  },
+  {
+    "Categoria": "d4708",
+    "Descrição": "Utilização de transporte"
+  },
+  {
+    "Categoria": "d4709",
+    "Descrição": "Utilização de transporte"
+  },
+  {
+    "Categoria": "d475",
+    "Descrição": "Dirigir"
+  },
+  {
+    "Categoria": "d4750",
+    "Descrição": "Dirigir transporte com tração humana"
+  },
+  {
+    "Categoria": "d4751",
+    "Descrição": "Dirigir veículos motorizados"
+  },
+  {
+    "Categoria": "d4752",
+    "Descrição": "Dirigir veículos com tração animal"
+  },
+  {
+    "Categoria": "d4758",
+    "Descrição": "Dirigir"
+  },
+  {
+    "Categoria": "d4759",
+    "Descrição": "Dirigir"
+  },
+  {
+    "Categoria": "d480",
+    "Descrição": "Montar animais como meio de transporte"
+  },
+  {
+    "Categoria": "d489",
+    "Descrição": "Deslocar-se utilizando transporte"
+  },
+  {
+    "Categoria": "d498",
+    "Descrição": "Mobilidade"
+  },
+  {
+    "Categoria": "d499",
+    "Descrição": "Mobilidade"
+  },
+  {
+    "Categoria": "d5",
+    "Descrição": "Cuidado pessoal"
+  },
+  {
+    "Categoria": "d510",
+    "Descrição": "Lavar-se"
+  },
+  {
+    "Categoria": "d5100",
+    "Descrição": "Lavar partes do corpo"
+  },
+  {
+    "Categoria": "d5101",
+    "Descrição": "Lavar todo o corpo"
+  },
+  {
+    "Categoria": "d5102",
+    "Descrição": "Secar-se"
+  },
+  {
+    "Categoria": "d5108",
+    "Descrição": "Lavar-se"
+  },
+  {
+    "Categoria": "d5109",
+    "Descrição": "Lavar-se"
+  },
+  {
+    "Categoria": "d520",
+    "Descrição": "Cuidar de partes do corpo"
+  },
+  {
+    "Categoria": "d5200",
+    "Descrição": "Cuidar da pele"
+  },
+  {
+    "Categoria": "d5201",
+    "Descrição": "Cuidar dos dentes"
+  },
+  {
+    "Categoria": "d5202",
+    "Descrição": "Cuidar do cabelo e da barba"
+  },
+  {
+    "Categoria": "d5203",
+    "Descrição": "Cuidar das unhas das mãos"
+  },
+  {
+    "Categoria": "d5204",
+    "Descrição": "Cuidar das unhas dos pés"
+  },
+  {
+    "Categoria": "d5205",
+    "Descrição": "Cuidado com o nariz"
+  },
+  {
+    "Categoria": "d5208",
+    "Descrição": "Cuidar de partes do corpo"
+  },
+  {
+    "Categoria": "d5209",
+    "Descrição": "Cuidar de partes do corpo"
+  },
+  {
+    "Categoria": "d530",
+    "Descrição": "Cuidados relacionados com os processos de excreção"
+  },
+  {
+    "Categoria": "d5300",
+    "Descrição": "Regulação da micção"
+  },
+  {
+    "Categoria": "d5301",
+    "Descrição": "Regulação da defecação"
+  },
+  {
+    "Categoria": "d5302",
+    "Descrição": "Cuidados durante a menstruação"
+  },
+  {
+    "Categoria": "d5308",
+    "Descrição": "Cuidados relacionados com os processos de excreção"
+  },
+  {
+    "Categoria": "d5309",
+    "Descrição": "Cuidados relacionados com os processos de excreção"
+  },
+  {
+    "Categoria": "d540",
+    "Descrição": "Vestir-se"
+  },
+  {
+    "Categoria": "d5400",
+    "Descrição": "Vestir roupa"
+  },
+  {
+    "Categoria": "d5401",
+    "Descrição": "Despir roupa"
+  },
+  {
+    "Categoria": "d5402",
+    "Descrição": "Calçar"
+  },
+  {
+    "Categoria": "d5403",
+    "Descrição": "Descalçar"
+  },
+  {
+    "Categoria": "d5404",
+    "Descrição": "Escolha de roupa apropriada"
+  },
+  {
+    "Categoria": "d5408",
+    "Descrição": "Vestir-se"
+  },
+  {
+    "Categoria": "d5409",
+    "Descrição": "Vestir-se"
+  },
+  {
+    "Categoria": "d550",
+    "Descrição": "Comer"
+  },
+  {
+    "Categoria": "d560",
+    "Descrição": "Beber"
+  },
+  {
+    "Categoria": "d570",
+    "Descrição": "Cuidar da própria saúde"
+  },
+  {
+    "Categoria": "d5700",
+    "Descrição": "Assegurar o próprio conforto físico"
+  },
+  {
+    "Categoria": "d5701",
+    "Descrição": "Controle da alimentação e da forma física"
+  },
+  {
+    "Categoria": "d5702",
+    "Descrição": "Manter a própria saúde"
+  },
+  {
+    "Categoria": "d5708",
+    "Descrição": "Cuidar da própria saúde"
+  },
+  {
+    "Categoria": "d5709",
+    "Descrição": "Cuidar da própria saúde"
+  },
+  {
+    "Categoria": "d598",
+    "Descrição": "Auto cuidados"
+  },
+  {
+    "Categoria": "d599",
+    "Descrição": "Auto cuidados"
+  },
+  {
+    "Categoria": "d6",
+    "Descrição": "Vida doméstica"
+  },
+  {
+    "Categoria": "d610",
+    "Descrição": "Aquisição de um lugar para morar"
+  },
+  {
+    "Categoria": "d6100",
+    "Descrição": "Comprar um lugar para morar"
+  },
+  {
+    "Categoria": "d6101",
+    "Descrição": "Alugar um lugar para morar"
+  },
+  {
+    "Categoria": "d6102",
+    "Descrição": "Mobilar um lugar para morar"
+  },
+  {
+    "Categoria": "d6108",
+    "Descrição": "Aquisição de um lugar para morar"
+  },
+  {
+    "Categoria": "d6109",
+    "Descrição": "Aquisição de um lugar para morar"
+  },
+  {
+    "Categoria": "d620",
+    "Descrição": "Aquisição de bens e serviços"
+  },
+  {
+    "Categoria": "d6200",
+    "Descrição": "Comprar"
+  },
+  {
+    "Categoria": "d6201",
+    "Descrição": "Obter as necessidades diárias"
+  },
+  {
+    "Categoria": "d6208",
+    "Descrição": "Aquisição de bens e serviços"
+  },
+  {
+    "Categoria": "d6209",
+    "Descrição": "Aquisição de bens e serviços"
+  },
+  {
+    "Categoria": "d629",
+    "Descrição": "Aquisição do necessário para viver"
+  },
+  {
+    "Categoria": "d630",
+    "Descrição": "Preparar refeições"
+  },
+  {
+    "Categoria": "d6300",
+    "Descrição": "Preparar refeições simples"
+  },
+  {
+    "Categoria": "d6301",
+    "Descrição": "Preparar refeições complexas"
+  },
+  {
+    "Categoria": "d6308",
+    "Descrição": "Preparar refeições"
+  },
+  {
+    "Categoria": "d6309",
+    "Descrição": "Preparar refeições"
+  },
+  {
+    "Categoria": "d640",
+    "Descrição": "Realizar as tarefas domésticas"
+  },
+  {
+    "Categoria": "d6400",
+    "Descrição": "Lavar e secar roupa"
+  },
+  {
+    "Categoria": "d6401",
+    "Descrição": "Limpar a cozinha e os utensílios"
+  },
+  {
+    "Categoria": "d6402",
+    "Descrição": "Limpar a habitação"
+  },
+  {
+    "Categoria": "d6403",
+    "Descrição": "Utilizar aparelhos domésticos"
+  },
+  {
+    "Categoria": "d6404",
+    "Descrição": "Armazenar os bens necessários para a vida diária"
+  },
+  {
+    "Categoria": "d6405",
+    "Descrição": "Remover o lixo"
+  },
+  {
+    "Categoria": "d6408",
+    "Descrição": "Realizar as tarefas domésticas"
+  },
+  {
+    "Categoria": "d6409",
+    "Descrição": "Realizar as tarefas domésticas"
+  },
+  {
+    "Categoria": "d649",
+    "Descrição": "Tarefas domésticas"
+  },
+  {
+    "Categoria": "d650",
+    "Descrição": "Cuidar dos objectos da casa"
+  },
+  {
+    "Categoria": "d6500",
+    "Descrição": "Fazer e consertar roupas"
+  },
+  {
+    "Categoria": "d6501",
+    "Descrição": "Manutenção da habitação e dos móveis"
+  },
+  {
+    "Categoria": "d6502",
+    "Descrição": "Manutenção dos utensílios domésticos"
+  },
+  {
+    "Categoria": "d6503",
+    "Descrição": "Manutenção dos veículos"
+  },
+  {
+    "Categoria": "d6504",
+    "Descrição": "Manutenção dos dispositivos de auxílio"
+  },
+  {
+    "Categoria": "d6505",
+    "Descrição": "Cuidar das plantas de interior e de exterior"
+  },
+  {
+    "Categoria": "d6506",
+    "Descrição": "Cuidar dos animais"
+  },
+  {
+    "Categoria": "d6508",
+    "Descrição": "Cuidar dos objectos domésticos"
+  },
+  {
+    "Categoria": "d6509",
+    "Descrição": "Cuidar dos objectos domésticos"
+  },
+  {
+    "Categoria": "d660",
+    "Descrição": "Ajudar os outros"
+  },
+  {
+    "Categoria": "d6600",
+    "Descrição": "Ajudar os outros nos auto-cuidados"
+  },
+  {
+    "Categoria": "d6601",
+    "Descrição": "Ajudar os outros a deslocar-se"
+  },
+  {
+    "Categoria": "d6602",
+    "Descrição": "Ajudar os outros a comunicar"
+  },
+  {
+    "Categoria": "d6603",
+    "Descrição": "Ajudar os outros nas relações interpessoais"
+  },
+  {
+    "Categoria": "d6604",
+    "Descrição": "Ajudar os outros na nutrição"
+  },
+  {
+    "Categoria": "d6605",
+    "Descrição": "Ajudar os outros a manter a saúde"
+  },
+  {
+    "Categoria": "d6608",
+    "Descrição": "Ajudar os outros"
+  },
+  {
+    "Categoria": "d6609",
+    "Descrição": "Ajudar os outros"
+  },
+  {
+    "Categoria": "d669",
+    "Descrição": "Cuidar dos objectos da casa e ajudar os outros"
+  },
+  {
+    "Categoria": "d698",
+    "Descrição": "Vida doméstica"
+  },
+  {
+    "Categoria": "d699",
+    "Descrição": "Vida doméstica"
+  },
+  {
+    "Categoria": "d7",
+    "Descrição": "Interacções e relacionamentos interpessoais"
+  },
+  {
+    "Categoria": "d710",
+    "Descrição": "Interacções interpessoais básicas"
+  },
+  {
+    "Categoria": "d7100",
+    "Descrição": "Respeito e afecto nos relacionamentos"
+  },
+  {
+    "Categoria": "d7101",
+    "Descrição": "Apreço nos relacionamentos"
+  },
+  {
+    "Categoria": "d7102",
+    "Descrição": "Tolerância nos relacionamentos"
+  },
+  {
+    "Categoria": "d7103",
+    "Descrição": "Crítica nos relacionamentos"
+  },
+  {
+    "Categoria": "d7104",
+    "Descrição": "Sinais ou mensagens sociais nos relacionamentos"
+  },
+  {
+    "Categoria": "d7105",
+    "Descrição": "Contacto físico nos relacionamentos"
+  },
+  {
+    "Categoria": "d7106",
+    "Descrição": "Diferenciar pessoas da família"
+  },
+  {
+    "Categoria": "d7108",
+    "Descrição": "Interacções interpessoais básicas"
+  },
+  {
+    "Categoria": "d7109",
+    "Descrição": "Interacções interpessoais básicas"
+  },
+  {
+    "Categoria": "d720",
+    "Descrição": "Interacções interpessoais complexas"
+  },
+  {
+    "Categoria": "d7200",
+    "Descrição": "Iniciar relacionamentos"
+  },
+  {
+    "Categoria": "d7201",
+    "Descrição": "Terminar um relacionamento"
+  },
+  {
+    "Categoria": "d7202",
+    "Descrição": "Regular os comportamentos nas interacções"
+  },
+  {
+    "Categoria": "d7203",
+    "Descrição": "Interagir de acordo com as regras sociais"
+  },
+  {
+    "Categoria": "d7204",
+    "Descrição": "Manter o espaço social"
+  },
+  {
+    "Categoria": "d7208",
+    "Descrição": "Interacções interpessoais complexas"
+  },
+  {
+    "Categoria": "d7209",
+    "Descrição": "Interacções interpessoais complexas"
+  },
+  {
+    "Categoria": "d729",
+    "Descrição": "Interacções interpessoais gerais"
+  },
+  {
+    "Categoria": "d730",
+    "Descrição": "Relacionamento com estranhos"
+  },
+  {
+    "Categoria": "d740",
+    "Descrição": "Relacionamento formal"
+  },
+  {
+    "Categoria": "d7400",
+    "Descrição": "Relacionamento com superiores"
+  },
+  {
+    "Categoria": "d7401",
+    "Descrição": "Relacionamento com subordinados"
+  },
+  {
+    "Categoria": "d7402",
+    "Descrição": "Relacionamentos com pares"
+  },
+  {
+    "Categoria": "d7408",
+    "Descrição": "Relacionamentos formais"
+  },
+  {
+    "Categoria": "d7409",
+    "Descrição": "Relacionamentos formais"
+  },
+  {
+    "Categoria": "d750",
+    "Descrição": "Relacionamentos sociais informais"
+  },
+  {
+    "Categoria": "d7500",
+    "Descrição": "Relacionamentos informais com amigos"
+  },
+  {
+    "Categoria": "d7501",
+    "Descrição": "Relacionamentos informais com vizinhos"
+  },
+  {
+    "Categoria": "d7502",
+    "Descrição": "Relacionamentos informais com conhecidos"
+  },
+  {
+    "Categoria": "d7503",
+    "Descrição": "Relacionamentos informais com colegas de habitação"
+  },
+  {
+    "Categoria": "d7504",
+    "Descrição": "Relacionamentos informais com pares"
+  },
+  {
+    "Categoria": "d7508",
+    "Descrição": "Relacionamentos sociais informais"
+  },
+  {
+    "Categoria": "d7509",
+    "Descrição": "Relacionamentos sociais informais"
+  },
+  {
+    "Categoria": "d760",
+    "Descrição": "Relacionamentos familiares"
+  },
+  {
+    "Categoria": "d7600",
+    "Descrição": "Relacionamentos entre pais e filhos"
+  },
+  {
+    "Categoria": "d7601",
+    "Descrição": "Relacionamentos entre filhos e pais"
+  },
+  {
+    "Categoria": "d7602",
+    "Descrição": "Relacionamentos entre irmãos"
+  },
+  {
+    "Categoria": "d7603",
+    "Descrição": "Relacionamento com outros parentes"
+  },
+  {
+    "Categoria": "d7608",
+    "Descrição": "Relacionamentos familiares"
+  },
+  {
+    "Categoria": "d7609",
+    "Descrição": "Relacionamentos familiares"
+  },
+  {
+    "Categoria": "d770",
+    "Descrição": "Relacionamentos íntimos"
+  },
+  {
+    "Categoria": "d7700",
+    "Descrição": "Relacionamentos românticos"
+  },
+  {
+    "Categoria": "d7701",
+    "Descrição": "Relacionamentos conjugais"
+  },
+  {
+    "Categoria": "d7702",
+    "Descrição": "Relacionamentos sexuais"
+  },
+  {
+    "Categoria": "d7708",
+    "Descrição": "Relacionamentos íntimos"
+  },
+  {
+    "Categoria": "d7709",
+    "Descrição": "Relacionamentos íntimos"
+  },
+  {
+    "Categoria": "d779",
+    "Descrição": "Relacionamentos interpessoais particulares"
+  },
+  {
+    "Categoria": "d798",
+    "Descrição": "Interacções e relacionamentos interpessoais"
+  },
+  {
+    "Categoria": "d799",
+    "Descrição": "Interacções e relacionamentos interpessoais"
+  },
+  {
+    "Categoria": "d8",
+    "Descrição": "Áreas principais da vida"
+  },
+  {
+    "Categoria": "d810",
+    "Descrição": "Educação informal"
+  },
+  {
+    "Categoria": "d815",
+    "Descrição": "Educação pré-escolar"
+  },
+  {
+    "Categoria": "d820",
+    "Descrição": "Educação escolar"
+  },
+  {
+    "Categoria": "d825",
+    "Descrição": "Formação profissional"
+  },
+  {
+    "Categoria": "d830",
+    "Descrição": "Educação de nível superior"
+  },
+  {
+    "Categoria": "d835",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d838",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "d839",
+    "Descrição": "Educação"
+  },
+  {
+    "Categoria": "d840",
+    "Descrição": "Estágio (preparação para o trabalho)"
+  },
+  {
+    "Categoria": "d845",
+    "Descrição": "Obter"
+  },
+  {
+    "Categoria": "d8450",
+    "Descrição": "Procurar emprego"
+  },
+  {
+    "Categoria": "d8451",
+    "Descrição": "Manter um emprego"
+  },
+  {
+    "Categoria": "d8452",
+    "Descrição": "Sair de um emprego"
+  },
+  {
+    "Categoria": "d8458",
+    "Descrição": "Obter"
+  },
+  {
+    "Categoria": "d8459",
+    "Descrição": "Obter"
+  },
+  {
+    "Categoria": "d850",
+    "Descrição": "Trabalho remunerado"
+  },
+  {
+    "Categoria": "d8500",
+    "Descrição": "Trabalho independente"
+  },
+  {
+    "Categoria": "d8501",
+    "Descrição": "Trabalho a tempo parcial"
+  },
+  {
+    "Categoria": "d8502",
+    "Descrição": "Trabalho a tempo inteiro"
+  },
+  {
+    "Categoria": "d8508",
+    "Descrição": "Trabalho remunerado"
+  },
+  {
+    "Categoria": "d8509",
+    "Descrição": "Trabalho remunerado"
+  },
+  {
+    "Categoria": "d855",
+    "Descrição": "Trabalho não remunerado"
+  },
+  {
+    "Categoria": "d859",
+    "Descrição": "Trabalho e emprego"
+  },
+  {
+    "Categoria": "d860",
+    "Descrição": "Transacções económicas básicas"
+  },
+  {
+    "Categoria": "d865",
+    "Descrição": "Transacções económicas complexas"
+  },
+  {
+    "Categoria": "d870",
+    "Descrição": "Auto-suficiência económica"
+  },
+  {
+    "Categoria": "d8700",
+    "Descrição": "Recursos económicos pessoais"
+  },
+  {
+    "Categoria": "d8701",
+    "Descrição": "Programas de economia pública"
+  },
+  {
+    "Categoria": "d8708",
+    "Descrição": "Auto-suficiência económica"
+  },
+  {
+    "Categoria": "d8709",
+    "Descrição": "Auto-suficiência económica"
+  },
+  {
+    "Categoria": "d879",
+    "Descrição": "Vida económica"
+  },
+  {
+    "Categoria": "d898",
+    "Descrição": "Áreas principais da vida"
+  },
+  {
+    "Categoria": "d899",
+    "Descrição": "Áreas principais da vida"
+  },
+  {
+    "Categoria": "d9",
+    "Descrição": "Vida comunitária"
+  },
+  {
+    "Categoria": "d910",
+    "Descrição": "Vida comunitária"
+  },
+  {
+    "Categoria": "d9100",
+    "Descrição": "Associações informais"
+  },
+  {
+    "Categoria": "d9101",
+    "Descrição": "Associações formais"
+  },
+  {
+    "Categoria": "d9102",
+    "Descrição": "Cerimónias"
+  },
+  {
+    "Categoria": "d9108",
+    "Descrição": "Vida comunitária"
+  },
+  {
+    "Categoria": "d9109",
+    "Descrição": "Vida comunitária"
+  },
+  {
+    "Categoria": "d920",
+    "Descrição": "Recreação e lazer"
+  },
+  {
+    "Categoria": "d9200",
+    "Descrição": "Jogos"
+  },
+  {
+    "Categoria": "d9201",
+    "Descrição": "Desportos"
+  },
+  {
+    "Categoria": "d9202",
+    "Descrição": "Arte e cultura"
+  },
+  {
+    "Categoria": "d9203",
+    "Descrição": "Artesanato"
+  },
+  {
+    "Categoria": "d9204",
+    "Descrição": "Passatempos (“Hobbies”)"
+  },
+  {
+    "Categoria": "d9205",
+    "Descrição": "Socialização"
+  },
+  {
+    "Categoria": "d9208",
+    "Descrição": "Recreação e lazer"
+  },
+  {
+    "Categoria": "d9209",
+    "Descrição": "Recreação e lazer"
+  },
+  {
+    "Categoria": "d930",
+    "Descrição": "Religião e vida espiritual"
+  },
+  {
+    "Categoria": "d9300",
+    "Descrição": "Religião organizada"
+  },
+  {
+    "Categoria": "d9301",
+    "Descrição": "Vida espiritual"
+  },
+  {
+    "Categoria": "d9308",
+    "Descrição": "Religião e vida espiritual"
+  },
+  {
+    "Categoria": "d9309",
+    "Descrição": "Religião e vida espiritual"
+  },
+  {
+    "Categoria": "d940",
+    "Descrição": "Direitos Humanos"
+  },
+  {
+    "Categoria": "d950",
+    "Descrição": "Vida política e cidadania"
+  },
+  {
+    "Categoria": "d998",
+    "Descrição": "Vida comunitária"
+  },
+  {
+    "Categoria": "d999",
+    "Descrição": "Vida comunitária"
+  },
+  {
+    "Categoria": "e1",
+    "Descrição": "Produtos e tecnologia"
+  },
+  {
+    "Categoria": "e110",
+    "Descrição": "Produtos ou substâncias para consumo pessoal"
+  },
+  {
+    "Categoria": "e1100",
+    "Descrição": "Alimentos"
+  },
+  {
+    "Categoria": "e1101",
+    "Descrição": "Medicamentos"
+  },
+  {
+    "Categoria": "e1108",
+    "Descrição": "Produtos ou substâncias para consumo pessoal"
+  },
+  {
+    "Categoria": "e1109",
+    "Descrição": "Produtos ou substâncias para consumo pessoal"
+  },
+  {
+    "Categoria": "e115",
+    "Descrição": "Produtos e tecnologias para uso pessoal na vida diária"
+  },
+  {
+    "Categoria": "e1150",
+    "Descrição": "Produtos e tecnologias gerais para uso pessoal na vida diária"
+  },
+  {
+    "Categoria": "e1151",
+    "Descrição": "Produtos e tecnologias de apoio para uso pessoal na vida diária"
+  },
+  {
+    "Categoria": "e1158",
+    "Descrição": "Produtos e tecnologias para uso pessoal na vida diária"
+  },
+  {
+    "Categoria": "e1159",
+    "Descrição": "Produtos e tecnologias para uso pessoal na vida diária"
+  },
+  {
+    "Categoria": "e120",
+    "Descrição": "Produtos e tecnologias destinados a facilitar a mobilidade e o transporte pessoal em ambientes interiores e exteriores"
+  },
+  {
+    "Categoria": "e1200",
+    "Descrição": "Produtos e tecnologias gerais destinados a facilitar a mobilidade e o transporte pessoal em ambientes interiores e exteriores"
+  },
+  {
+    "Categoria": "e1201",
+    "Descrição": "Produtos e tecnologias de apoio destinados a facilitar a mobilidade e o transporte pessoal em ambientes interiores e exteriores"
+  },
+  {
+    "Categoria": "e1208",
+    "Descrição": "Produtos e tecnologias destinados a facilitar a mobilidade e o transporte pessoal em ambientes interiores e exteriores"
+  },
+  {
+    "Categoria": "e1209",
+    "Descrição": "Produtos e tecnologias destinados a facilitar a mobilidade e o transporte pessoal em ambientes interiores e exteriores e não especificados"
+  },
+  {
+    "Categoria": "e125",
+    "Descrição": "Produtos e tecnologias para a comunicação"
+  },
+  {
+    "Categoria": "e1250",
+    "Descrição": "Produtos e tecnologias gerais para comunicação"
+  },
+  {
+    "Categoria": "e1251",
+    "Descrição": "Produtos e tecnologias de apoio para comunicação"
+  },
+  {
+    "Categoria": "e1258",
+    "Descrição": "Produtos e tecnologias para comunicação"
+  },
+  {
+    "Categoria": "e1259",
+    "Descrição": "Produtos e tecnologias para comunicação"
+  },
+  {
+    "Categoria": "e130",
+    "Descrição": "Produtos e tecnologias para a educação"
+  },
+  {
+    "Categoria": "e1300",
+    "Descrição": "Produtos e tecnologias gerais para educação"
+  },
+  {
+    "Categoria": "e1301",
+    "Descrição": "Produtos e tecnologias de apoio para educação"
+  },
+  {
+    "Categoria": "e1308",
+    "Descrição": "Produtos e tecnologias para educação"
+  },
+  {
+    "Categoria": "e1309",
+    "Descrição": "Produtos e tecnologias para educação"
+  },
+  {
+    "Categoria": "e135",
+    "Descrição": "Produtos e tecnologias para o trabalho"
+  },
+  {
+    "Categoria": "e1350",
+    "Descrição": "Produtos e tecnologias gerais para o trabalho"
+  },
+  {
+    "Categoria": "e1351",
+    "Descrição": "Produtos e tecnologias de assistência para o trabalho"
+  },
+  {
+    "Categoria": "e1358",
+    "Descrição": "Produtos e tecnologias para o trabalho"
+  },
+  {
+    "Categoria": "e1359",
+    "Descrição": "Produtos e tecnologias para o trabalho"
+  },
+  {
+    "Categoria": "e140",
+    "Descrição": "Produtos e tecnologias para a cultura"
+  },
+  {
+    "Categoria": "e1400",
+    "Descrição": "Produtos e tecnologias gerais para a cultura"
+  },
+  {
+    "Categoria": "e1401",
+    "Descrição": "Produtos e tecnologias de apoio para a cultura"
+  },
+  {
+    "Categoria": "e1408",
+    "Descrição": "Produtos e tecnologias para a cultura"
+  },
+  {
+    "Categoria": "e1409",
+    "Descrição": "Produtos e tecnologias para a cultura"
+  },
+  {
+    "Categoria": "e145",
+    "Descrição": "Produtos e tecnologias para a prática religiosa e vida espiritual"
+  },
+  {
+    "Categoria": "e1450",
+    "Descrição": "Produtos e tecnologias gerais para a prática religiosa e vida espiritual"
+  },
+  {
+    "Categoria": "e1451",
+    "Descrição": "Produtos e tecnologias de apoio para a prática religiosa e vida espiritual"
+  },
+  {
+    "Categoria": "e1458",
+    "Descrição": "Produtos e tecnologias para a prática religiosa e vida espiritual"
+  },
+  {
+    "Categoria": "e1459",
+    "Descrição": "Produtos e tecnologias para a prática religiosa e vida espiritual não especificados"
+  },
+  {
+    "Categoria": "e150",
+    "Descrição": "Arquitectura"
+  },
+  {
+    "Categoria": "e1500",
+    "Descrição": "Arquitectura"
+  },
+  {
+    "Categoria": "e1501",
+    "Descrição": "Arquitectura"
+  },
+  {
+    "Categoria": "e1502",
+    "Descrição": "Arquitectura"
+  },
+  {
+    "Categoria": "e1503",
+    "Descrição": "Produtos e tecnologia usados em projeto"
+  },
+  {
+    "Categoria": "e1508",
+    "Descrição": "Arquitectura"
+  },
+  {
+    "Categoria": "e1509",
+    "Descrição": "Arquitectura"
+  },
+  {
+    "Categoria": "e155",
+    "Descrição": "Arquitectura"
+  },
+  {
+    "Categoria": "e1550",
+    "Descrição": "Arquitectura"
+  },
+  {
+    "Categoria": "e1551",
+    "Descrição": "Arquitectura"
+  },
+  {
+    "Categoria": "e1552",
+    "Descrição": "Arquitectura"
+  },
+  {
+    "Categoria": "e1553",
+    "Descrição": "Produtos e tecnologia usados em projeto"
+  },
+  {
+    "Categoria": "e1558",
+    "Descrição": "Arquitectura"
+  },
+  {
+    "Categoria": "e1559",
+    "Descrição": "Arquitectura"
+  },
+  {
+    "Categoria": "e160",
+    "Descrição": "Produtos e tecnologias relacionados com a utilização e a exploração dos solos"
+  },
+  {
+    "Categoria": "e1600",
+    "Descrição": "Produtos e tecnologias relacionados com o desenvolvimento das zonas rurais"
+  },
+  {
+    "Categoria": "e1601",
+    "Descrição": "Produtos e tecnologias relacionados com o desenvolvimento de zonas residenciais (suburbanas)"
+  },
+  {
+    "Categoria": "e1602",
+    "Descrição": "Produtos e tecnologias relacionados com o desenvolvimento de zonas urbanas"
+  },
+  {
+    "Categoria": "e1603",
+    "Descrição": "Produtos e tecnologias relacionados com parques"
+  },
+  {
+    "Categoria": "e1608",
+    "Descrição": "Produtos e tecnologias relacionados com a utilização e exploração dos solos"
+  },
+  {
+    "Categoria": "e1609",
+    "Descrição": "Produtos e tecnologias relacionados com a utilização e exploração dos solos"
+  },
+  {
+    "Categoria": "e165",
+    "Descrição": "Bens"
+  },
+  {
+    "Categoria": "e1650",
+    "Descrição": "Património financeiro"
+  },
+  {
+    "Categoria": "e1651",
+    "Descrição": "Bens materiais"
+  },
+  {
+    "Categoria": "e1652",
+    "Descrição": "Bens não materiais"
+  },
+  {
+    "Categoria": "e1658",
+    "Descrição": "Bens"
+  },
+  {
+    "Categoria": "e1659",
+    "Descrição": "Bens"
+  },
+  {
+    "Categoria": "e198",
+    "Descrição": "Produtos e tecnologias"
+  },
+  {
+    "Categoria": "e199",
+    "Descrição": "Produtos e tecnologias"
+  },
+  {
+    "Categoria": "e2",
+    "Descrição": "Ambiente natural e mudanças ambientais feitas pelo homem"
+  },
+  {
+    "Categoria": "e210",
+    "Descrição": "Geografia física"
+  },
+  {
+    "Categoria": "e2100",
+    "Descrição": "Orografia"
+  },
+  {
+    "Categoria": "e2101",
+    "Descrição": "Hidrografia"
+  },
+  {
+    "Categoria": "e2108",
+    "Descrição": "Geografia física"
+  },
+  {
+    "Categoria": "e2109",
+    "Descrição": "Geografia física"
+  },
+  {
+    "Categoria": "e215",
+    "Descrição": "População"
+  },
+  {
+    "Categoria": "e2150",
+    "Descrição": "Alteração demográfica"
+  },
+  {
+    "Categoria": "e2151",
+    "Descrição": "Densidade populacional"
+  },
+  {
+    "Categoria": "e2158",
+    "Descrição": "População"
+  },
+  {
+    "Categoria": "e2159",
+    "Descrição": "População"
+  },
+  {
+    "Categoria": "e220",
+    "Descrição": "Flora e fauna"
+  },
+  {
+    "Categoria": "e2200",
+    "Descrição": "Plantas"
+  },
+  {
+    "Categoria": "e2201",
+    "Descrição": "Animais"
+  },
+  {
+    "Categoria": "e2208",
+    "Descrição": "Fauna e flora"
+  },
+  {
+    "Categoria": "e2209",
+    "Descrição": "Fauna e flora"
+  },
+  {
+    "Categoria": "e225",
+    "Descrição": "Clima"
+  },
+  {
+    "Categoria": "e2250",
+    "Descrição": "Temperatura"
+  },
+  {
+    "Categoria": "e2251",
+    "Descrição": "Humidade"
+  },
+  {
+    "Categoria": "e2252",
+    "Descrição": "Pressão atmosférica"
+  },
+  {
+    "Categoria": "e2253",
+    "Descrição": "Precipitação"
+  },
+  {
+    "Categoria": "e2254",
+    "Descrição": "Vento"
+  },
+  {
+    "Categoria": "e2255",
+    "Descrição": "Variação sazonal"
+  },
+  {
+    "Categoria": "e2258",
+    "Descrição": "Clima"
+  },
+  {
+    "Categoria": "e2259",
+    "Descrição": "Clima"
+  },
+  {
+    "Categoria": "e230",
+    "Descrição": "Desastres naturais"
+  },
+  {
+    "Categoria": "e235",
+    "Descrição": "Desastres causados pelo homem"
+  },
+  {
+    "Categoria": "e240",
+    "Descrição": "Luz"
+  },
+  {
+    "Categoria": "e2400",
+    "Descrição": "Intensidade da luz"
+  },
+  {
+    "Categoria": "e2401",
+    "Descrição": "Qualidade da luz"
+  },
+  {
+    "Categoria": "e2408",
+    "Descrição": "Luz"
+  },
+  {
+    "Categoria": "e2409",
+    "Descrição": "Luz"
+  },
+  {
+    "Categoria": "e245",
+    "Descrição": "Mudanças relacionadas com o tempo"
+  },
+  {
+    "Categoria": "e2450",
+    "Descrição": "Ciclos dia/noite"
+  },
+  {
+    "Categoria": "e2451",
+    "Descrição": "Ciclos lunares"
+  },
+  {
+    "Categoria": "e2458",
+    "Descrição": "Mudanças temporais periódicas"
+  },
+  {
+    "Categoria": "e2459",
+    "Descrição": "Mudanças relacionadas com o tempo"
+  },
+  {
+    "Categoria": "e250",
+    "Descrição": "Som"
+  },
+  {
+    "Categoria": "e2500",
+    "Descrição": "Intensidade do som"
+  },
+  {
+    "Categoria": "e2501",
+    "Descrição": "Qualidade do som"
+  },
+  {
+    "Categoria": "e2508",
+    "Descrição": "Som"
+  },
+  {
+    "Categoria": "e2509",
+    "Descrição": "Som"
+  },
+  {
+    "Categoria": "e255",
+    "Descrição": "Vibração"
+  },
+  {
+    "Categoria": "e260",
+    "Descrição": "Qualidade do ar"
+  },
+  {
+    "Categoria": "e2600",
+    "Descrição": "Qualidade do ar interior"
+  },
+  {
+    "Categoria": "e2601",
+    "Descrição": "Qualidade do ar exterior"
+  },
+  {
+    "Categoria": "e2608",
+    "Descrição": "Qualidade do ar"
+  },
+  {
+    "Categoria": "e2609",
+    "Descrição": "Qualidade do ar"
+  },
+  {
+    "Categoria": "e298",
+    "Descrição": "Ambiente natural e mudanças ambientais feitas pelo homem"
+  },
+  {
+    "Categoria": "e299",
+    "Descrição": "Ambiente natural e mudanças ambientais feitas pelo homem"
+  },
+  {
+    "Categoria": "e3",
+    "Descrição": "Apoio e relacionamentos"
+  },
+  {
+    "Categoria": "e310",
+    "Descrição": "Família nuclear"
+  },
+  {
+    "Categoria": "e315",
+    "Descrição": "Família ampliada"
+  },
+  {
+    "Categoria": "e320",
+    "Descrição": "Amigos"
+  },
+  {
+    "Categoria": "e325",
+    "Descrição": "Conhecidos"
+  },
+  {
+    "Categoria": "e330",
+    "Descrição": "Pessoas em posição de autoridade"
+  },
+  {
+    "Categoria": "e335",
+    "Descrição": "Pessoas em posições subordinadas"
+  },
+  {
+    "Categoria": "e340",
+    "Descrição": "Prestadores de cuidados pessoais e assistentes pessoais"
+  },
+  {
+    "Categoria": "e345",
+    "Descrição": "Estranhos"
+  },
+  {
+    "Categoria": "e350",
+    "Descrição": "Animais domesticados"
+  },
+  {
+    "Categoria": "e355",
+    "Descrição": "Profissionais de saúde"
+  },
+  {
+    "Categoria": "e360",
+    "Descrição": "Outros profissionais"
+  },
+  {
+    "Categoria": "e398",
+    "Descrição": "Apoio e relacionamentos"
+  },
+  {
+    "Categoria": "e399",
+    "Descrição": "Apoio e relacionamentos"
+  },
+  {
+    "Categoria": "e4",
+    "Descrição": "Atitudes"
+  },
+  {
+    "Categoria": "e410",
+    "Descrição": "Atitudes individuais de membros da família próxima"
+  },
+  {
+    "Categoria": "e415",
+    "Descrição": "Atitudes individuais de membros da família alargada"
+  },
+  {
+    "Categoria": "e420",
+    "Descrição": "Atitudes individuais dos amigos"
+  },
+  {
+    "Categoria": "e425",
+    "Descrição": "Atitudes individuais de conhecidos"
+  },
+  {
+    "Categoria": "e430",
+    "Descrição": "Atitudes individuais de pessoas em posições de autoridade"
+  },
+  {
+    "Categoria": "e435",
+    "Descrição": "Atitudes individuais de pessoas em posições subordinadas"
+  },
+  {
+    "Categoria": "e440",
+    "Descrição": "Atitudes individuais de prestadores de cuidados pessoais e assistentes pessoais"
+  },
+  {
+    "Categoria": "e445",
+    "Descrição": "Atitudes individuais de estranhos"
+  },
+  {
+    "Categoria": "e450",
+    "Descrição": "Atitudes individuais de profissionais de saúde"
+  },
+  {
+    "Categoria": "e455",
+    "Descrição": "Atitudes individuais de outros profissionais"
+  },
+  {
+    "Categoria": "e460",
+    "Descrição": "Atitudes sociais"
+  },
+  {
+    "Categoria": "e465",
+    "Descrição": "Normas"
+  },
+  {
+    "Categoria": "e498",
+    "Descrição": "Atitudes"
+  },
+  {
+    "Categoria": "e499",
+    "Descrição": "Atitudes"
+  },
+  {
+    "Categoria": "e5",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e510",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5100",
+    "Descrição": "Serviços para a produção de bens de consumo"
+  },
+  {
+    "Categoria": "e5101",
+    "Descrição": "Sistemas para a produção de bens de consumo"
+  },
+  {
+    "Categoria": "e5102",
+    "Descrição": "Políticas para a produção de bens de consumo"
+  },
+  {
+    "Categoria": "e5108",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5109",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e515",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5150",
+    "Descrição": "Serviços relacionados com a arquitectura e a construção"
+  },
+  {
+    "Categoria": "e5151",
+    "Descrição": "Sistemas relacionados com a arquitectura e a construção"
+  },
+  {
+    "Categoria": "e5152",
+    "Descrição": "Políticas relacionados com a arquitectura e a construção"
+  },
+  {
+    "Categoria": "e5158",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5159",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e520",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5200",
+    "Descrição": "Serviços relacionados com o planeamento de espaços abertos"
+  },
+  {
+    "Categoria": "e5201",
+    "Descrição": "Sistemas relacionados com o planeamento de espaços abertos"
+  },
+  {
+    "Categoria": "e5202",
+    "Descrição": "Políticas relacionados com o planeamento de espaços abertos"
+  },
+  {
+    "Categoria": "e5208",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5209",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e525",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5250",
+    "Descrição": "Serviços relacionados com a habitação"
+  },
+  {
+    "Categoria": "e5251",
+    "Descrição": "Sistemas relacionados com a habitação"
+  },
+  {
+    "Categoria": "e5252",
+    "Descrição": "Políticas relacionadas com a habitação"
+  },
+  {
+    "Categoria": "e5258",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5259",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e530",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5300",
+    "Descrição": "Serviços de utilidade pública"
+  },
+  {
+    "Categoria": "e5301",
+    "Descrição": "Sistemas de serviços de utilidade pública"
+  },
+  {
+    "Categoria": "e5302",
+    "Descrição": "Políticas de serviços de utilidade pública"
+  },
+  {
+    "Categoria": "e5308",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5309",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e535",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5350",
+    "Descrição": "Serviços relacionados com a comunicação"
+  },
+  {
+    "Categoria": "e5351",
+    "Descrição": "Sistemas relacionados com a comunicação"
+  },
+  {
+    "Categoria": "e5352",
+    "Descrição": "Políticas relacionadas com a comunicação"
+  },
+  {
+    "Categoria": "e5358",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5359",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e540",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5400",
+    "Descrição": "Serviços relacionados com os transportes"
+  },
+  {
+    "Categoria": "e5401",
+    "Descrição": "Sistemas relacionados com os transportes"
+  },
+  {
+    "Categoria": "e5402",
+    "Descrição": "Políticas relacionados com os transportes"
+  },
+  {
+    "Categoria": "e5408",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5409",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e545",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5450",
+    "Descrição": "Serviços de protecção civil"
+  },
+  {
+    "Categoria": "e5451",
+    "Descrição": "Sistemas de protecção civil"
+  },
+  {
+    "Categoria": "e5452",
+    "Descrição": "Políticas de protecção civil"
+  },
+  {
+    "Categoria": "e5458",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5459",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e550",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5500",
+    "Descrição": "Serviços relacionados com o sistema legal"
+  },
+  {
+    "Categoria": "e5501",
+    "Descrição": "Sistemas relacionados com o sistema legal"
+  },
+  {
+    "Categoria": "e5502",
+    "Descrição": "Políticas relacionados com o sistema legal"
+  },
+  {
+    "Categoria": "e5508",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5509",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e555",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5550",
+    "Descrição": "Serviços relacionados com associações e organizações"
+  },
+  {
+    "Categoria": "e5551",
+    "Descrição": "Sistemas relacionados com associações e organizações"
+  },
+  {
+    "Categoria": "e5552",
+    "Descrição": "Políticas relacionadas com associações e organizações"
+  },
+  {
+    "Categoria": "e5558",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5559",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e560",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5600",
+    "Descrição": "Serviços relacionados com os meios de comunicação"
+  },
+  {
+    "Categoria": "e5601",
+    "Descrição": "Sistemas relacionados com os meios de comunicação"
+  },
+  {
+    "Categoria": "e5602",
+    "Descrição": "Políticas relacionadas com os meios de comunicação"
+  },
+  {
+    "Categoria": "e5608",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5609",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e565",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5650",
+    "Descrição": "Serviços relacionados com a economia"
+  },
+  {
+    "Categoria": "e5651",
+    "Descrição": "Sistemas relacionados com a economia"
+  },
+  {
+    "Categoria": "e5652",
+    "Descrição": "Políticas relacionados com a economia"
+  },
+  {
+    "Categoria": "e5658",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5659",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e570",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5700",
+    "Descrição": "Serviços da segurança social"
+  },
+  {
+    "Categoria": "e5701",
+    "Descrição": "Sistemas de segurança social"
+  },
+  {
+    "Categoria": "e5702",
+    "Descrição": "Políticas de segurança social"
+  },
+  {
+    "Categoria": "e5708",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5709",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e575",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5750",
+    "Descrição": "Serviços de apoio social em geral"
+  },
+  {
+    "Categoria": "e5751",
+    "Descrição": "Sistemas de apoio social em geral"
+  },
+  {
+    "Categoria": "e5752",
+    "Descrição": "Políticas de apoio social em geral"
+  },
+  {
+    "Categoria": "e5758",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5759",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e580",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5800",
+    "Descrição": "Serviços de saúde"
+  },
+  {
+    "Categoria": "e5801",
+    "Descrição": "Sistemas de saúde"
+  },
+  {
+    "Categoria": "e5802",
+    "Descrição": "Políticas de saúde"
+  },
+  {
+    "Categoria": "e5808",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5809",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e585",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5850",
+    "Descrição": "Serviços de educação e formação profissional"
+  },
+  {
+    "Categoria": "e5851",
+    "Descrição": "Sistemas de educação e formação profissional"
+  },
+  {
+    "Categoria": "e5852",
+    "Descrição": "Políticas de educação e formação profissional"
+  },
+  {
+    "Categoria": "e5858",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5859",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e590",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5900",
+    "Descrição": "Serviços relacionados com trabalho e emprego"
+  },
+  {
+    "Categoria": "e5901",
+    "Descrição": "Sistemas relacionados com trabalho e emprego"
+  },
+  {
+    "Categoria": "e5902",
+    "Descrição": "Políticas relacionados com trabalho e emprego"
+  },
+  {
+    "Categoria": "e5908",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5909",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e595",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5950",
+    "Descrição": "Serviços políticos"
+  },
+  {
+    "Categoria": "e5951",
+    "Descrição": "Sistemas políticos"
+  },
+  {
+    "Categoria": "e5952",
+    "Descrição": "Políticas relacionadas com a política"
+  },
+  {
+    "Categoria": "e5958",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e5959",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e598",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "e599",
+    "Descrição": "Serviços"
+  },
+  {
+    "Categoria": "s1",
+    "Descrição": "Estruturas do sistema nervoso"
+  },
+  {
+    "Categoria": "s110",
+    "Descrição": "Estrutura do cérebro"
+  },
+  {
+    "Categoria": "s1100",
+    "Descrição": "Estrutura dos lobos corticais"
+  },
+  {
+    "Categoria": "s11000",
+    "Descrição": "Lobo frontal"
+  },
+  {
+    "Categoria": "s11001",
+    "Descrição": "Lobo temporal"
+  },
+  {
+    "Categoria": "s11002",
+    "Descrição": "Lobo parietal"
+  },
+  {
+    "Categoria": "s11003",
+    "Descrição": "Lobo occipital"
+  },
+  {
+    "Categoria": "s11008",
+    "Descrição": "Estrutura dos lobos corticais"
+  },
+  {
+    "Categoria": "s11009",
+    "Descrição": "Estrutura dos lobos corticais"
+  },
+  {
+    "Categoria": "s1101",
+    "Descrição": "Estrutura do mesencéfalo"
+  },
+  {
+    "Categoria": "s1102",
+    "Descrição": "Estrutura do diencéfalo"
+  },
+  {
+    "Categoria": "s1103",
+    "Descrição": "Gânglios basais e estruturas relacionadas"
+  },
+  {
+    "Categoria": "s1104",
+    "Descrição": "Estrutura do cerebelo"
+  },
+  {
+    "Categoria": "s1105",
+    "Descrição": "Estrutura do tronco cerebral"
+  },
+  {
+    "Categoria": "s11050",
+    "Descrição": "Bolbo raquidiano"
+  },
+  {
+    "Categoria": "s11051",
+    "Descrição": "Protuberância"
+  },
+  {
+    "Categoria": "s11058",
+    "Descrição": "Estrutura do tronco cerebral"
+  },
+  {
+    "Categoria": "s11059",
+    "Descrição": "Estrutura do tronco cerebral"
+  },
+  {
+    "Categoria": "s1106",
+    "Descrição": "Estrutura dos nervos cranianos"
+  },
+  {
+    "Categoria": "s1108",
+    "Descrição": "Estrutura do cérebro"
+  },
+  {
+    "Categoria": "s1109",
+    "Descrição": "Estrutura do cérebro"
+  },
+  {
+    "Categoria": "s120",
+    "Descrição": "Medula espinhal e estruturas relacionadas"
+  },
+  {
+    "Categoria": "s1200",
+    "Descrição": "Estrutura da medula espinhal"
+  },
+  {
+    "Categoria": "s12000",
+    "Descrição": "Medula espinhal cervical"
+  },
+  {
+    "Categoria": "s12001",
+    "Descrição": "Medula espinhal torácica"
+  },
+  {
+    "Categoria": "s12002",
+    "Descrição": "Medula espinhal lombossagrada ou sacrolombar"
+  },
+  {
+    "Categoria": "s12003",
+    "Descrição": "Cauda equina"
+  },
+  {
+    "Categoria": "s12008",
+    "Descrição": "Estrutura da medula espinhal"
+  },
+  {
+    "Categoria": "s12009",
+    "Descrição": "Estrutura da medula espinhal"
+  },
+  {
+    "Categoria": "s1201",
+    "Descrição": "Nervos raquidianos"
+  },
+  {
+    "Categoria": "s1208",
+    "Descrição": "Medula espinhal e estruturas relacionadas"
+  },
+  {
+    "Categoria": "s1209",
+    "Descrição": "Medula espinhal e estruturas relacionadas"
+  },
+  {
+    "Categoria": "s130",
+    "Descrição": "Estrutura das meninges"
+  },
+  {
+    "Categoria": "s140",
+    "Descrição": "Estrutura do sistema nervoso simpático"
+  },
+  {
+    "Categoria": "s150",
+    "Descrição": "Estrutura do sistema nervoso parassimpático"
+  },
+  {
+    "Categoria": "s198",
+    "Descrição": "Estrutura do sistema nervoso"
+  },
+  {
+    "Categoria": "s199",
+    "Descrição": "Estrutura do sistema nervoso"
+  },
+  {
+    "Categoria": "s2",
+    "Descrição": "Olho"
+  },
+  {
+    "Categoria": "s210",
+    "Descrição": "Estrutura da cavidade ocular"
+  },
+  {
+    "Categoria": "s220",
+    "Descrição": "Estrutura do globo ocular"
+  },
+  {
+    "Categoria": "s2200",
+    "Descrição": "Conjuntiva"
+  },
+  {
+    "Categoria": "s2201",
+    "Descrição": "Córnea"
+  },
+  {
+    "Categoria": "s2202",
+    "Descrição": "Íris"
+  },
+  {
+    "Categoria": "s2203",
+    "Descrição": "Retina"
+  },
+  {
+    "Categoria": "s2204",
+    "Descrição": "Cristalino"
+  },
+  {
+    "Categoria": "s2205",
+    "Descrição": "Corpo vítreo"
+  },
+  {
+    "Categoria": "s2208",
+    "Descrição": "Estrutura do globo ocular"
+  },
+  {
+    "Categoria": "s2209",
+    "Descrição": "Estrutura do globo ocular"
+  },
+  {
+    "Categoria": "s230",
+    "Descrição": "Estruturas anexas ao olho"
+  },
+  {
+    "Categoria": "s2300",
+    "Descrição": "Glândula lacrimal e estruturas relacionadas"
+  },
+  {
+    "Categoria": "s2301",
+    "Descrição": "Pálpebra"
+  },
+  {
+    "Categoria": "s2302",
+    "Descrição": "Sobrancelha"
+  },
+  {
+    "Categoria": "s2303",
+    "Descrição": "Músculos oculares externos"
+  },
+  {
+    "Categoria": "s2308",
+    "Descrição": "Estruturas anexas ao olho"
+  },
+  {
+    "Categoria": "s2309",
+    "Descrição": "Estrutura anexas ao olho"
+  },
+  {
+    "Categoria": "s240",
+    "Descrição": "Estrutura do ouvido externo"
+  },
+  {
+    "Categoria": "s250",
+    "Descrição": "Estrutura do ouvido médio"
+  },
+  {
+    "Categoria": "s2500",
+    "Descrição": "Membrana do tímpano"
+  },
+  {
+    "Categoria": "s2501",
+    "Descrição": "Trompa de Eustáquio"
+  },
+  {
+    "Categoria": "s2502",
+    "Descrição": "Ossículos"
+  },
+  {
+    "Categoria": "s2508",
+    "Descrição": "Estrutura do ouvido médio"
+  },
+  {
+    "Categoria": "s2509",
+    "Descrição": "Estrutura do ouvido médio"
+  },
+  {
+    "Categoria": "s260",
+    "Descrição": "Estrutura do ouvido interno"
+  },
+  {
+    "Categoria": "s2600",
+    "Descrição": "Cóclea"
+  },
+  {
+    "Categoria": "s2601",
+    "Descrição": "Labirinto vestibular"
+  },
+  {
+    "Categoria": "s2602",
+    "Descrição": "Canais semicirculares"
+  },
+  {
+    "Categoria": "s2603",
+    "Descrição": "Canal auditivo interno"
+  },
+  {
+    "Categoria": "s2608",
+    "Descrição": "Estrutura do ouvido interno"
+  },
+  {
+    "Categoria": "s2609",
+    "Descrição": "Estrutura do ouvido interno"
+  },
+  {
+    "Categoria": "s298",
+    "Descrição": "Olho"
+  },
+  {
+    "Categoria": "s299",
+    "Descrição": "Olho"
+  },
+  {
+    "Categoria": "s3",
+    "Descrição": "Estruturas relacionadas com a voz e a fala"
+  },
+  {
+    "Categoria": "s310",
+    "Descrição": "Estrutura do nariz"
+  },
+  {
+    "Categoria": "s3100",
+    "Descrição": "Nariz externo"
+  },
+  {
+    "Categoria": "s3101",
+    "Descrição": "Septo nasal"
+  },
+  {
+    "Categoria": "s3102",
+    "Descrição": "Fossas nasais"
+  },
+  {
+    "Categoria": "s3108",
+    "Descrição": "Estrutura do nariz"
+  },
+  {
+    "Categoria": "s3109",
+    "Descrição": "Estrutura do nariz"
+  },
+  {
+    "Categoria": "s320",
+    "Descrição": "Estrutura da boca"
+  },
+  {
+    "Categoria": "s3200",
+    "Descrição": "Dentes"
+  },
+  {
+    "Categoria": "s32000",
+    "Descrição": "Dentição primária"
+  },
+  {
+    "Categoria": "s32001",
+    "Descrição": "Dentição permanente"
+  },
+  {
+    "Categoria": "s32008",
+    "Descrição": "Dentes"
+  },
+  {
+    "Categoria": "s32009",
+    "Descrição": "Dentes"
+  },
+  {
+    "Categoria": "s3201",
+    "Descrição": "Gengivas"
+  },
+  {
+    "Categoria": "s3202",
+    "Descrição": "Estrutura do palato"
+  },
+  {
+    "Categoria": "s32020",
+    "Descrição": "Palato duro"
+  },
+  {
+    "Categoria": "s32021",
+    "Descrição": "Palato mole"
+  },
+  {
+    "Categoria": "s3203",
+    "Descrição": "Língua"
+  },
+  {
+    "Categoria": "s3204",
+    "Descrição": "Estrutura do lábio"
+  },
+  {
+    "Categoria": "s32040",
+    "Descrição": "Lábio superior"
+  },
+  {
+    "Categoria": "s32041",
+    "Descrição": "Lábio inferior"
+  },
+  {
+    "Categoria": "s3205",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "s3208",
+    "Descrição": "Estrutura da boca"
+  },
+  {
+    "Categoria": "s3209",
+    "Descrição": "Estrutura da boca"
+  },
+  {
+    "Categoria": "s330",
+    "Descrição": "Estrutura da faringe"
+  },
+  {
+    "Categoria": "s3300",
+    "Descrição": "Nasofaringe"
+  },
+  {
+    "Categoria": "s3301",
+    "Descrição": "Orofaringe"
+  },
+  {
+    "Categoria": "s3308",
+    "Descrição": "Estrutura da faringe"
+  },
+  {
+    "Categoria": "s3309",
+    "Descrição": "Estrutura da faringe"
+  },
+  {
+    "Categoria": "s340",
+    "Descrição": "Estrutura da laringe"
+  },
+  {
+    "Categoria": "s3400",
+    "Descrição": "Cordas vocais"
+  },
+  {
+    "Categoria": "s3408",
+    "Descrição": "Estrutura da laringe"
+  },
+  {
+    "Categoria": "s3409",
+    "Descrição": "Estrutura da laringe"
+  },
+  {
+    "Categoria": "s398",
+    "Descrição": "Estruturas relacionadas com a voz e a fala"
+  },
+  {
+    "Categoria": "s399",
+    "Descrição": "Estruturas relacionas com a voz e a fala"
+  },
+  {
+    "Categoria": "s4",
+    "Descrição": "Estruturas do aparelho cardiovascular"
+  },
+  {
+    "Categoria": "s410",
+    "Descrição": "Estrutura do aparelho cardiovascular"
+  },
+  {
+    "Categoria": "s4100",
+    "Descrição": "Coração"
+  },
+  {
+    "Categoria": "s41000",
+    "Descrição": "Aurículas"
+  },
+  {
+    "Categoria": "s41001",
+    "Descrição": "Ventrículos"
+  },
+  {
+    "Categoria": "s41008",
+    "Descrição": "Estrutura do coração"
+  },
+  {
+    "Categoria": "s41009",
+    "Descrição": "Estrutura do coração"
+  },
+  {
+    "Categoria": "s4101",
+    "Descrição": "Artérias"
+  },
+  {
+    "Categoria": "s4102",
+    "Descrição": "Veias"
+  },
+  {
+    "Categoria": "s4103",
+    "Descrição": "Capilares"
+  },
+  {
+    "Categoria": "s4108",
+    "Descrição": "Estrutura do aparelho cardiovascular"
+  },
+  {
+    "Categoria": "s4109",
+    "Descrição": "Estrutura do aparelho cardiovascular"
+  },
+  {
+    "Categoria": "s420",
+    "Descrição": "Estrutura do sistema imunológico"
+  },
+  {
+    "Categoria": "s4200",
+    "Descrição": "Vasos linfáticos"
+  },
+  {
+    "Categoria": "s4201",
+    "Descrição": "Gânglios linfáticos"
+  },
+  {
+    "Categoria": "s4202",
+    "Descrição": "Timo"
+  },
+  {
+    "Categoria": "s4203",
+    "Descrição": "Baço"
+  },
+  {
+    "Categoria": "s4204",
+    "Descrição": "Medula óssea"
+  },
+  {
+    "Categoria": "s4208",
+    "Descrição": "Estrutura do sistema imunológico"
+  },
+  {
+    "Categoria": "s4209",
+    "Descrição": "Estrutura do sistema imunológico"
+  },
+  {
+    "Categoria": "s430",
+    "Descrição": "Estrutura do aparelho respiratório"
+  },
+  {
+    "Categoria": "s4300",
+    "Descrição": "Traqueia"
+  },
+  {
+    "Categoria": "s4301",
+    "Descrição": "Pulmões"
+  },
+  {
+    "Categoria": "s43010",
+    "Descrição": "Árvore brônquica"
+  },
+  {
+    "Categoria": "s43011",
+    "Descrição": "Alvéolos"
+  },
+  {
+    "Categoria": "s43018",
+    "Descrição": "Estrutura dos pulmões"
+  },
+  {
+    "Categoria": "s43019",
+    "Descrição": "Estrutura dos pulmões"
+  },
+  {
+    "Categoria": "s4302",
+    "Descrição": "Caixa torácica"
+  },
+  {
+    "Categoria": "s4303",
+    "Descrição": "Músculos da respiração"
+  },
+  {
+    "Categoria": "s43030",
+    "Descrição": "Músculos intercostais"
+  },
+  {
+    "Categoria": "s43031",
+    "Descrição": "Diafragma"
+  },
+  {
+    "Categoria": "s43038",
+    "Descrição": "Músculos da respiração"
+  },
+  {
+    "Categoria": "s43039",
+    "Descrição": "Músculos da respiração"
+  },
+  {
+    "Categoria": "s4308",
+    "Descrição": "Estrutura do aparelho respiratório"
+  },
+  {
+    "Categoria": "s4309",
+    "Descrição": "Estrutura do aparelho respiratório"
+  },
+  {
+    "Categoria": "s498",
+    "Descrição": "Estruturas do aparelho cardiovascular"
+  },
+  {
+    "Categoria": "s499",
+    "Descrição": "Estruturas do aparelho cardiovascular"
+  },
+  {
+    "Categoria": "s5",
+    "Descrição": "Estruturas relacionadas com o aparelho digestivo e com os sistemas metabólico e endócrino"
+  },
+  {
+    "Categoria": "s510",
+    "Descrição": "Estrutura das glândulas salivares"
+  },
+  {
+    "Categoria": "s520",
+    "Descrição": "Estrutura do esófago"
+  },
+  {
+    "Categoria": "s530",
+    "Descrição": "Estrutura do estômago"
+  },
+  {
+    "Categoria": "s540",
+    "Descrição": "Estrutura dos intestinos"
+  },
+  {
+    "Categoria": "s5400",
+    "Descrição": "Intestino delgado"
+  },
+  {
+    "Categoria": "s5401",
+    "Descrição": "Intestino grosso"
+  },
+  {
+    "Categoria": "s5408",
+    "Descrição": "Estrutura do intestino"
+  },
+  {
+    "Categoria": "s5409",
+    "Descrição": "Estrutura do intestino"
+  },
+  {
+    "Categoria": "s550",
+    "Descrição": "Estrutura do pâncreas"
+  },
+  {
+    "Categoria": "s560",
+    "Descrição": "Estrutura do fígado"
+  },
+  {
+    "Categoria": "s570",
+    "Descrição": "Estrutura da vesícula e vias biliares"
+  },
+  {
+    "Categoria": "s580",
+    "Descrição": "Estrutura das glândulas endócrinas"
+  },
+  {
+    "Categoria": "s5800",
+    "Descrição": "Glândula pituitária"
+  },
+  {
+    "Categoria": "s5801",
+    "Descrição": "Glândula tiróide"
+  },
+  {
+    "Categoria": "s5802",
+    "Descrição": "Glândula paratiróide"
+  },
+  {
+    "Categoria": "s5803",
+    "Descrição": "Glândula supra-renal"
+  },
+  {
+    "Categoria": "s5808",
+    "Descrição": "Estrutura das glândulas endócrinas"
+  },
+  {
+    "Categoria": "s5809",
+    "Descrição": "Estrutura das glândulas endócrinas"
+  },
+  {
+    "Categoria": "s598",
+    "Descrição": "Estruturas relacionadas com o aparelho digestivo e com os sistemas metabólico e endócrino"
+  },
+  {
+    "Categoria": "s599",
+    "Descrição": "Estruturas relacionadas com o aparelho digestivo e com os sistemas metabólico e endócrino"
+  },
+  {
+    "Categoria": "s6",
+    "Descrição": "Estruturas relacionadas com os aparelhos genitourinário e reprodutivo"
+  },
+  {
+    "Categoria": "s610",
+    "Descrição": "Estrutura do aparelho urinário"
+  },
+  {
+    "Categoria": "s6100",
+    "Descrição": "Rim"
+  },
+  {
+    "Categoria": "s6101",
+    "Descrição": "Ureteres"
+  },
+  {
+    "Categoria": "s6102",
+    "Descrição": "Bexiga"
+  },
+  {
+    "Categoria": "s6103",
+    "Descrição": "Uretra"
+  },
+  {
+    "Categoria": "s6108",
+    "Descrição": "Estrutura do aparelho urinário"
+  },
+  {
+    "Categoria": "s6109",
+    "Descrição": "Estrutura do aparelho urinário"
+  },
+  {
+    "Categoria": "s620",
+    "Descrição": "Estrutura do pavimento pélvico"
+  },
+  {
+    "Categoria": "s630",
+    "Descrição": "Estrutura do aparelho reprodutivo"
+  },
+  {
+    "Categoria": "s6300",
+    "Descrição": "Ovários"
+  },
+  {
+    "Categoria": "s6301",
+    "Descrição": "Estrutura do útero"
+  },
+  {
+    "Categoria": "s63010",
+    "Descrição": "Corpo do útero"
+  },
+  {
+    "Categoria": "s63011",
+    "Descrição": "Colo do útero"
+  },
+  {
+    "Categoria": "s63012",
+    "Descrição": "Trompas de Falópio"
+  },
+  {
+    "Categoria": "s63018",
+    "Descrição": "Estrutura do útero"
+  },
+  {
+    "Categoria": "s63019",
+    "Descrição": "Estrutura do útero"
+  },
+  {
+    "Categoria": "s6302",
+    "Descrição": "Mamas e mamilos"
+  },
+  {
+    "Categoria": "s6303",
+    "Descrição": "Estrutura da vagina e órgãos genitais externos"
+  },
+  {
+    "Categoria": "s63030",
+    "Descrição": "Clítoris"
+  },
+  {
+    "Categoria": "s63031",
+    "Descrição": "Grandes lábios"
+  },
+  {
+    "Categoria": "s63032",
+    "Descrição": "Pequenos lábios"
+  },
+  {
+    "Categoria": "s63033",
+    "Descrição": "Canal vaginal"
+  },
+  {
+    "Categoria": "s6304",
+    "Descrição": "Testículos"
+  },
+  {
+    "Categoria": "s6305",
+    "Descrição": "Estrutura do pénis"
+  },
+  {
+    "Categoria": "s63050",
+    "Descrição": "Glande peniana"
+  },
+  {
+    "Categoria": "s63051",
+    "Descrição": "Corpo esponjoso do pénis"
+  },
+  {
+    "Categoria": "s63058",
+    "Descrição": "Estrutura do pénis"
+  },
+  {
+    "Categoria": "s63059",
+    "Descrição": "Estrutura do pénis"
+  },
+  {
+    "Categoria": "s6306",
+    "Descrição": "Próstata"
+  },
+  {
+    "Categoria": "s6308",
+    "Descrição": "Estruturas do aparelho reprodutivo"
+  },
+  {
+    "Categoria": "s6309",
+    "Descrição": "Estruturas do aparelho reprodutivo"
+  },
+  {
+    "Categoria": "s698",
+    "Descrição": "Estruturas relacionadas com os aparelhos genitourinário e reprodutivo"
+  },
+  {
+    "Categoria": "s699",
+    "Descrição": "Estruturas relacionadas com os aparelhos genitourinário e reprodutivo"
+  },
+  {
+    "Categoria": "s7",
+    "Descrição": "Estruturas relacionadas com o movimento"
+  },
+  {
+    "Categoria": "s710",
+    "Descrição": "Estrutura da região da cabeça e pescoço"
+  },
+  {
+    "Categoria": "s7100",
+    "Descrição": "Ossos do crânio"
+  },
+  {
+    "Categoria": "s7101",
+    "Descrição": "Ossos da face"
+  },
+  {
+    "Categoria": "s7102",
+    "Descrição": "Ossos da região do pescoço"
+  },
+  {
+    "Categoria": "s7103",
+    "Descrição": "Articulações da região da cabeça e pescoço"
+  },
+  {
+    "Categoria": "s7104",
+    "Descrição": "Músculos da região da cabeça e pescoço"
+  },
+  {
+    "Categoria": "s7105",
+    "Descrição": "Ligamentos e fáscias da região da cabeça e pescoço"
+  },
+  {
+    "Categoria": "s7108",
+    "Descrição": "Estrutura da região da cabeça e pescoço"
+  },
+  {
+    "Categoria": "s7109",
+    "Descrição": "Estrutura da região da cabeça e pescoço"
+  },
+  {
+    "Categoria": "s720",
+    "Descrição": "Estrutura da região do ombro"
+  },
+  {
+    "Categoria": "s7200",
+    "Descrição": "Ossos da região do ombro"
+  },
+  {
+    "Categoria": "s7201",
+    "Descrição": "Articulações da região do ombro"
+  },
+  {
+    "Categoria": "s7202",
+    "Descrição": "Músculos da região do ombro"
+  },
+  {
+    "Categoria": "s7203",
+    "Descrição": "Ligamentos e fáscias da região do ombro"
+  },
+  {
+    "Categoria": "s7208",
+    "Descrição": "Estrutura da região do ombro"
+  },
+  {
+    "Categoria": "s7209",
+    "Descrição": "Estrutura da região do ombro"
+  },
+  {
+    "Categoria": "s730",
+    "Descrição": "Estrutura do membro superior"
+  },
+  {
+    "Categoria": "s7300",
+    "Descrição": "Estrutura do braço"
+  },
+  {
+    "Categoria": "s73000",
+    "Descrição": "Ossos do braço"
+  },
+  {
+    "Categoria": "s73001",
+    "Descrição": "Articulações da região do cotovelo"
+  },
+  {
+    "Categoria": "s73002",
+    "Descrição": "Músculos do braço"
+  },
+  {
+    "Categoria": "s73003",
+    "Descrição": "Ligamentos e fáscias do braço"
+  },
+  {
+    "Categoria": "s73008",
+    "Descrição": "Estrutura do braço"
+  },
+  {
+    "Categoria": "s73009",
+    "Descrição": "Estrutura do braço"
+  },
+  {
+    "Categoria": "s7301",
+    "Descrição": "Estrutura do antebraço"
+  },
+  {
+    "Categoria": "s73010",
+    "Descrição": "Ossos do antebraço"
+  },
+  {
+    "Categoria": "s73011",
+    "Descrição": "Articulação do punho"
+  },
+  {
+    "Categoria": "s73012",
+    "Descrição": "Músculos do antebraço"
+  },
+  {
+    "Categoria": "s73013",
+    "Descrição": "Ligamentos e fáscias do antebraço"
+  },
+  {
+    "Categoria": "s73018",
+    "Descrição": "Estrutura do antebraço"
+  },
+  {
+    "Categoria": "s73019",
+    "Descrição": "Estrutura do antebraço"
+  },
+  {
+    "Categoria": "s7302",
+    "Descrição": "Estrutura da mão"
+  },
+  {
+    "Categoria": "s73020",
+    "Descrição": "Ossos da mão"
+  },
+  {
+    "Categoria": "s73021",
+    "Descrição": "Articulações da mão e dos dedos"
+  },
+  {
+    "Categoria": "s73022",
+    "Descrição": "Músculos da mão"
+  },
+  {
+    "Categoria": "s73023",
+    "Descrição": "Ligamentos e fáscias da mão"
+  },
+  {
+    "Categoria": "s73028",
+    "Descrição": "Estrutura da mão"
+  },
+  {
+    "Categoria": "s73029",
+    "Descrição": "Estrutura da mão"
+  },
+  {
+    "Categoria": "s7308",
+    "Descrição": "Estrutura do membro superior"
+  },
+  {
+    "Categoria": "s7309",
+    "Descrição": "Estrutura do membro superior"
+  },
+  {
+    "Categoria": "s740",
+    "Descrição": "Estrutura da região pélvica"
+  },
+  {
+    "Categoria": "s7400",
+    "Descrição": "Ossos da região pélvica"
+  },
+  {
+    "Categoria": "s7401",
+    "Descrição": "Articulações da região pélvica"
+  },
+  {
+    "Categoria": "s7402",
+    "Descrição": "Músculos da região pélvica"
+  },
+  {
+    "Categoria": "s7403",
+    "Descrição": "Ligamentos e fáscias da região pélvica"
+  },
+  {
+    "Categoria": "s7408",
+    "Descrição": "Estrutura da região pélvica"
+  },
+  {
+    "Categoria": "s7409",
+    "Descrição": "Estrutura da região pélvica"
+  },
+  {
+    "Categoria": "s750",
+    "Descrição": "Estrutura do membro inferior"
+  },
+  {
+    "Categoria": "s7500",
+    "Descrição": "Estrutura da coxa"
+  },
+  {
+    "Categoria": "s75000",
+    "Descrição": "Ossos da coxa"
+  },
+  {
+    "Categoria": "s75001",
+    "Descrição": "Articulação da anca"
+  },
+  {
+    "Categoria": "s75002",
+    "Descrição": "Músculos da coxa"
+  },
+  {
+    "Categoria": "s75003",
+    "Descrição": "Ligamentos e fáscias da coxa"
+  },
+  {
+    "Categoria": "s75008",
+    "Descrição": "Estrutura da coxa"
+  },
+  {
+    "Categoria": "s75009",
+    "Descrição": "Estrutura da coxa"
+  },
+  {
+    "Categoria": "s7501",
+    "Descrição": "Estrutura da perna"
+  },
+  {
+    "Categoria": "s75010",
+    "Descrição": "Ossos da perna"
+  },
+  {
+    "Categoria": "s75011",
+    "Descrição": "Articulações da região do joelho"
+  },
+  {
+    "Categoria": "s75012",
+    "Descrição": "Músculos da perna"
+  },
+  {
+    "Categoria": "s75013",
+    "Descrição": "Ligamentos e fáscias da perna"
+  },
+  {
+    "Categoria": "s75018",
+    "Descrição": "Estrutura da perna"
+  },
+  {
+    "Categoria": "s75019",
+    "Descrição": "Estrutura da perna"
+  },
+  {
+    "Categoria": "s7502",
+    "Descrição": "Estrutura do tornozelo e pé"
+  },
+  {
+    "Categoria": "s75020",
+    "Descrição": "Ossos do tornozelo e do pé"
+  },
+  {
+    "Categoria": "s75021",
+    "Descrição": "Articulações do tornozelo e articulações do pé e dedos"
+  },
+  {
+    "Categoria": "s75022",
+    "Descrição": "Músculos do tornozelo e do pé"
+  },
+  {
+    "Categoria": "s75023",
+    "Descrição": "Ligamentos e fáscias do tornozelo e do pé"
+  },
+  {
+    "Categoria": "s75028",
+    "Descrição": "Estrutura do tornozelo e do pé"
+  },
+  {
+    "Categoria": "s75029",
+    "Descrição": "Estrutura do tornozelo e do pé"
+  },
+  {
+    "Categoria": "s7508",
+    "Descrição": "Estrutura do membro inferior"
+  },
+  {
+    "Categoria": "s7509",
+    "Descrição": "Estrutura do membro inferior"
+  },
+  {
+    "Categoria": "s760",
+    "Descrição": "Estrutura do tronco"
+  },
+  {
+    "Categoria": "s7600",
+    "Descrição": "Estrutura da coluna vertebral"
+  },
+  {
+    "Categoria": "s76000",
+    "Descrição": "Segmento vertebral cervical"
+  },
+  {
+    "Categoria": "s76001",
+    "Descrição": "Segmento vertebral torácico"
+  },
+  {
+    "Categoria": "s76002",
+    "Descrição": "Segmento vertebral lombar"
+  },
+  {
+    "Categoria": "s76003",
+    "Descrição": "Segmento vertebral sagrado"
+  },
+  {
+    "Categoria": "s76004",
+    "Descrição": "Cóccix"
+  },
+  {
+    "Categoria": "s76008",
+    "Descrição": "Estrutura da coluna vertebral"
+  },
+  {
+    "Categoria": "s76009",
+    "Descrição": "Estrutura da coluna vertebral"
+  },
+  {
+    "Categoria": "s7601",
+    "Descrição": "Músculos do tronco"
+  },
+  {
+    "Categoria": "s7602",
+    "Descrição": "Ligamentos e fáscias do tronco"
+  },
+  {
+    "Categoria": "s7608",
+    "Descrição": "Estrutura do tronco"
+  },
+  {
+    "Categoria": "s7609",
+    "Descrição": "Estrutura do tronco"
+  },
+  {
+    "Categoria": "s770",
+    "Descrição": "Estruturas musculoesqueléticas adicionais relacionadas com o movimento"
+  },
+  {
+    "Categoria": "s7700",
+    "Descrição": "Ossos"
+  },
+  {
+    "Categoria": "s7701",
+    "Descrição": "Articulações"
+  },
+  {
+    "Categoria": "s7702",
+    "Descrição": "Músculos"
+  },
+  {
+    "Categoria": "s7703",
+    "Descrição": "Ligamentos extra-articulares"
+  },
+  {
+    "Categoria": "s7708",
+    "Descrição": "Estruturas musculoesqueléticas adicionais relacionadas com o movimento"
+  },
+  {
+    "Categoria": "s7709",
+    "Descrição": "Estruturas musculoesqueléticas adicionais relacionadas com o movimento"
+  },
+  {
+    "Categoria": "s798",
+    "Descrição": "Estruturas relacionadas com o movimento"
+  },
+  {
+    "Categoria": "s799",
+    "Descrição": "Estruturas relacionadas com o movimento"
+  },
+  {
+    "Categoria": "s8",
+    "Descrição": "Pele e estruturas relacionadas"
+  },
+  {
+    "Categoria": "s810",
+    "Descrição": "Estrutura de áreas da pele"
+  },
+  {
+    "Categoria": "s8100",
+    "Descrição": "Pele da região da cabeça e do pescoço"
+  },
+  {
+    "Categoria": "s8101",
+    "Descrição": "Pele da região do ombro"
+  },
+  {
+    "Categoria": "s8102",
+    "Descrição": "Pele do membro superior"
+  },
+  {
+    "Categoria": "s8103",
+    "Descrição": "Pele da região pélvica"
+  },
+  {
+    "Categoria": "s8104",
+    "Descrição": "Pele do membro inferior"
+  },
+  {
+    "Categoria": "s8105",
+    "Descrição": "Pele do tronco"
+  },
+  {
+    "Categoria": "s8108",
+    "Descrição": "Estrutura de áreas da pele"
+  },
+  {
+    "Categoria": "s8109",
+    "Descrição": "Estrutura de áreas da pele"
+  },
+  {
+    "Categoria": "s820",
+    "Descrição": "Estrutura das glândulas da pele"
+  },
+  {
+    "Categoria": "s8200",
+    "Descrição": "Glândulas sudoríparas"
+  },
+  {
+    "Categoria": "s8201",
+    "Descrição": "Glândulas sebáceas"
+  },
+  {
+    "Categoria": "s8208",
+    "Descrição": "Estrutura das glândulas da pele"
+  },
+  {
+    "Categoria": "s8209",
+    "Descrição": "Estrutura das glândulas da pele"
+  },
+  {
+    "Categoria": "s830",
+    "Descrição": "Estrutura das unhas"
+  },
+  {
+    "Categoria": "s8300",
+    "Descrição": "Unhas dos dedos das mãos"
+  },
+  {
+    "Categoria": "s8301",
+    "Descrição": "Unhas dos dedos dos pés"
+  },
+  {
+    "Categoria": "s8308",
+    "Descrição": "Estrutura das unhas"
+  },
+  {
+    "Categoria": "s8309",
+    "Descrição": "Estrutura das unhas"
+  },
+  {
+    "Categoria": "s840",
+    "Descrição": "Estrutura dos pêlos"
+  },
+  {
+    "Categoria": "s8401",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "s8402",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "s8403",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "s8404",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "s8408",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "s8409",
+    "Descrição": ""
+  },
+  {
+    "Categoria": "s898",
+    "Descrição": "Pele e estruturas relacionadas"
+  },
+  {
+    "Categoria": "s899",
+    "Descrição": "Pele e estruturas relacionadas"
+  }
+]

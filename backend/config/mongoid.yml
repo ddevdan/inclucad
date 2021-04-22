@@ -1,0 +1,12 @@
+development:
+  clients:
+    default:
+      database: inclucad
+      hosts:
+        - inclucad_db
+      options:
+        user: <%= "#{ENV['db_user_env']}" %>
+        password: <%= "#{ENV['db_pass']}" %>
+        auth_source: admin
+  options:
+    raise_not_found_error: false

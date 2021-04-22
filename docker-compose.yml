@@ -1,0 +1,28 @@
+version: '3.5'
+
+services:
+    backend:
+        container_name: backend
+        build: ./backend/
+        command: bash -c "rm -f tmp/pids/server.pid || true && bundle exec rails s -p 3000 -b '0.0.0.0'"
+        ports:
+            - "3000:3000"
+        volumes:
+            - ./backend:/backend/
+        links:
+            - inclucad_db
+            
+    inclucad_db:
+        container_name: inclucad_db
+        image: mongo
+        restart: always
+        volumes:
+            - /data/db
+            # - ./mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
+        ports:
+            - "29020:27017"
+        environment:
+            MONGO_INITDB_ROOT_USERNAME: "${db_user_env}"
+            MONGO_INITDB_ROOT_PASSWORD: "${db_pass}"
+            MONGO_INITDB_DATABASE: "${dbname_env}"
+        command: mongod
