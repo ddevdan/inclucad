@@ -1,6 +1,7 @@
 # syntax=docker/dockerfile:1
 FROM ruby:2.5.5
-RUN apt-get update -qq && apt-get install -y nodejs postgresql-client
+RUN apt-get update && apt-get install -y locales && update-locale LANG=C.UTF-8 LC_ALL=C.UTF-8
+ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 WORKDIR /backend
 RUN gem install bundler:2.2.16
 COPY Gemfile /backend/Gemfile
@@ -12,6 +13,7 @@ RUN bundle install
 # COPY entrypoint.sh /usr/bin/
 # RUN chmod +x /usr/bin/entrypoint.sh
 # ENTRYPOINT ["entrypoint.sh"]
+RUN gem install rails 
 EXPOSE 3000
 
 # Configure the main process to run when running the image

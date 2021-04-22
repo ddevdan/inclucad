@@ -11,7 +11,9 @@ services:
             - ./backend:/backend/
         links:
             - inclucad_db
-            
+        stdin_open: true
+        tty: true
+
     inclucad_db:
         container_name: inclucad_db
         image: mongo
