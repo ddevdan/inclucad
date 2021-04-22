@@ -3,25 +3,24 @@ class DisabledPeopleController < ApplicationController
 
   # GET /disabled_people
   def index
-    @disabled_people = DisabledPerson.all
+    @disabled_people = DisabledPerson.all.as_json(include: { phone_number: { only: [:number, :type] }, address: { except: [:_id, :address_id, :address_type] } })
 
     render json: @disabled_people
   end
 
-  # GET /disabled_people/1
+  # GET /disabled_people/:cpf
   def show
-    render json: @disabled_person
+    render json: @disabled_person.as_json(include: { phone_number: { only: [:number, :type] }, address: { except: [:_id, :address_id, :address_type] } })
   end
 
   # POST /disabled_people
   def create
     # Register disabled people
     # With address and phone number associated to them
-    byebug
-
     @disabled_person = DisabledPerson.new(disabled_person_params)
-    @address = Address.create(address_params)
     @phone = PhoneNumber.create(phone_params)
+    @address = Address.create(address_params)
+    
     if @disabled_person.save
       @disabled_person.phone_number = @phone
       @disabled_person.address = @address
@@ -35,21 +34,26 @@ class DisabledPeopleController < ApplicationController
   # PATCH/PUT /disabled_people/1
   def update
     if @disabled_person.update(disabled_person_params)
-      render json: @disabled_person
+      @disabled_person.phone_number.update_attributes(phone_params)
+      @disabled_person.address.update_attributes(address_params)
+      render json: @disabled_person.phone_number
     else
       render json: @disabled_person.errors, status: :unprocessable_entity
     end
   end
 
-  # DELETE /disabled_people/1
+  # DELETE /disabled_people/:cpf
   def destroy
-    @disabled_person.destroy
+    @disabled_person_cpf = @disabled_person.cpf
+    if @disabled_person.destroy
+      render json: {"status": "deleted"}
+    end
   end
 
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_disabled_person
-      @disabled_person = DisabledPerson.find(params[:id])
+      @disabled_person = DisabledPerson.find_by(cpf: params[:id])
     end
 
     # Only allow a list of trusted parameters through.

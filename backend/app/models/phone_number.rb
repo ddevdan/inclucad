@@ -5,4 +5,5 @@ class PhoneNumber
 
   belongs_to :phone, polymorphic: true
   
+  validates :number, :type, presence: true
 end
