@@ -22,7 +22,7 @@ class DisabledPeopleController < ApplicationController
     @address = Address.create(address_params)
     @disabled_person.phone_number = @phone
     @disabled_person.address = @address
-    @disabled_person.posto = Posto.first
+    @disabled_person.health_center = HealthCenter.first
     if @disabled_person.save
       
       render json: format_response
@@ -36,7 +36,7 @@ class DisabledPeopleController < ApplicationController
   def update
     
     if @disabled_person.update(disabled_person_params)
-      @disabled_person.posto.update_attributes(posto_params)
+      @disabled_person.health_center.update_attributes(health_center_params)
       @disabled_person.phone_number.update_attributes(phone_params)
       @disabled_person.address.update_attributes(address_params)
       
@@ -48,7 +48,6 @@ class DisabledPeopleController < ApplicationController
 
   # DELETE /disabled_people/:cpf
   def destroy
-    @disabled_person_cpf = @disabled_person.cpf
     if @disabled_person.destroy
       render json: {"status": "deleted"}
     end
@@ -74,16 +73,15 @@ class DisabledPeopleController < ApplicationController
       end
 
     def address_params
-      params.require(:address).permit(:street, :number, :neighborhood, :city, :state, :country, :complement)
+      params.require(:address).permit(:cep, :street, :number, :neighborhood, :city, :state, :country, :complement)
     end
 
     def phone_params
       params.require(:phone_number).permit(:number, :type)
     end
 
-    def posto_params
-      byebug
-      params.require(:posto).permit(:name, :posto_code)
+    def health_center_params
+      params.require(:health_center).permit(:name, :hc_code)
     end
 
     

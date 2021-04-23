@@ -8,7 +8,7 @@ Rails.application.routes.draw do
       get ':initial', to: "cif_codes#show", as: 'show'
     end
   end
-  resources :postos, param: :posto_code do
+  resources :health_centers, param: :hc_code do
     collection do
       get 'search'
     end
