@@ -11,7 +11,7 @@ class CifCodesController < ApplicationController
   ##
   # *Search for codes based on :description parameter*
   def search
-    @codes = CifCode.where('$text' => {'$search' => cif_codes_params[:description].to_s}).order_by(code: :asc)
+    @codes = CifCode.where('$text' => {'$search' => "\"#{cif_codes_params[:description]}\""}).order_by(code: :asc)
     render json: @codes, :except => :_id
   end
   ##
