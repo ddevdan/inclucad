@@ -1,6 +1,20 @@
 version: '3.5'
 
 services:
+    inclucad_db:
+        container_name: inclucad_db
+        image: mongo
+        restart: always
+        volumes:
+            - /data/db
+            - ./mongo/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
+        ports:
+            - "29020:27017"
+        environment:
+            MONGO_INITDB_ROOT_USERNAME: "${db_user_env}"
+            MONGO_INITDB_ROOT_PASSWORD: "${db_pass}"
+            MONGO_INITDB_DATABASE: "${dbname_env}"
+        command: mongod
     backend:
         container_name: backend
         build: ./backend/
@@ -14,17 +28,4 @@ services:
         stdin_open: true
         tty: true
 
-    inclucad_db:
-        container_name: inclucad_db
-        image: mongo
-        restart: always
-        volumes:
-            - /data/db
-            # - ./mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
-        ports:
-            - "29020:27017"
-        environment:
-            MONGO_INITDB_ROOT_USERNAME: "${db_user_env}"
-            MONGO_INITDB_ROOT_PASSWORD: "${db_pass}"
-            MONGO_INITDB_DATABASE: "${dbname_env}"
-        command: mongod
+    

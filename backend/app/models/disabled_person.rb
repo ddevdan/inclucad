@@ -19,6 +19,8 @@ class DisabledPerson
   belongs_to :health_center
   has_one :address, as: :address, dependent: :destroy 
   has_one :phone_number, as: :phone, dependent: :destroy 
+  has_many :evaluations, dependent: :destroy
+
   validates :address, :phone_number, presence: true
 
   accepts_nested_attributes_for :address, :phone_number, :health_center

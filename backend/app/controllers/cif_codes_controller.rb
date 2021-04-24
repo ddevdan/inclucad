@@ -2,6 +2,7 @@
 # This controller is for get cif_codes from database and render as json
 
 class CifCodesController < ApplicationController
+  before_action :authenticate_user!
   ##
   # Get all cif codes
   def index

@@ -35,8 +35,14 @@ gem 'tzinfo-data', '~> 1.2019', '>= 1.2019.2', platforms: [:mingw, :mswin, :x64_
 # MongoID
 gem 'mongoid', '~> 7.0.5'
 
+# Mongoid Locker
+gem 'mongoid-locker'
+
 # RDoc for api documentation
 gem 'rdoc'
 
 # Devise
 gem 'devise'
+
+# Devise
+gem 'devise_token_auth'

@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cif_code: MyString
+  cid_code: MyString
+  disabled_type: MyString
+  born_with: false
+  date: 2021-04-23
+  user: one
+  disabled_person: one
+
+two:
+  cif_code: MyString
+  cid_code: MyString
+  disabled_type: MyString
+  born_with: false
+  date: 2021-04-23
+  user: two
+  disabled_person: two
