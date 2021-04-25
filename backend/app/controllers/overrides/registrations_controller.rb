@@ -1,6 +1,7 @@
 module Overrides
     class RegistrationsController < DeviseTokenAuth::RegistrationsController
       before_action :set_user, only: [:update, :destroy]
+      before_action :authenticate_user!, only:[:destroy, :update]
       def create
           @resource            = resource_class.new(sign_up_params)
           @resource.uid        = resource_params[:email]

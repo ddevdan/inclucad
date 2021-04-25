@@ -3,33 +3,33 @@
 one:
   name: MyString
   cpf: MyString
-  born_date: 2021-04-22
+  born_date: 2021-04-25
   gender: MyString
   father_name: MyString
   mother_name: MyString
   card_id: MyString
   sus_id: MyString
-  scholarity: MyString
   work_card_id: MyString
+  scholarity: MyString
   acquisition_form: MyString
-  society_limitation: MyText
-  social_situation: MyText
-  infos_add: MyText
+  society_limitation: MyString
+  social_situation: MyString
+  infos_add: MyString
   deficiency_type: MyString
 
 two:
   name: MyString
   cpf: MyString
-  born_date: 2021-04-22
+  born_date: 2021-04-25
   gender: MyString
   father_name: MyString
   mother_name: MyString
   card_id: MyString
   sus_id: MyString
-  scholarity: MyString
   work_card_id: MyString
+  scholarity: MyString
   acquisition_form: MyString
-  society_limitation: MyText
-  social_situation: MyText
-  infos_add: MyText
+  society_limitation: MyString
+  social_situation: MyString
+  infos_add: MyString
   deficiency_type: MyString
