@@ -5,24 +5,19 @@ class HealthCentersController < ApplicationController
   def index
     @health_centers = HealthCenter.all
 
-    render json: @health_centers, except: [:_id, :phone_id,:phone_type, :address_type, :address_id], include: [:phone_number, :address, ]
+    render json: @health_centers, include: [:phone_number, :address, ]
   end
 
   # GET /health_center/:hc_code
   def show
-    render json: @health_center, except: :_id
+    render json: @health_center, include: [:phones, :address]
   end
 
   # POST /health_center
   def create
     @health_center = HealthCenter.new(health_center_params)
-    @phone = PhoneNumber.create(phone_params)
-    @address = Address.create(address_params)
-
     if @health_center.save
-      @health_center.phone_number = @phone
-      @health_center.address = @address
-      render json: @health_center, status: :created, location: @health_center, except: :_id
+      render json: @health_center, include: [:phones, :address], status: :created, location: @health_center
     else
       render json: @health_center.errors, status: :unprocessable_entity
     end
@@ -31,9 +26,7 @@ class HealthCentersController < ApplicationController
   # PATCH/PUT /health_center/:hc_code
   def update
     if @health_center.update(health_center_params)
-      @health_center.phone_number.update_attributes(phone_params)
-      @health_center.address.update_attributes(address_params)
-      render json: @health_center, except: :_id
+      render json: @health_center, include: [:phones, :address]
     else
       render json: @health_center.errors, status: :unprocessable_entity
     end
@@ -47,11 +40,12 @@ class HealthCentersController < ApplicationController
   # *Search for codes based on :description parameter*
   def search
     @health_centers = HealthCenter.where('$text' => {'$search' => "\"#{params[:name]}\"" }).order_by(name: :asc)
-    render json: @health_centers, except: :_id
+    render json: @health_centers, include: [:address, :phones]
   end
   
-
   private
+
+  
     # Use callbacks to share common setup or constraints between actions.
     def set_health_center
       @health_center = HealthCenter.find_by(hc_code: params[:hc_code])
@@ -59,14 +53,8 @@ class HealthCentersController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def health_center_params
-      params.require(:health_center).permit(:name, :hc_code)
+      params.require(:health_center).permit(:name, :hc_code, address_attributes:[:cep, :street, :number, :neighborhood, :city, :state, :country, :complement],
+                                              phones_attributes:[:number, :type])
     end
 
-    def address_params
-      params.require(:address).permit(:cep, :street, :number, :neighborhood, :city, :state, :country, :complement)
-    end
-
-    def phone_params
-      params.require(:phone_number).permit(:number, :type)
-    end
 end
