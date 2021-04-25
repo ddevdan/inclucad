@@ -1,4 +1,5 @@
 class DisabledPeopleController < ApplicationController
+  before_action :authenticate_user!
   before_action :set_disabled_person, only: [:show, :update, :destroy]
 
   # GET /disabled_people
@@ -16,8 +17,9 @@ class DisabledPeopleController < ApplicationController
   # POST /disabled_people
   def create
     @disabled_person = DisabledPerson.new(disabled_person_params)
-
+    @evaluation = Evaluation.new
     if @disabled_person.save
+      @disabled_person.evaluation = @evaluation
       render json: @disabled_person, include:[:address, :phones], status: :created, location: @disabled_person
     else
       render json: @disabled_person.errors, status: :unprocessable_entity

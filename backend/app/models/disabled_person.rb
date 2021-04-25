@@ -22,6 +22,7 @@ class DisabledPerson
 
   has_one :address, as: :address, dependent: :destroy
   has_many :phones, as: :phone, dependent: :destroy 
+  has_one :evaluation, dependent: :destroy
 
   accepts_nested_attributes_for :phones
   accepts_nested_attributes_for :address, update_only:true
