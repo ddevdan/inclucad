@@ -38,9 +38,13 @@ class User
   field :agente, type: Mongoid::Boolean
   field :agente_code, type: String
   field :fisio_code, type: String
-
-  has_many :evaluations, dependent: :destroy
   
+  belongs_to :health_center
+
+  validates :cpf, uniqueness:true
+  accepts_nested_attributes_for :health_center
+
+
   include Mongoid::Locker
 
   field :locking_name, type: String

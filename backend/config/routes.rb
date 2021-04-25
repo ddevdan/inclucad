@@ -1,11 +1,15 @@
 Rails.application.routes.draw do
-  mount_devise_token_auth_for 'User', at: 'auth'
+  mount_devise_token_auth_for 'User', at: 'auth',param: :cpf, controllers:{
+    registrations: 'overrides/registrations'
+
+  }
   
 
   # devise_for :users
-  resources :disabled_people, param: :cpf do
-    resources :evaluations
-  end
+
+  resources :evaluations, param: :ev_code
+
+  resources :disabled_people, param: :cpf
   
   resources :cif_codes,  only: [:index] do
     collection do
