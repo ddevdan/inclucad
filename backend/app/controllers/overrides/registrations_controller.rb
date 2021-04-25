@@ -32,6 +32,8 @@ module Overrides
 
         def update
           if @resource
+            @health_center = HealthCenter.find(account_update_params[:health_center_attributes][:id])
+            @health_center.users << @resource unless @health_center.nil?
             if @resource.send(resource_update_method, account_update_params.except(:hc_code))
               yield @resource if block_given?
               render_update_success
