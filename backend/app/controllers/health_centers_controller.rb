@@ -1,6 +1,6 @@
 class HealthCentersController < ApplicationController
-  before_action :set_health_center, only: [:show, :update, :destroy]
   before_action :authenticate_user!
+  before_action :set_health_center, only: [:show, :update, :destroy]
 
   # GET /health_centers
   def index
