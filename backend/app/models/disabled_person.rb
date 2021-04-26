@@ -16,6 +16,15 @@ class DisabledPerson
   field :social_situation, type: String
   field :infos_add, type: String
   field :deficiency_type, type: String
+  validates :name, :cpf, :email, :born_date, presence: true
+  validates :gender, :father_name, :mother_name, presence: true 
+  validates :card_id, :sus_id, :work_card_id, presence: true
+  validates :scholarity,:acquisition_form, :society_limitation, presence: true
+  validates :social_situation, :infos_add, :deficiency_type, presence: true
+
+  validates :cpf, :work_card_id length:{is: 11}
+  validates :card_id, :sus_id, length:{is: 9}
+  validates :cpf,:card_id,:sus_id, :work_card_id, uniqueness:true
 
   belongs_to :health_center
   accepts_nested_attributes_for :health_center
@@ -26,4 +35,5 @@ class DisabledPerson
 
   accepts_nested_attributes_for :phones
   accepts_nested_attributes_for :address, update_only:true
+
 end

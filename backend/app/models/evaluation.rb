@@ -10,4 +10,5 @@ class Evaluation
   belongs_to :cif_code, optional:true
   accepts_nested_attributes_for :user, :disabled_person
 
+  validades :evaluated_at, :disabled_type, :cid_code, :born_with, :done, presence: true
 end

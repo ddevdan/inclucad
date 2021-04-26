@@ -5,5 +5,8 @@ class CifCode
   field :type, type: String
   field :description, type: String
   has_many :evaluations
+  
   index description: 'text'
+
+  validates :code, :initial, :type, :description, presence: true
 end

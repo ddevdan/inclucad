@@ -42,6 +42,11 @@ class User
   belongs_to :health_center
 
   validates :cpf, uniqueness:true
+  validates :cpf, :name, :agente, presence:true
+  validates :agente_code, presence: true, if: :agente?
+  validates :fisio_code, presence: true, unless: :agente?
+  validates :cpf, length:{is: 11}
+
   accepts_nested_attributes_for :health_center
 
   has_many :evaluations
