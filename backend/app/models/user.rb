@@ -44,6 +44,7 @@ class User
   validates :cpf, uniqueness:true
   accepts_nested_attributes_for :health_center
 
+  has_many :evaluations
 
   include Mongoid::Locker
 

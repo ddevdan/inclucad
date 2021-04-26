@@ -4,6 +4,6 @@ class CifCode
   field :initial, type: String
   field :type, type: String
   field :description, type: String
-
+  has_many :evaluations
   index description: 'text'
 end
