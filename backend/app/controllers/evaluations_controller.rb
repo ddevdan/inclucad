@@ -8,10 +8,11 @@ class EvaluationsController < ApplicationController
 
     render json: @evaluations
   end
+  
 
   # GET /evaluations/1
   def show
-    render json: @evaluation
+    render json: @evaluation, include:[:user, :disabled_person, :cif_code]
   end
 
   # POST /evaluations
@@ -27,8 +28,10 @@ class EvaluationsController < ApplicationController
 
   # PATCH/PUT /evaluations/1
   def update
+    binding.pry
+    @evaluation.user = current_user
     if @evaluation.update(evaluation_params)
-      render json: @evaluation
+      render json: @evaluation, include:[:user, :disabled_person, :cif_code]
     else
       render json: @evaluation.errors, status: :unprocessable_entity
     end
