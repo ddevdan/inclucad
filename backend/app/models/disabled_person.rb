@@ -20,10 +20,12 @@ class DisabledPerson
   validates :gender, :father_name, :mother_name, presence: true 
   validates :card_id, :sus_id, :work_card_id, presence: true
   validates :scholarity,:acquisition_form, :society_limitation, presence: true
-  validates :social_situation, :infos_add, :deficiency_type, presence: true
+  validates :social_situation, :deficiency_type, presence: true
 
-  validates :cpf, :work_card_id length:{is: 11}
-  validates :card_id, :sus_id, length:{is: 9}
+  validates :cpf , length: { is: 11 }
+  validates :work_card_id, length: { is: 11 }
+  validates :card_id, length: { is: 9 }
+  validates :sus_id, length: { is: 9 }
   validates :cpf,:card_id,:sus_id, :work_card_id, uniqueness:true
 
   belongs_to :health_center
