@@ -52,23 +52,24 @@ export const MenuOpened = styled.div`
 
 export const Close = styled.div`
 position:absolute;
-right:40px;
-bottom:30px;
+right:45px;
+top:0;
+padding:30px;
 font-family: Open Sans;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 100.18%;
-        color: #F2F2F6;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 100.18%;
+color: #F2F2F6;
 `
 
 export const CLoseWraper = styled.div`
 min-width:320px;
 max-width:600px;
 position: absolute;
-bottom:30px;
-background:green;
+top:-80px;
 `
-export const MenuIcon = styled.div`
-    
+export const wrapButtons = styled.div`
+    max-height:600px;
+    position:relative;
 `

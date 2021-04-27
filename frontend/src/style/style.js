@@ -6,6 +6,8 @@ export const App = styled.div`
     display:flex;
     justify-content:center;
     position:relative;
+    padding-bottom:calc(80*3px);
+    
 
 `
 

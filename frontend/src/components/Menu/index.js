@@ -21,17 +21,18 @@ function Menu(props) {
     }
 
     let menu = <s.MenuOpened onClick={handleMenuOpen}>
-    
+    <s.wrapButtons>
+    <DashButton text="INICIO" link_to="/" img="home"  />
     <DashButton text="CADASTRAR" link_to="/create" img="create"  />
     <DashButton text="PESQUISAR" link_to="/search" img="search"  />
     <DashButton text="VISUALIZAR" link_to="/view" img="visualize"  />
     <DashButton text="AVALIAR" link_to="/evaluation" img="evaluation"  />
-    <DashButton text="INICIO" link_to="/" img="home"  />
     <s.CLoseWraper>
         <s.Close onClick={handleMenuOpen} className="menu__cursor">
             FECHAR MENU <img src={CloseImg} alt="Close Menu" />
         </s.Close>
     </s.CLoseWraper>
+    </s.wrapButtons>
 </s.MenuOpened>
     return (
         <s.Menu>
