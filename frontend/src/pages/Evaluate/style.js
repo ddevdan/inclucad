@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Evaluation = styled.div`
+export const Evaluate = styled.div`
    min-width:320px;
    max-width:600px;
    display:flex;
@@ -30,9 +30,9 @@ top:40px;
 
 
 
-export const WrapECards = styled.div`
+export const EvaluateWrap = styled.div`
    position:relative;
-   top:80px;
+   top:160px;
    margin-bottom:30px;
    min-height: 200px;
    input{

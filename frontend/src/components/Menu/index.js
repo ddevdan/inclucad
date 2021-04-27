@@ -26,7 +26,7 @@ function Menu(props) {
     <DashButton text="CADASTRAR" link_to="/create" img="create"  />
     <DashButton text="PESQUISAR" link_to="/search" img="search"  />
     <DashButton text="VISUALIZAR" link_to="/view" img="visualize"  />
-    <DashButton text="AVALIAR" link_to="/evaluation" img="evaluation"  />
+    <DashButton text="AVALIAR" link_to="/evaluations" img="evaluation"  />
     <s.CLoseWraper>
         <s.Close onClick={handleMenuOpen} className="menu__cursor">
             FECHAR MENU <img src={CloseImg} alt="Close Menu" />

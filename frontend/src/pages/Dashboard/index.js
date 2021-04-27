@@ -12,7 +12,7 @@ function Dashboard(props){
             <DashButton text="CADASTRAR" link_to="/create" img="create"/>
             <DashButton text="PESQUISAR" link_to="/search" img="search"/>
             <DashButton text="VISUALIZAR" link_to="/view" img="visualize"/>
-            <DashButton text="AVALIAR" link_to="/evaluation" img="evaluation"/>
+            <DashButton text="AVALIAR" link_to="/evaluations" img="evaluation"/>
             </s.WrapMenu>
         </s.Dashboard>
     )

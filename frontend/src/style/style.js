@@ -19,6 +19,7 @@ export const GoBack = styled.div`
     left:0;
     width:100%;
     div{
+        cursor:pointer;
         display:flex;
         justify-content:flex-start;
         align-items:center;
