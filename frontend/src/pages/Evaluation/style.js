@@ -22,7 +22,7 @@ width:100%;
 line-height: 100.18%;
 color: #000000;
 position:relative;
-top:80px;
+top:40px;
 
 
 `
@@ -32,7 +32,7 @@ top:80px;
 
 export const WrapECards = styled.div`
    position:relative;
-   top:120px;
+   top:80px;
    margin-bottom:30px;
    min-height: 200px;
    input{
@@ -54,4 +54,22 @@ export const WrapECards = styled.div`
       font-weight: bold;
       margin-bottom:10px;
    }
+`
+
+export const NotFound = styled.div`
+   font-size:24px;
+   font-family: Open Sans;
+   font-style: bold;
+   width:100%;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   min-width:320px;
+    max-width:600px;
+    min-height: 112px;
+
+    background: #FFFFFF;
+    border-radius: 14px;
+    margin-bottom:20px;
+
 `

@@ -11,3 +11,31 @@ export const App = styled.div`
 
 `
 
+export const GoBack = styled.div`
+    width:60px;
+    height:60px;
+    position:relative;
+    top:10px;
+    left:0;
+    width:100%;
+    div{
+        display:flex;
+        justify-content:flex-start;
+        align-items:center;
+        width:60px;
+        height:60px;
+        font-size:16px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        img{
+            width:10px;
+        }
+        p{
+            margin-left:5px;
+        }
+    }
+    
+`
+
+

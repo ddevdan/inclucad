@@ -9,7 +9,7 @@ const data = [
     
 ]
 function Evaluation(props){
-    const {title} = props
+    const {title, GoBack} = props
 
     const [undoneSearch, setUndoneSearch] = useState("")
     const [doneSearch, setDoneSearch] = useState("")
@@ -36,7 +36,7 @@ function Evaluation(props){
         const value = e.target.value
         
         if(value.length !== 0){
-           return setUndone(undone_default_data.filter(ev => ev.cpf.includes(value)))
+           return setUndone(undone_default_data.filter(ev => ev.name.toLowerCase().includes(value.toLowerCase())))
         }
         return setUndone(undone_default_data)
         
@@ -47,19 +47,21 @@ function Evaluation(props){
         const value = e.target.value
         
         if(value.length !== 0){
-            return setDone(done_default_data.filter(ev => ev.cpf.includes(value)))
+            return setDone(done_default_data.filter(ev => ev.name.toLowerCase().includes(value.toLowerCase())))
         }
         return setDone(done_default_data)
     }
 
+    const NotFound = () =>  <s.NotFound>NADA ENCONTRADO</s.NotFound>
 
     return(
         <s.Evaluation>
+            <GoBack></GoBack>
             <s.Title>{title}</s.Title>
             <s.WrapECards>
                 <h2>Pendentes</h2>
-                <input name="undone_search" value={undoneSearch} onChange={searchUndone} placeholder="Buscar por CPF"/>
-                {undone.map(e=>{
+                <input name="undone_search" value={undoneSearch} onChange={searchUndone} placeholder="Buscar por nome"/>
+                {undone.length === 0 ? <NotFound/> : undone.map(e=>{
                     return <EvaluationCard status={e.status} 
                     name={e.name} cpf={e.cpf} created_at={e.created_at}
                     key={e.id}/>
@@ -71,8 +73,8 @@ function Evaluation(props){
 
             <s.WrapECards>
                 <h2>Concluídas</h2>
-                <input name="done_search" value={doneSearch} onChange={searchDone} placeholder="Buscar por CPF"/>
-                {done.map(e=>{
+                <input name="done_search" value={doneSearch} onChange={searchDone} placeholder="Buscar por nome"/>
+                {done.length === 0 ? <NotFound/> : done.map(e=>{
                     return <EvaluationCard status={e.status} 
                     name={e.name} cpf={e.cpf} created_at={e.created_at}
                     key={e.id}/>
