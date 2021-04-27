@@ -34,6 +34,17 @@ export const WrapECards = styled.div`
    position:relative;
    top:120px;
    margin-bottom:30px;
+   min-height: 200px;
+   input{
+      margin-bottom:10px;
+      width:100%;
+      height: 30px;
+      background: #FFFFFF;
+      border: 1px solid #737373;
+      box-sizing: border-box;
+      border-radius: 14px;
+      padding:0 10px;
+   }
    h2{
       min-width:320px;
       max-width:600px;
