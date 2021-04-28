@@ -8,5 +8,8 @@ class ApplicationController < ActionController::API
     def configure_permitted_parameters
         devise_parameter_sanitizer.permit(:sign_up, keys: [:id, :cpf, :name, :agente, :agente_code, :fisio_code, health_center_attributes:[:id, :name, :hc_code]])
         devise_parameter_sanitizer.permit(:account_update, keys: [:id, :cpf, :name, :agente, :agente_code, :fisio_code,  health_center_attributes:[:id, :name, :hc_code,:_destroy]])
+        devise_parameter_sanitizer.permit(:sign_in, keys: [:id,:session, :cpf, :name, :agente, :agente_code, 
+            :fisio_code,  health_center_attributes:[:id, :name, :hc_code,:_destroy]])
+        
     end
 end

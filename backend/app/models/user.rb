@@ -39,7 +39,7 @@ class User
   field :agente_code, type: String
   field :fisio_code, type: String
   
-  belongs_to :health_center, optional:true
+  belongs_to :health_center
   accepts_nested_attributes_for :health_center
 
   

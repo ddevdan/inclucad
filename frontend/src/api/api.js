@@ -40,6 +40,13 @@ export default {
             return apiBase.post('/disabled_people', payload, getHeaders())
         }
     },
+
+    evaluation:{
+        get(){
+            console.log(getHeaders())
+            return apiBase.get('/evaluations', getHeaders())
+        }
+    },
     health_center:{
         get(){
             return apiBase.get('/health_centers', getHeaders())
