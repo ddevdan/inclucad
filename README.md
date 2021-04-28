@@ -105,6 +105,7 @@ Após analisar as respostas do formulário de expectativas do stakeholders para 
 > Formulário de cadastro (vários campos)
 
 # Desenvolvimento
+Optamos por usar o Docker para evitar problemas de incompatibilidade futuros.
 
 Durante o desenvolvimento, foi necessário que tomássemos a decisão de trocar o tipo de banco de dados, de SQL para NOSQL. No projeto inicial, nós usaríamos o PostgreSQL, mas, para a solução que planejávamos desenvolver, o MongoDB se mostrou mais adequado. Isso porque precisávamos de agilidade no desenvolvimento, capacidade de escabilidade e possibilidade de mudança no modelo do banco de dados.
 
@@ -136,6 +137,7 @@ Implementamos a autenticação com o uso do JSON Web Token (JWK), com a bibliote
 
 - Ruby On Rails
 - MongoDB
+- Docker
 
 ### Frontend
 
