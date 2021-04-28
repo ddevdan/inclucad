@@ -31,7 +31,7 @@ Esse fato faz com que as pessoas com deficiências sejam invisibilidades, impedi
 
 # Personas
 
-![docs/assets/image.jpg](docs/assets/image.jpg)
+<img src="docs/assets/image.jpg" width="200">
 
 > Karol Pessoa, 34
 
@@ -41,7 +41,7 @@ Karol é uma mulher muito comunicativa, além de sincera e objetiva, o que a aju
 
 Ela acredita que a prefeitura poderia desenvolver mais soluções voltadas para acessibilidade dela, pois considera despadronização das calçadas e a falta de rampas uma barreira para o exercício da sua liberdade de ir e vir.
 
-![docs/assets/Untitled.png](docs/assets/Untitled.png)
+<img src="docs/assets/Untitled.png" width="200">
 
 > Joana Macaral, 57
 
