@@ -37,7 +37,6 @@ export const Login = styled.div`
         font-style: normal;
         font-weight: bold;
         font-size: 20px;
-        line-height: 100.18%;
         /* identical to box height, or 20px */
 
 
@@ -54,7 +53,7 @@ export const Login = styled.div`
 export const Errors = styled.div`
         width:100%;
         height:20px;
-        padding:5px;
+        padding-top:10px;
         color:#C80107;
         font-family: Open Sans;
         font-style: normal;
@@ -84,7 +83,6 @@ export const Field = styled.div`
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
-    line-height: 22px;
     /* identical to box height, or 110% */
     margin-bottom:10px;
     letter-spacing: 0.4px;

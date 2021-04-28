@@ -1,18 +1,47 @@
-import React from "react";
-import { useForm } from "react-hook-form";
+import React, {useEffect, useState, useContext} from "react";
+import { useForm} from "react-hook-form";
+import { useHistory } from "react-router-dom";
 import * as s from './style'
 import LogoImg from '../../assets/images/logo_inclucad_animated.svg'
-const Login = () => {
+import api from '../../api/api'
+import AuthContext from '../../contexts/auth'
+
+
+const Login = (props) => {
+    const {setLoggedIn} = props
+    const context = useContext(AuthContext);
+    const history = useHistory()
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
-    const onSubmit = data => console.log(data);
+    const [loginError, setLoginError] = useState('')
+    const [data, setData] = useState({})
+    const [erroEsq, setErroEsq] = useState("{}")
+    const onSubmit = data => {
+        setData(data)
+        api.auth.userLogin(data).then(res=> { 
+            const header = JSON.stringify(res.headers)  
+            const data = res.data
+            setLoggedIn({data:data, status:true})      
+            localStorage.setItem('headers', header);
+            history.push("/")
+            setLoginError("")
+        }).catch(e=>{
+            setLoginError(`Email ou Senha incorretos. ${e}`);
+            alert(e);
+        })
+    };
   
-    console.log(watch("password")); // watch input value by passing the name of it
-  
+    useEffect(() => {
+        document.title = `INCLUCAD - Login`;
+        if(context.loggedIn.status){
+            history.push("/")
+        }
+      });
     return (
       <s.Login>
         <s.Logo>
         <img src={LogoImg} alt="Logo do INCLUCAD"/>
         </s.Logo>
+
       <form onSubmit={handleSubmit(onSubmit)}>
         <s.Field>
         <label>Email</label>
@@ -31,7 +60,10 @@ const Login = () => {
         </s.Errors>
         </s.Field>
         
-        <input type="submit" />
+        <input type="submit" value="ENTRAR" />
+        <s.Errors>
+        {loginError}
+        </s.Errors>
       </form>
       </s.Login>)
 };
