@@ -1,20 +1,6 @@
 # ![docs/assets/Group_96.png](docs/assets/Group_96.png) INCLUCAD
 
-- Links úteis
 
-    [https://github.com/IF977/if977/blob/master/pages/projeto.md](https://github.com/IF977/if977/blob/master/pages/projeto.md)
-
-- Referências
-
-    [https://www.color-blindness.com/coblis-color-blindness-simulator/](https://www.color-blindness.com/coblis-color-blindness-simulator/)
-
-     [http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm)
-
-    [https://medium.com/educação-fora-da-caixa/matriz-certezas-suposições-e-dúvidas-fa2263633655](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-
-    [https://www.mjvinnovation.com/pt-br/blog/etnografia-digital-tecnica-de-pesquisa-qualitativa-avalia-usuario-no-ambiente-online/#:~:text=– Etnografia digital%3A Explorar e expandir,digitais%2C postando o material coletado](https://www.mjvinnovation.com/pt-br/blog/etnografia-digital-tecnica-de-pesquisa-qualitativa-avalia-usuario-no-ambiente-online/#:~:text=%E2%80%93%20Etnografia%20digital%3A%20Explorar%20e%20expandir,digitais%2C%20postando%20o%20material%20coletado).
-
-    [https://developer.apple.com/design/human-interface-guidelines/accessibility/overview/introduction/](https://developer.apple.com/design/human-interface-guidelines/accessibility/overview/introduction/)
 
 
 
@@ -202,3 +188,20 @@ yarn start
 # Final Considerations
 
 O app ainda não está em sua versão final, mas algumas funcionalidades já funcional perfeitamente.
+
+
+- Links úteis
+
+    [https://github.com/IF977/if977/blob/master/pages/projeto.md](https://github.com/IF977/if977/blob/master/pages/projeto.md)
+
+- Referências
+
+    [https://www.color-blindness.com/coblis-color-blindness-simulator/](https://www.color-blindness.com/coblis-color-blindness-simulator/)
+
+     [http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm)
+
+    [https://medium.com/educação-fora-da-caixa/matriz-certezas-suposições-e-dúvidas-fa2263633655](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
+
+    [https://www.mjvinnovation.com/pt-br/blog/etnografia-digital-tecnica-de-pesquisa-qualitativa-avalia-usuario-no-ambiente-online/#:~:text=– Etnografia digital%3A Explorar e expandir,digitais%2C postando o material coletado](https://www.mjvinnovation.com/pt-br/blog/etnografia-digital-tecnica-de-pesquisa-qualitativa-avalia-usuario-no-ambiente-online/#:~:text=%E2%80%93%20Etnografia%20digital%3A%20Explorar%20e%20expandir,digitais%2C%20postando%20o%20material%20coletado).
+
+    [https://developer.apple.com/design/human-interface-guidelines/accessibility/overview/introduction/](https://developer.apple.com/design/human-interface-guidelines/accessibility/overview/introduction/)
