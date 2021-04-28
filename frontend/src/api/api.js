@@ -2,7 +2,7 @@ import axios from 'axios'
 
 
 const apiBase = axios.create({
-    baseURL: 'http://localhost:3000'
+    baseURL: 'http://10.0.0.116:3000'
 })
 
 function getHeaders() {
@@ -35,7 +35,16 @@ export default {
         }
     },
 
-
+    disabled_person:{
+        register(payload){
+            return apiBase.post('/disabled_people', payload, getHeaders())
+        }
+    },
+    health_center:{
+        get(){
+            return apiBase.get('/health_centers', getHeaders())
+        }
+    },
     currentUser: function() {
         return apiBase.get('/auth/validate_token', getHeaders());
     },

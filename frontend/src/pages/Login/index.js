@@ -14,7 +14,7 @@ const Login = (props) => {
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     const [loginError, setLoginError] = useState('')
     const [data, setData] = useState({})
-    const [erroEsq, setErroEsq] = useState("{}")
+    
     const onSubmit = data => {
         setData(data)
         api.auth.userLogin(data).then(res=> { 

@@ -38,7 +38,7 @@ function Menu(props) {
     let menu = <s.MenuOpened onClick={handleMenuOpen}>
     <s.wrapButtons>
     <DashButton text="INICIO" link_to="/" img="home"  />
-    <DashButton text="CADASTRAR" link_to="/create" img="create"  />
+    <DashButton text="CADASTRAR" link_to="/register" img="create"  />
     <DashButton text="PESQUISAR" link_to="/search" img="search"  />
     <DashButton text="VISUALIZAR" link_to="/view" img="visualize"  />
     <DashButton text="AVALIAR" link_to="/evaluations" img="evaluation"  />

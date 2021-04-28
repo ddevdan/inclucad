@@ -14,6 +14,7 @@ import Login from './pages/Login';
 import { useState, useEffect, useMemo } from 'react';
 import api from './api/api'
 import AuthContext from './contexts/auth'
+import RegisterPerson from './pages/RegisterPerson';
 
 function App() {
   let history = useHistory()
@@ -63,6 +64,10 @@ function App() {
 
             <Route exact path="/evaluations/:id">
               <Evaluate title="Avaliação" GoBack={GoBackButton} />
+            </Route>
+
+            <Route exact path="/register">
+              <RegisterPerson title="Cadastrar"></RegisterPerson>
             </Route>
 
             <Route exact path="/auth/login">
