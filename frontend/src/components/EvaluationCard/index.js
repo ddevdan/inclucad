@@ -4,7 +4,7 @@ import ArrowImg from '../../assets/images/arrow.svg'
 import { Link} from 'react-router-dom'
 
 function EvaluationCard(props) {
-    const {status, name, cpf, created_at, id, match} = props
+    const {status, name, cpf, created_at,  match} = props
     return (
         <s.EvaluationCard>
         <s.WrapInfos>
