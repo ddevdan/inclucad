@@ -3,6 +3,7 @@ class EvaluationsController < ApplicationController
   before_action :set_evaluation, only: [:show, :update, :destroy]
 
   # GET /evaluations
+  # Rota que retorna todas as avaliações 
   def index
     @evaluations = Evaluation.all
 
@@ -11,11 +12,13 @@ class EvaluationsController < ApplicationController
   
 
   # GET /evaluations/1
+  # Mostra avaliação
   def show
     render json: @evaluation, include:[:user, :disabled_person, :cif_code]
   end
 
   # POST /evaluations
+  # Rota de criação de avaliações
   def create
     @evaluation = Evaluation.new(evaluation_params)
 
@@ -27,6 +30,7 @@ class EvaluationsController < ApplicationController
   end
 
   # PATCH/PUT /evaluations/1
+  # Rota de atualização
   def update
     binding.pry
     @evaluation.user = current_user
@@ -38,17 +42,18 @@ class EvaluationsController < ApplicationController
   end
 
   # DELETE /evaluations/1
+  # Rota para deletar
   def destroy
     @evaluation.destroy
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
+    # Definir avaliação para ser editada, destruída, deletada e mostrada.
     def set_evaluation
       @evaluation = Evaluation.find(params[:id])
     end
 
-    # Only allow a list of trusted parameters through.
+    # Paramentros permitidos pelo controller.
     def evaluation_params
       params.require(:evaluation).permit(:evaluated_at, :cif_code_id, :disabled_type, :cid_code, :born_with, 
                                           :user_id, :disabled_person_id,
