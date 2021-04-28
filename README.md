@@ -192,6 +192,68 @@ yarn start
 O app ainda não está em sua versão final, mas algumas funcionalidades já funcional perfeitamente.
 
 
+# Api
+## Autenticação
+### Criar novo usuário
+POST => /auth/sign_up(.:format)	
+
+### Login
+POST => /auth/sign_in(.:format)
+
+### Validar Web Token
+GET => /auth/validate_token(.:format)
+
+## Avaliações
+### Listar todas as avaliações
+GET => /evaluations(.:format)
+### Criar avaliação
+POST => /evaluations(.:format)s
+### Listar avaliação por :id
+GET => /evaluations/:id(.:format)
+### Atualizar dados da avaliação 
+PUT => /evaluations/:id(.:format)
+### Deletar avaliação 
+DELETE => /evaluations/:id(.:format)
+
+## Pessoas com Deficiência
+### Listar todas as Pessoas com Deficiência
+GET => /disabled_people(.:format)
+### Criar pessoa com deficiência
+POST => /disabled_people(.:format)s
+### Listar pessoa com deficiência por :cpf
+GET => /disabled_people/:cpf(.:format)
+### Atualizar dados da pessoa com deficiência
+PUT => /disabled_people/:cpf(.:format)
+### Deletar pessoa com deficiência
+DELETE => /disabled_people/:cpf(.:format)
+
+## Postos de Saúde
+### Listar todos os Postos de Saúde
+GET => /health_centers(.:format)
+### Criar posto de saude
+POST => /health_centers(.:format)s
+### Listar posto de saude por :hc_code
+GET => /health_centers/:hc_code(.:format)
+### Atualizar dados do posto de saude
+PUT => /health_centers/:hc_code(.:format)
+### Buscar posto de saúde por nome
+PUT => /health_centers/search(.:format)
+### Deletar posto de saude
+DELETE => /health_centers/:hc_code(.:format)
+
+
+## Códigos da CIF
+### Listar todos os Códigos da CIF
+GET => /cif_codes(.:format)
+### Buscar posto de saúde por nome
+GET => /cif_codes/search(.:format)
+### Listar todos os Códigos da CIF por :initial
+GET => /cif_codes/:initial(.:format)
+
+
+
+
+# ++
 - Links úteis
 
     [https://github.com/IF977/if977/blob/master/pages/projeto.md](https://github.com/IF977/if977/blob/master/pages/projeto.md)
