@@ -68,6 +68,22 @@ min-width:320px;
 max-width:600px;
 position: absolute;
 top:-80px;
+display:flex;
+justify-content:flex-start;
+align-items:center;
+
+.sign_out__button{
+  cursor:pointer;
+  font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 100.18%;
+  color:white;
+margin-left:-30px;
+top:0;
+padding:30px;
+}
 `
 export const wrapButtons = styled.div`
     max-height:600px;
