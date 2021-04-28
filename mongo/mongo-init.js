@@ -1,11 +1,11 @@
-db.auth('uab_user', 'uab_pass')
+db.auth('inclucad_user', 'WVhb!Xf8c*Z4eJ4d')
 
-db = db.getSiblingDB('analytics_uab')
+db = db.getSiblingDB('inclucad')
 
 db.createUser(
     {
-        user: "uab_user",
-        pwd: "uab_pass",
+        user: "inclucad_user",
+        pwd: "WVhb!Xf8c*Z4eJ4d",
         roles: [
             {
                 role: "root",

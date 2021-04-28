@@ -1,4 +1,4 @@
-class PhoneNumber
+class Phone
   include Mongoid::Document
   field :number, type: String
   field :type, type: String
