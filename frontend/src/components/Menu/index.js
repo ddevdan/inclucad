@@ -29,7 +29,7 @@ function Menu(props) {
         api.auth.userLogOut(data)
         localStorage.removeItem('headers');
         setLoggedIn({data:{}, status:false})
-        document.location('/auth/login')
+        history.push('/auth/login')
 
 
 
