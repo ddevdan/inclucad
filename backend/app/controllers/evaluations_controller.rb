@@ -1,5 +1,5 @@
 class EvaluationsController < ApplicationController
-  before_action :authenticate_user!
+  # before_action :authenticate_user!
   before_action :set_evaluation, only: [:show, :update, :destroy]
 
   # GET /evaluations
@@ -7,7 +7,7 @@ class EvaluationsController < ApplicationController
   def index
     @evaluations = Evaluation.all
 
-    render json: @evaluations
+    render json: @evaluations, include: [:user, :disabled_person, :cif_code]
   end
   
 
@@ -32,8 +32,8 @@ class EvaluationsController < ApplicationController
   # PATCH/PUT /evaluations/1
   # Rota de atualização
   def update
-    binding.pry
     @evaluation.user = current_user
+    @evaluation.evaluated_at = Time.now
     if @evaluation.update(evaluation_params)
       render json: @evaluation, include:[:user, :disabled_person, :cif_code]
     else
