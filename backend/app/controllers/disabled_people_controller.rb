@@ -20,7 +20,7 @@ class DisabledPeopleController < ApplicationController
   # Cadastrar pessoa.
   def create
     @disabled_person = DisabledPerson.new(disabled_person_params)
-    if @disabled_person.save
+    if @disabled_person.save!
       @disabled_person.evaluation = Evaluation.new
       @disabled_person.evaluation.save!
       render json: @disabled_person, include:[:address, :phones], status: :created, location: @disabled_person
