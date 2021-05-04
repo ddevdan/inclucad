@@ -46,13 +46,15 @@ export const RegisterPerson = styled.div`
             background:#0091B2;
             color:white;
         }
+
+        
        }
       
    }
 
 
    .back{
-    width: 40%;
+    width: 38%;
         height: 41px;
 
 
@@ -64,10 +66,22 @@ export const RegisterPerson = styled.div`
         font-weight: bold;
         font-size: 20px;
         margin-right:30px;
+        &:hover{
+
+        background:#9eafb3;
+        color:white;
+
+        } 
+        
+        &:active{
+            background:#373c3d;
+            color:white; 
+        }
+        
    }
 
    .next{
-    width: 40%;
+    width: 52%;
         height: 41px;
 
 
@@ -78,21 +92,37 @@ export const RegisterPerson = styled.div`
         font-style: normal;
         font-weight: bold;
         font-size: 20px;
+        &:hover{
+
+            background:#006075;
+            color:white;
+
+        }  
+        &:active{
+            background:#002b35;
+            color:white; 
+        }
         
    }
 
    .register{ 
-    width: 40%;
-        height: 41px;
+    width: 52%;
+            height: 41px;
 
 
-        background: #00C9F7;
+        background: #00f752;
         border-radius: 6px;
         border:0;
         font-family: Open Sans;
         font-style: normal;
         font-weight: bold;
         font-size: 20px;
+        &:hover{
+
+            background:#00752d;
+            color:white;
+
+        }
        
 }
 

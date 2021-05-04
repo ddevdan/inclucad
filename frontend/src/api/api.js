@@ -2,8 +2,8 @@ import axios from 'axios'
 
 
 const apiBase = axios.create({
-    // baseURL: 'http://localhost:3000'
-    baseURL:'https://3000-4711d7cb-ac39-427d-a0fc-555cc683f035.cs-us-east1-omte.cloudshell.dev/'
+    baseURL: 'http://localhost:3000'
+    // baseURL:'https://3000-4711d7cb-ac39-427d-a0fc-555cc683f035.cs-us-east1-omte.cloudshell.dev'
     //prod url
 })
 
@@ -54,7 +54,7 @@ export default {
             return apiBase.get('/health_centers', getHeaders())
         }
     },
-    currentUser: function() {
+    currentUser: async function() {
         return apiBase.get('/auth/validate_token', getHeaders());
     },
 

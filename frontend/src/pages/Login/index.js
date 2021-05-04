@@ -20,6 +20,7 @@ const Login = (props) => {
         api.auth.userLogin(data).then(res=> { 
             const header = JSON.stringify(res.headers)  
             const data = res.data
+            console.log(res.headers)
             setLoggedIn({data:data, status:true})      
             localStorage.setItem('headers', header);
             history.push("/")
@@ -35,7 +36,7 @@ const Login = (props) => {
         if(context.loggedIn.status){
             history.push("/")
         }
-      });
+      },[]);
     return (
       <s.Login>
         <s.Logo>

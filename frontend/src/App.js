@@ -38,7 +38,7 @@ function App() {
     if (!loggedIn.status){
       history.push("/auth/login")
     } 
-  }, [loggedIn.status])
+  }, [])
 
   const goBack = () => history.push('/')
   const GoBackButton = () => (
@@ -56,7 +56,7 @@ function App() {
           <Switch>
 
             <Route exact path="/">
-              <Dashboard title="Início" />
+              <Dashboard title="Início" setLoggedIn={setLoggedIn}/>
             </Route>
             <Route exact path="/evaluations">
               <Evaluations title="Avaliações" GoBack={GoBackButton} />
@@ -67,7 +67,7 @@ function App() {
             </Route>
 
             <Route exact path="/register">
-              <RegisterPerson title="Cadastrar"></RegisterPerson>
+              <RegisterPerson title="Cadastrar" GoBack={GoBackButton}></RegisterPerson>
             </Route>
 
             <Route exact path="/auth/login">
