@@ -1,6 +1,12 @@
 import styled from 'styled-components'
 
 export const Menu = styled.div`
+a{
+  &:focus{outline: 2px solid black;}
+}
+img{
+  &:focus{outline: 2px solid black;}
+}
   width:100%;
   height:59px;
   background:#DDE4FF;
@@ -26,9 +32,11 @@ export const WrapMenuItems = styled.div`
   flex-direction:row;
   align-items:center;
   justify-content:space-between;
-  img{width:40px;}
+  img{width:40px;
+    &:focus{outline: 2px solid black;}}
 
   img.menu__icon{
+    &:focus{outline: 2px solid black;}
     width:25px;
     height:auto;
     
