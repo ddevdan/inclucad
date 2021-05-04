@@ -11,7 +11,7 @@ function EvaluationCard(props) {
             <s.Name>{name}</s.Name>
             <s.WrapEspecificInfos>
             <s.Field>CPF: {cpf}</s.Field>
-            <s.Field>Cadastrado em: {created_at}</s.Field>
+            <s.Field>TIPO: {created_at}</s.Field>
             </s.WrapEspecificInfos>
             <s.Status className={status ? "done" : "undone"}>{status ? "Concluída" : "Pendente"}</s.Status>
         </s.WrapInfos>
