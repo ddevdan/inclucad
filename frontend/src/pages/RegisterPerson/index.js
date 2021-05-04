@@ -439,7 +439,7 @@ export default function RegisterPerson({ title, GoBack }: props) {
               <label>Tipo</label>
               <select
                 className="select-custom"
-                {...register("disabled_person.scholarity")}
+                {...register("disabled_person.phones_attributes.type")}
               >
                 <option value="">Selecionar</option>
                 {tel_type.map((type) => {

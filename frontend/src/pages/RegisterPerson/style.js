@@ -16,6 +16,7 @@ export const RegisterPerson = styled.div`
        justify-content:center;
        margin-top:120px;
        input{
+        &:focus{outline: 2px solid black;}
         width: 100%;
         height: 52px;
         background: #FFFFFF;
@@ -38,6 +39,7 @@ export const RegisterPerson = styled.div`
         font-style: normal;
         font-weight: bold;
         font-size: 20px;
+        &:focus{outline: 2px solid black;}
         /* identical to box height, or 20px */
 
 
@@ -56,8 +58,10 @@ export const RegisterPerson = styled.div`
    .back{
     width: 38%;
         height: 41px;
+        &:focus{
+    outline: 2px solid black;  
 
-
+    }
         background: #BFD5DA;
         border-radius: 6px;
         border:0;
@@ -83,8 +87,10 @@ export const RegisterPerson = styled.div`
    .next{
     width: 52%;
         height: 41px;
+        &:focus{
+    outline: 2px solid black;  
 
-
+    }
         background: #00C9F7;
         border-radius: 6px;
         border:0;
@@ -109,7 +115,6 @@ export const RegisterPerson = styled.div`
     width: 52%;
             height: 41px;
 
-
         background: #00f752;
         border-radius: 6px;
         border:0;
@@ -123,7 +128,10 @@ export const RegisterPerson = styled.div`
             color:white;
 
         }
-       
+        &:focus{
+    outline: 2px solid black;  
+
+    } 
 }
 
    
@@ -149,7 +157,12 @@ export const Field = styled.div`
 
     color: #000000;
 
+    &:focus{
+    outline: 2px solid black;  
+
     }
+    }
+
 
 `
 
@@ -206,5 +219,5 @@ margin-bottom:30px;
         padding:0px 20px;
         font-size:24px;
 
-           
+        &:focus{outline: 2px solid black;}
        }`
