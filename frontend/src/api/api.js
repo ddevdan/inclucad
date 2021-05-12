@@ -29,11 +29,9 @@ export default {
       return apiBase.post("/auth/sign_in", payload);
     },
     userLogOut(payload) {
-      console.log(payload);
-      console.log(payload.data.id);
       return apiBase.delete(
         "/auth/sign_out",
-        { data: { user: { id: payload.data.id } } },
+       payload,
         getHeaders()
       );
     },
@@ -47,16 +45,30 @@ export default {
 
   evaluations: {
     get() {
-      console.log(getHeaders());
       return apiBase.get("/evaluations", getHeaders());
     },
-    show(id){
-      return apiBase.get(`/evaluations/${id}`, getHeaders())
-    }
+    show(id) {
+      return apiBase.get(`/evaluations/${id}`, getHeaders());
+    },
+    update(payload) {
+      return apiBase.put(
+        `/evaluations/${payload.id}`,
+        payload.data,
+        getHeaders()
+      );
+    },
   },
   health_center: {
     get() {
       return apiBase.get("/health_centers", getHeaders());
+    },
+  },
+  cif_codes: {
+    search(pass) {
+      return apiBase.get(`/cif_codes/search?description=${pass}`, getHeaders());
+    },
+    get() {
+      return apiBase.get(`/cif_codes`, getHeaders());
     },
   },
   currentUser: async function () {
