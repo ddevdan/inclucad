@@ -17,6 +17,7 @@ export default function RegisterPerson({ title, GoBack }: props) {
   const history = useHistory();
   const onSubmit = (data) => {
     console.log(data);
+    // se o data tem target, isso quer dizer que ele é o botão de submit
     if (data.target) {
       let data_send = toSendData;
       data_send["disabled_person"]["phones_attributes"] = [
