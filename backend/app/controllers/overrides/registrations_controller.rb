@@ -3,16 +3,6 @@ module Overrides
       before_action :set_user, only: [:update, :destroy]
       
 
-        def destroy
-          
-          if @resource
-            @resource.destroy
-            yield @resource if block_given?
-            render_destroy_success
-          else
-            render_destroy_error
-          end
-        end
 
 
         def set_user
