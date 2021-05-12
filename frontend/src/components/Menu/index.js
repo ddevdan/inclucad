@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect} from 'react'
 import  { useHistory } from 'react-router-dom'
 import * as s from './style'
 import LogoImg from '../../assets/images/logo.svg'
@@ -13,6 +13,20 @@ function Menu(props) {
     const {setLoggedIn, data} = props
     const history = useHistory()
     const [openMenu, setOpenMenu] = useState(false)
+    const [agente, setAgente] = useState(false)
+
+    useEffect(() => {
+        document.title = `INCLUCAD - Início`;
+        api.currentUser()
+        .then((res)=>{
+            console.log(res.data.data)
+            setLoggedIn({status:true, data:res.data.data})
+            setAgente(res.data.data.agente)
+            
+
+        })
+        .catch(err=> console.log(err))
+      },[]);
     function handleMenuOpen() {
         setOpenMenu(!openMenu)
         
@@ -38,10 +52,10 @@ function Menu(props) {
     let menu = <s.MenuOpened onClick={handleMenuOpen}>
     <s.wrapButtons>
     <DashButton text="INICIO" link_to="/" img="home"  />
-    <DashButton text="CADASTRAR" link_to="/register" img="create"  />
-    <DashButton text="PESQUISAR" link_to="/search" img="search"  />
-    <DashButton text="VISUALIZAR" link_to="/view" img="visualize"  />
-    <DashButton text="AVALIAR" link_to="/evaluations" img="evaluation"  />
+    {agente && <DashButton text="CADASTRAR" link_to="/register" img="create"/>}
+    <DashButton text="PESQUISAR" link_to="/search" img="search"/>
+    <DashButton text="VISUALIZAR" link_to="/view" img="visualize"/>
+    {!agente && <DashButton text="AVALIAR" link_to="/evaluations" img="evaluation"/> }
     <s.CLoseWraper>
         <s.Close onClick={handleMenuOpen} className="menu__cursor">
             FECHAR MENU <img src={CloseImg} alt="Close Menu" />

@@ -15,6 +15,7 @@ import { useState, useEffect, useMemo } from 'react';
 import api from './api/api'
 import AuthContext from './contexts/auth'
 import RegisterPerson from './pages/RegisterPerson';
+import Visualize from './pages/Visualize';
 
 function App() {
   let history = useHistory()
@@ -64,6 +65,10 @@ function App() {
 
             <Route exact path="/evaluations/:id">
               <Evaluate title="Avaliação" GoBack={GoBackButton} />
+            </Route>
+
+            <Route exact path="/view">
+              <Visualize title="Visualizar" GoBack={GoBackButton} />
             </Route>
 
             <Route exact path="/register">
