@@ -24,10 +24,10 @@ function Dashboard(props){
         <s.Dashboard>
             <s.Title>{title}</s.Title>
             <s.WrapMenu>
-            {agente ? <DashButton text="CADASTRAR" link_to="/register" img="create"/> : <></>}
+            {agente && <DashButton text="CADASTRAR" link_to="/register" img="create"/>}
             <DashButton text="PESQUISAR" link_to="/search" img="search"/>
             <DashButton text="VISUALIZAR" link_to="/view" img="visualize"/>
-            {!agente ? <DashButton text="AVALIAR" link_to="/evaluations" img="evaluation"/> : <></>}
+            {!agente && <DashButton text="AVALIAR" link_to="/evaluations" img="evaluation"/> }
             </s.WrapMenu>
         </s.Dashboard>
     )
