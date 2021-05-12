@@ -1,6 +1,7 @@
 class EvaluationsController < ApplicationController
-  # before_action :authenticate_user!
+  before_action :authenticate_user!
   before_action :set_evaluation, only: [:show, :update, :destroy]
+  before_action :set_cif_code, only: [:update]
 
   # GET /evaluations
   # Rota que retorna todas as avaliações 
@@ -21,7 +22,6 @@ class EvaluationsController < ApplicationController
   # Rota de criação de avaliações
   def create
     @evaluation = Evaluation.new(evaluation_params)
-
     if @evaluation.save
       render json: @evaluation, status: :created, location: @evaluation
     else
@@ -32,8 +32,12 @@ class EvaluationsController < ApplicationController
   # PATCH/PUT /evaluations/1
   # Rota de atualização
   def update
+    # binding.pry
+
     @evaluation.user = current_user
     @evaluation.evaluated_at = Time.now
+    @evaluation.cif_code = @cif_code unless @cif_code.nil?
+    @evaluation.done = true
     if @evaluation.update(evaluation_params)
       render json: @evaluation, include:[:user, :disabled_person, :cif_code]
     else
@@ -51,6 +55,10 @@ class EvaluationsController < ApplicationController
     # Definir avaliação para ser editada, destruída, deletada e mostrada.
     def set_evaluation
       @evaluation = Evaluation.find(params[:id])
+    end
+
+    def set_cif_code      
+      @cif_code = CifCode.find_by(code: params[:evaluation][:cif_code])
     end
 
     # Paramentros permitidos pelo controller.

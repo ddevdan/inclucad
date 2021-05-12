@@ -9,6 +9,16 @@ export const Form = styled.div`
    align-items:center;
    position:relative;
     padding-bottom:120px;
+
+    .select__search{
+        width:320px;
+        border-radius:24px !important;
+       font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        outline:none !important;
+    }
    form{
        display:flex;
        flex-direction:column;
@@ -253,4 +263,48 @@ margin-bottom:30px;
         font-size:24px;
 
         &:focus{outline: 2px solid black;}
-       }`
+       }
+       
+       `
+
+
+
+export const ReadOnlyInfos = styled.div`
+min-width:320px;
+   max-width:400px;
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items:center;
+   position:relative;
+    padding-bottom:120px;
+    padding-top:100px;
+
+`
+
+export const ReadOnlyField = styled.div`
+ font-family: Open Sans;
+        font-style: normal;
+       span{ font-weight: bold;
+        font-size: 14px;
+        padding-bottom:5px;}
+
+        font-size:24px;
+        
+min-width:320px;
+   max-width:400px;
+   height:30px;
+   margin-bottom:30px;
+   min-width:320px;
+           max-width: 320px;
+        height: 52px;
+        background: #FFFFFF;
+        border-radius: 14px;
+        padding:0px 20px;
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items:flex-start;
+   position:relative;
+
+`

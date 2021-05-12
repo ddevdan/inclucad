@@ -3,29 +3,7 @@ import { useRouteMatch } from "react-router";
 import EvaluationCard from "../../components/EvaluationCard";
 import api from "../../api/api";
 import * as s from "./style";
-const data = [
-  {
-    id: "1",
-    status: true,
-    name: "Daniel Carvalho de Oliveira Carvalho",
-    cpf: "11479618403",
-    created_at: "2020-12-12",
-  },
-  {
-    id: "2",
-    status: false,
-    name: "Luana Mayara",
-    cpf: "11479618403",
-    created_at: "2020-12-12",
-  },
-  {
-    id: "3",
-    status: true,
-    name: "Pedro Henrique",
-    cpf: "11479618403",
-    created_at: "2020-12-12",
-  },
-];
+
 function Evaluations(props) {
   let match = useRouteMatch();
 
@@ -116,13 +94,13 @@ function Evaluations(props) {
           undone.map((e) => {
             return (
               <EvaluationCard
-                id={e._id.$oid}
+                id={e._id && e._id.$oid}
                 status={e.done}
-                name={e.disabled_person.name}
-                cpf={e.disabled_person.cpf}
-                created_at={e.disabled_person.deficiency_type}
-                key={e._id.$oid}
-                match={`${match.url}/${e._id.$oid}`}
+                name={e.disabled_person && e.disabled_person.name}
+                cpf={e.disabled_person && e.disabled_person.cpf}
+                disabled_type={e && e.disabled_type}
+                key={e._id && e._id.$oid}
+                match={`${match.url}/${e._id && e._id.$oid}`}
               />
             );
           })
@@ -143,13 +121,13 @@ function Evaluations(props) {
           done.map((e) => {
             return (
               <EvaluationCard
-                id={e._id.$oid}
+                id={e._id && e._id.$oid}
                 status={e.done}
-                name={e.disabled_person.name}
-                cpf={e.disabled_person.cpf}
-                created_at={e.disabled_person.deficiency_type}
-                key={e._id.$oid}
-                match={`${match.url}/${e._id.$oid}`}
+                name={e.disabled_person && e.disabled_person.name}
+                cpf={e.disabled_person && e.disabled_person.cpf}
+                disabled_type={e && e.disabled_type}
+                key={e._id && e._id.$oid}
+                match={`${match.url}/${e._id && e._id.$oid}`}
               />
             );
           })

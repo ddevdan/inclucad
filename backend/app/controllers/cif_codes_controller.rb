@@ -6,7 +6,9 @@ class CifCodesController < ApplicationController
   # Get all cif codes
   def index
     @codes = CifCode.all 
-    render json: @codes, :except => :_id
+    # render json: @codes, :include => :_id
+    render json: @codes
+    
   end
   ##
   # *Search for codes based on :description parameter*

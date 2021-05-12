@@ -67,8 +67,13 @@ export const Name = styled.div`
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 14px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:flex-start;
     line-height: 100.18%;
+    text-transform:uppercase;
     /* or 24px */
     /* or 24px */
 
