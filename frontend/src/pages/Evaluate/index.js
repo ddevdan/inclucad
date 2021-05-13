@@ -200,8 +200,8 @@ function Evaluate(props) {
 
       </form> : 
       <s.ReadOnlyInfos>
-      <s.ReadOnlyField><span>CIF CODE:</span> {evaluation.cif_code && evaluation.cif_code.code}</s.ReadOnlyField>
-      <s.ReadOnlyField><span>TIPO DE DEFICIÊNCIA: </span>{evaluation && evaluation.disabled_type}</s.ReadOnlyField>
+      <s.ReadOnlyField><span>CIF CODE:</span> {evaluation.cif_code && `${evaluation.cif_code.code} - ${evaluation.cif_code.description}` }</s.ReadOnlyField>
+      <s.ReadOnlyField><span>TIPO DE DEFICIÊNCIA: </span>{evaluation && evaluation.disabled_type.toUpperCase()}</s.ReadOnlyField>
       <s.ReadOnlyField><span>ADQUIRIDA?</span> {evaluation && evaluation.born_with ? "SIM" : "NÃO"}</s.ReadOnlyField>
       
       </s.ReadOnlyInfos>

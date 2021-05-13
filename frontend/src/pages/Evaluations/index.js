@@ -98,7 +98,7 @@ function Evaluations(props) {
                 status={e.done}
                 name={e.disabled_person && e.disabled_person.name}
                 cpf={e.disabled_person && e.disabled_person.cpf}
-                disabled_type={e && e.disabled_type}
+                disabled_type={e.disabled_type && e.disabled_type.toUpperCase()}
                 key={e._id && e._id.$oid}
                 match={`${match.url}/${e._id && e._id.$oid}`}
               />
@@ -125,7 +125,7 @@ function Evaluations(props) {
                 status={e.done}
                 name={e.disabled_person && e.disabled_person.name}
                 cpf={e.disabled_person && e.disabled_person.cpf}
-                disabled_type={e && e.disabled_type}
+                disabled_type={e.disabled_type && e.disabled_type.toUpperCase()}
                 key={e._id && e._id.$oid}
                 match={`${match.url}/${e._id && e._id.$oid}`}
               />
