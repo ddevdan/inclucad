@@ -8,5 +8,5 @@ class CifCode
   
   index description: 'text'
 
-  validates :code, :initial, :type, :description, presence: true
+  validates :code, :initial, :type, presence: true
 end

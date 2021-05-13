@@ -1,11 +1,11 @@
 # syntax=docker/dockerfile:1
-FROM ruby:2.5.5
+FROM ruby:2.6.7
 RUN apt-get update && apt-get install -y locales && update-locale LANG=C.UTF-8 LC_ALL=C.UTF-8
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 WORKDIR /backend
-RUN gem install bundler:2.2.16
+# RUN gem install bundler:2.2.16
 COPY Gemfile /backend/Gemfile
-COPY Gemfile.lock /backend/Gemfile.lock
+# COPY Gemfile.lock /backend/Gemfile.lock
 RUN bundle install
 # COPY ./backend /backend
 

@@ -5,9 +5,11 @@ class HealthCentersController < ApplicationController
   # GET /health_centers
   # Rota que retorna os postos de saúde.
   def index
-    @health_centers = HealthCenter.all
+    # @health_centers = HealthCenter.all
+    
 
-    render json: @health_centers, include: [:phone_number, :address, ]
+    # render json: @health_centers, include: [:phone_number, :address, ]
+    render json: [current_user.health_center], include: [:phone_number, :address, ]
   end
 
   # GET /health_center/:hc_code
