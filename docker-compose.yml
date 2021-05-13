@@ -14,6 +14,16 @@ services:
     stdin_open: true
     tty: true
 
+  frontend:
+    container_name: frontend
+    build: ./frontend/
+    ports:
+      - "80:3000"
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+
+
   inclucad_db:
     container_name: inclucad_db
     image: mongo
