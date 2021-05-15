@@ -5,8 +5,7 @@ ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 WORKDIR /backend
 # RUN gem install bundler:2.2.16
 COPY Gemfile /backend/Gemfile
-# COPY Gemfile.lock /backend/Gemfile.lock
-RUN bundle install
+COPY Gemfile.lock /backend/Gemfile.lock
 # COPY ./backend /backend
 
 # Add a script to be executed every time the container starts.
@@ -14,6 +13,8 @@ RUN bundle install
 # RUN chmod +x /usr/bin/entrypoint.sh
 # ENTRYPOINT ["entrypoint.sh"]
 RUN gem install rails 
+RUN bundle install
+
 EXPOSE 3000
 
 # Configure the main process to run when running the image
