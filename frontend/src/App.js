@@ -41,7 +41,7 @@ function App() {
     } 
   }, [])
 
-  const goBack = () => history.push('/')
+  const goBack = () => history.push('/home')
   const GoBackButton = () => (
     <s.GoBack >
       <div onClick={goBack}>
@@ -56,6 +56,9 @@ function App() {
         <div>
           <Switch>
 
+            <Route exact path="/home">
+              <Home title="Início" setLoggedIn={setLoggedIn}/>
+            </Route>
             <Route exact path="/">
               <Home title="Início" setLoggedIn={setLoggedIn}/>
             </Route>
