@@ -5,6 +5,7 @@ export const App = styled.div`
     min-height: 100vh;
     max-width: 100%;
     display:flex;
+    padding:20px 20px;
     justify-content:center;
     position:relative;
     

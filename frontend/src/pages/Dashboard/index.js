@@ -6,8 +6,9 @@ import * as s from './style'
 
 function Dashboard(props){
     const context = useContext(AuthContext);
-    const {title, setLoggedIn} = props
+    const {title, setLoggedIn = false} = props
     const [agente, setAgente] = useState(false)
+    const [user, setUser] = useState(false)
     useEffect(() => {
         document.title = `INCLUCAD - Início`;
         api.currentUser()
@@ -15,12 +16,14 @@ function Dashboard(props){
             console.log(res.data.data)
             setLoggedIn({status:true, data:res.data.data})
             setAgente(res.data.data.agente)
+            setUser(true)
             
 
         })
         .catch(err=> console.log(err))
       },[]);
     return(
+        user ?
         <s.Dashboard>
             <s.Title>{title}</s.Title>
             <s.WrapMenu>
@@ -30,6 +33,7 @@ function Dashboard(props){
             {!agente && <DashButton text="AVALIAR" link_to="/evaluations" img="evaluation"/> }
             </s.WrapMenu>
         </s.Dashboard>
+        : <></>
     )
 }
 

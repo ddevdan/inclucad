@@ -25,6 +25,7 @@ export const Form = styled.div`
     align-items: center;
     justify-content: center;
     margin-top: 120px;
+    padding:0 20px;
     input {
       &:focus {
         outline: 2px solid black;
@@ -221,8 +222,7 @@ export const WraperFields = styled.div`
   }
 
   .select-custom {
-    min-width: 320px;
-    max-width: 320px;
+    width: 100%;
     height: 52px;
     background: #ffffff;
     border: 1px solid #737373;

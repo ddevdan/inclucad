@@ -15,6 +15,7 @@ export const RegisterPerson = styled.div`
        align-items:center;
        justify-content:center;
        margin-top:120px;
+       padding:0 20px;
        input{
         &:focus{outline: 2px solid black;}
         width: 100%;
@@ -210,14 +211,12 @@ margin-bottom:30px;
 }
 
 .select-custom{
-           min-width:320px;
-           width: 100%;
+    &:focus{outline: 2px solid black;}
+        width: 100%;
         height: 52px;
         background: #FFFFFF;
         border: 1px solid #737373;
         border-radius: 14px;
         padding:0px 20px;
         font-size:24px;
-
-        &:focus{outline: 2px solid black;}
        }`

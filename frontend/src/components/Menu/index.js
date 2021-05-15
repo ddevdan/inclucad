@@ -13,6 +13,7 @@ function Menu(props) {
     const {setLoggedIn, data} = props
     const history = useHistory()
     const [openMenu, setOpenMenu] = useState(false)
+    const [user, setUser] = useState(false)
     const [agente, setAgente] = useState(false)
 
     useEffect(() => {
@@ -22,6 +23,7 @@ function Menu(props) {
             console.log(res.data.data)
             setLoggedIn({status:true, data:res.data.data})
             setAgente(res.data.data.agente)
+            setUser(true)
             
 
         })
@@ -65,6 +67,7 @@ function Menu(props) {
     </s.wrapButtons>
 </s.MenuOpened>
     return (
+        user ?
         <s.Menu>
             <ShowMenu></ShowMenu>
             <s.WrapMenuItems>
@@ -76,6 +79,7 @@ function Menu(props) {
                 </Link>
             </s.WrapMenuItems>
         </s.Menu>
+        : <></>
 
     )
 }
