@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get '/graphs/:city', to: 'graphs#index', as: "graphs"
   mount_devise_token_auth_for 'User', at: 'auth', controllers:{
     registrations: 'overrides/registrations'
 
