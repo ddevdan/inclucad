@@ -5,7 +5,6 @@ import api from '../../api/api'
 import * as s from './style'
 
 function Home(props){
-    const context = useContext(AuthContext);
     const {title, setLoggedIn = false} = props
     const [agente, setAgente] = useState(false)
     const [user, setUser] = useState(false)
@@ -17,7 +16,6 @@ function Home(props){
             setLoggedIn({status:true, data:res.data.data})
             setAgente(res.data.data.agente)
             setUser(true)
-            
 
         })
         .catch(err=> console.log(err))
@@ -30,7 +28,7 @@ function Home(props){
             {agente && <DashButton text="CADASTRAR" link_to="/register" img="create"/>}
             <DashButton text="PESQUISAR" link_to="/search" img="search"/>
             <DashButton text="VISUALIZAR" link_to="/view" img="visualize"/>
-            {!agente && <DashButton text="AVALIAR" link_to="/evaluations" img="evaluation"/> }
+            {!agente && <DashButton text="AVALIAÇÕES" link_to="/evaluations" img="evaluation"/> }
             </s.WrapMenu>
         </s.Home>
         : <></>
