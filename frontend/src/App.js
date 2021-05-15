@@ -5,7 +5,7 @@ import {
   Route,
 } from "react-router-dom";
 import Menu from './components/Menu/';
-import Dashboard from './pages/Dashboard'
+import Home from './pages/Home'
 import Evaluations from './pages/Evaluations';
 import { useHistory } from "react-router-dom";
 import BackImg from './assets/images/back.svg'
@@ -15,7 +15,7 @@ import { useState, useEffect, useMemo } from 'react';
 import api from './api/api'
 import AuthContext from './contexts/auth'
 import RegisterPerson from './pages/RegisterPerson';
-import Visualize from './pages/Visualize';
+import Dashboard from './pages/Dashboard';
 
 function App() {
   let history = useHistory()
@@ -57,7 +57,7 @@ function App() {
           <Switch>
 
             <Route exact path="/">
-              <Dashboard title="Início" setLoggedIn={setLoggedIn}/>
+              <Home title="Início" setLoggedIn={setLoggedIn}/>
             </Route>
             <Route exact path="/evaluations">
               <Evaluations title="Avaliações" GoBack={GoBackButton} />
@@ -68,7 +68,7 @@ function App() {
             </Route>
 
             <Route exact path="/view">
-              <Visualize title="Visualizar" GoBack={GoBackButton} />
+              <Dashboard title="Visualizar" GoBack={GoBackButton} />
             </Route>
 
             <Route exact path="/register">

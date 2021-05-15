@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const apiBase = axios.create({
-  baseURL: "http://138.197.10.130:3000/",
+  // baseURL: "http://138.197.10.130:3000/",
+  baseURL: "http://localhost:3000/",
   // baseURL:'https://3000-4711d7cb-ac39-427d-a0fc-555cc683f035.cs-us-east1-omte.cloudshell.dev'
   //prod url
 });
@@ -74,4 +75,9 @@ export default {
   currentUser: async function () {
     return apiBase.get("/auth/validate_token", getHeaders());
   },
+  graph:{
+    barChart: {get(city) {
+      return apiBase.get(`/graphs/${city}`, getHeaders());
+    }}
+  }
 };
