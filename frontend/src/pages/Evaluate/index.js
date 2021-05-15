@@ -7,13 +7,15 @@ import api from "../../api/api";
 import Select from "react-select";
 
 function Evaluate(props) {
-  const { title } = props;
+  const { title, GoBack } = props;
   let { id } = useParams();
   const [toSendData, setToSendData] = useState({});
   const [disabledPerson, setDisabledPerson] = useState({});
   const [evaluation, setEvaluation] = useState({});
   const [cifCodes, setCifCodes] = useState({});
+  const [cifCodesEvaluation, setCifCodesEvaluation] = useState([]);
   const history = useHistory();
+  
   const {
     register,
     handleSubmit,
@@ -30,13 +32,14 @@ function Evaluate(props) {
   const onSubmit = (data) => {
     console.log(data["evaluation"] && data["evaluation"]["deficiency_type"]);
     const born_with = data.evaluation && data.evaluation.born_with;
-    const cif_code = data.evaluation && data.evaluation.cif_code;
+    const cif_codes = data.evaluation && data.evaluation.cif_codes;
+    console.log(cif_codes)
     const deficiency_type = data.evaluation && data.evaluation.deficiency_type;
     let structure = {
       evaluation: {
         disabled_type: deficiency_type,
         born_with: born_with,
-        cif_code: cif_code && cif_code.value,
+        cif_codes: cif_codes,
       },
     };
 
@@ -48,7 +51,7 @@ function Evaluate(props) {
       console.log(data_send)
       api.evaluations.update(data_send).then(response => {
         console.log(response)
-        history.push("/")
+        history.push("/?status=true")
       }).catch(err => console.log("ERROR", err));
     }else{
       setToSendData(payload)
@@ -64,8 +67,11 @@ function Evaluate(props) {
       console.log(data)
       setDisabledPerson(data && data.disabled_person);
       setEvaluation(data);
+      // setCifCodesEvaluation(data.cif_codes && data.cif_codes);
+      setCifCodesEvaluation(data.cif_codes)
       console.log(data)
     });
+    
 
     api.cif_codes
       .get()
@@ -94,6 +100,7 @@ function Evaluate(props) {
 
   return (
     <s.Form>
+      <GoBack />
       <s.wrapTitle>
         <s.Title>{title}</s.Title>
         <s.PacientName className="title__name">
@@ -112,17 +119,17 @@ function Evaluate(props) {
           
         >
           <s.WraperFields>
-            <s.Field key={evaluation && evaluation.cif_code}>
+            <s.Field key={evaluation && evaluation.cif_codes}>
               <label>Código CIF</label>
               {/* <input
                 placeholder="Pesquisar..."
                 name="name"
-                defaultValue={evaluation.cif_code}
-                {...register("evaluation.cif_code")}
+                defaultValue={evaluation.cif_codes}
+                {...register("evaluation.cif_codes")}
               /> */}
 
               <Controller
-                name="evaluation.cif_code"
+                name="evaluation.cif_codes"
                 control={control}
                 defaultValue={false}
                 rules={{ required: true }}
@@ -134,6 +141,8 @@ function Evaluate(props) {
                     required
                     defaultValue={""}
                     className="select__search"
+                    closeMenuOnSelect={false}
+                    isMulti
                   />
                 )}
               />
@@ -200,7 +209,12 @@ function Evaluate(props) {
 
       </form> : 
       <s.ReadOnlyInfos>
-      <s.ReadOnlyField><span>CIF CODE:</span> {evaluation.cif_code && `${evaluation.cif_code.code} - ${evaluation.cif_code.description}` }</s.ReadOnlyField>
+      <s.ReadOnlyField><span>CIF CODE:</span> 
+      {cifCodesEvaluation && cifCodesEvaluation.map( element => {
+         
+           return <s.CodeCif>{`${element.code} - ${element.description}`}</s.CodeCif>
+      })}
+          </s.ReadOnlyField>
       <s.ReadOnlyField><span>TIPO DE DEFICIÊNCIA: </span>{evaluation && evaluation.disabled_type.toUpperCase()}</s.ReadOnlyField>
       <s.ReadOnlyField><span>ADQUIRIDA?</span> {evaluation && evaluation.born_with ? "SIM" : "NÃO"}</s.ReadOnlyField>
       
