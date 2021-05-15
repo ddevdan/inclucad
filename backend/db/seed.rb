@@ -14,7 +14,6 @@ categorias = {"b"=>"Funções do Corpo", "s"=>"Estruturas do Corpo", "d"=>"Ativi
 total = codes.count 
 cont = 0
 codes.each do |code|
-    puts code if code['Descrição'] == ""
     c = CifCode.create!(code: code['Categoria'], 
                         description: code['Descrição'],
                         type: categorias[code['Categoria'].first],
@@ -62,7 +61,7 @@ d1 = DisabledPerson.create(name: "Joao da Silva", cpf: "11479618402",
                         work_card_id: "123456789", scholarity: "ensino fundamental incompleto",
                         acquisition_form: "queda", society_limitation: "limitação da sociedade",
                         social_situation: "nenhuma", infos_add: "", deficiency_type: "física",
-                        health_center:health_centers[rand(2)],
+                        health_center:health_centers[0],
                         address_attributes:{cep: "50010010", 
                                                 street: "Estr. do Arraial", number: "4155",
                                                 neighborhood: "Casa Amarela",
@@ -85,7 +84,7 @@ d2 = DisabledPerson.create(name: "Maria da Silva", cpf: "11479618409",
                         work_card_id: "123456788", scholarity: "ensino fundamental completo",
                         acquisition_form: "queda", society_limitation: "limitação da sociedade",
                         social_situation: "nenhuma", infos_add: "", deficiency_type: "visual",
-                        health_center:health_centers[rand(2)],
+                        health_center:health_centers[0],
                         address_attributes:{cep: "50010010", 
                                                 street: "Estr. do Arraial", number: "4155",
                                                 neighborhood: "Casa Amarela",

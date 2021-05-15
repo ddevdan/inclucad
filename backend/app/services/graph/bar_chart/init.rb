@@ -42,7 +42,7 @@ class Graph::BarChart::Init
             "AUDITIVA" => 0,
             "FÍSICA" => 0,
             "INTELECTUAL" => 0,
-            "MULTIPLAS DEFICIÊNCIAS" => 0,
+            "MULTIPLAS" => 0,
             "OSTOMIA" => 0,
             "VISUAL" => 0,
         }
