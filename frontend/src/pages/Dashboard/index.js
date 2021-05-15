@@ -9,7 +9,7 @@ import VerticalBar from "../../components/graphs/VerticalBar";
 import AuthContext from "../../contexts/auth";
 
 function Dashboard(props) {
-  const { title } = props;
+  const { title, GoBack} = props;
   const [charts, setCharts] = useState({})
   const [currentCity, setCurrentCity] = useState("paulista")
   const [currentState, setCurrentState] = useState("recife")
@@ -52,12 +52,19 @@ function Dashboard(props) {
   return (
   
     <s.Dashboard>
+      <GoBack/>
       <s.Title>Painel de Controle</s.Title>
-      <select onChange={changeCity} value={currentCity}>
+      <s.WraperFields>
+        <s.Field>
+      <label>Cidade</label>
+      <s.Select className="select-custom" onChange={changeCity} value={currentCity}>
         <option value="paulista">Paulista</option>
         <option value="recife">Recife</option>
-      </select>
-      {loading ? <p>Carrengando...</p> : <VerticalBar currentCity={currentCity} data={charts.bar_chart}/>}
+      </s.Select>
+      </s.Field>
+      </s.WraperFields>
+      {loading ? <p>Carrengando...</p> : 
+      <VerticalBar currentCity={currentCity} data={charts.bar_chart}/>}
       
     </s.Dashboard> 
   )

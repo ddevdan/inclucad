@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Dashboard = styled.div`
-    min-width:320px;
+    min-width:100%;
    max-width:100%;
    display:flex;
    flex-direction:column;
@@ -10,15 +10,6 @@ export const Dashboard = styled.div`
    position:relative;
     padding-bottom:120px;
 
-    .select__search{
-        width:320px;
-        border-radius:24px !important;
-       font-family: Open Sans;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 20px;
-        outline:none !important;
-    }
    form{
        display:flex;
        flex-direction:column;
@@ -152,9 +143,11 @@ export const Dashboard = styled.div`
 export const Field = styled.div`
     display:flex;
     flex-direction:column;
-    justify-content:center;
-    align-items:center;
+    justify-content:flex-start;
+    align-items:flex-start;
    margin-bottom:30px;
+   width:100%;
+   margin-top:30px;
    label{
        width:100%;
        text-transform:capitalize;
@@ -204,6 +197,7 @@ width:100%;
 line-height: 100.18%;
 color: #000000;
 position:relative;
+margin-top:80px;
 
 `
 
@@ -225,7 +219,7 @@ margin-top:10px;
 
 export const wrapTitle = styled.div`
 
-min-width:320px;
+min-width:100%;
 max-width:80%;
 line-height: 100.18%;
 color: #000000;
@@ -241,20 +235,13 @@ justify-content:center;;
 
 
 export const WraperFields = styled.div`
-h2{
-    font-size:24px;
-    font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
 width:100%;
-margin-bottom:30px;
-
-
-}
-
+display:flex;
+flex-direction:column;
+align-items:flex-start;
+justify-content:flex-start;
 .select-custom{
-           min-width:320px;
-           max-width: 320px;
+        max-width: 360px;
         height: 52px;
         background: #FFFFFF;
         border: 1px solid #737373;
@@ -308,3 +295,21 @@ min-width:320px;
    position:relative;
 
 `
+
+
+export const Select  = styled.select`
+   min-width:60%;
+           max-width: 100%;
+        height: 52px;
+        background: #FFFFFF;
+        border: 1px solid #737373;
+        border-radius: 14px;
+        padding:0px 20px;
+        font-size:24px;
+
+        &:focus{outline: 2px solid black;}
+       
+`;
+
+export const Label = styled.div`
+font-size:20px;`
