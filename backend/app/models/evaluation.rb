@@ -8,7 +8,7 @@ class Evaluation
   belongs_to :user, optional:true
   belongs_to :disabled_person
   belongs_to :health_center
-  belongs_to :cif_code, optional:true
+  has_and_belongs_to_many :cif_codes
   accepts_nested_attributes_for :user, :disabled_person
 
   # validates :evaluated_at, :disabled_type, :cid_code, :born_with, :done, presence: true

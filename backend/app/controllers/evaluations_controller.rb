@@ -1,7 +1,7 @@
 class EvaluationsController < ApplicationController
   before_action :authenticate_user!
   before_action :set_evaluation, only: [:show, :update, :destroy]
-  before_action :set_cif_code, only: [:update]
+  before_action :set_cif_codes, only: [:update]
 
   # GET /evaluations
   # Rota que retorna todas as avaliações 
@@ -9,14 +9,14 @@ class EvaluationsController < ApplicationController
     @health_center = current_user.health_center unless current_user.nil?
     @evaluations = Evaluation.where(health_center: @health_center)
 
-    render json: @evaluations, include: [:user, :disabled_person, :cif_code]
+    render json: @evaluations, include: [:user, :disabled_person, :cif_codes]
   end
   
 
   # GET /evaluations/1
   # Mostra avaliação
   def show
-    render json: @evaluation, include:[:user, :disabled_person, :cif_code]
+    render json: @evaluation, include:[:user, :disabled_person, :cif_codes]
   end
 
   # POST /evaluations
@@ -33,14 +33,13 @@ class EvaluationsController < ApplicationController
   # PATCH/PUT /evaluations/1
   # Rota de atualização
   def update
-    # binding.pry
 
     @evaluation.user = current_user
     @evaluation.evaluated_at = Time.now
-    @evaluation.cif_code = @cif_code unless @cif_code.nil?
+    @evaluation.cif_codes = @cif_codes unless @cif_codes.nil?
     @evaluation.done = true
     if @evaluation.update(evaluation_params)
-      render json: @evaluation, include:[:user, :disabled_person, :cif_code]
+      render json: @evaluation, include:[:user, :disabled_person, :cif_codes]
     else
       render json: @evaluation.errors, status: :unprocessable_entity
     end
@@ -58,8 +57,9 @@ class EvaluationsController < ApplicationController
       @evaluation = Evaluation.find(params[:id])
     end
 
-    def set_cif_code      
-      @cif_code = CifCode.find_by(code: params[:evaluation][:cif_code])
+    def set_cif_codes      
+      @cif_codes = CifCode.in(code: params[:evaluation][:cif_codes].map{|c| c[:value]})
+
     end
 
     # Paramentros permitidos pelo controller.
