@@ -24,6 +24,7 @@ class Graph::BarChart::Init
                 city_hash[hc_city] = {:state => hc_state, :types => {ev_type => 1} } unless ev_type.nil?
             end
         end
+
         ##
         # Deletar gráficos gerados anteriormente para atualizar os dados
         Graph.destroy_all
@@ -37,12 +38,24 @@ class Graph::BarChart::Init
     # Gerar novos gráficos com os dados armazenados na variavel city_hash
     def self.init_graphs(city_hash)
         city_hash.each do |city, val|
-            data = []
+            data = {
+            "AUDITIVA" => 0,
+            "FÍSICA" => 0,
+            "INTELECTUAL" => 0,
+            "MULTIPLAS DEFICIÊNCIAS" => 0,
+            "OSTOMIA" => 0,
+            "VISUAL" => 0,
+        }
             val[:types].each do |type, quantity|
-                data << {type: type, quantity: quantity }
+                # data << {type: type, quantity: quantity }
+                data[type] = quantity
             end
-            g = 
-            g = Graph.create!(city: city, state: val[:state], 
+            # data = [data['FISICA'] unless data['FISICA'], ]
+            # g = 
+            data = [data.values]
+            city = city.downcase unless city.nil?
+            state = val[:state].downcase unless val[:state].nil?
+            g = Graph.create!(city: city , state: state, 
                             type: "bar_chart", 
                             title:"Quantidade de Tipo de Deficiência por Cidade",
                             data: data)   
