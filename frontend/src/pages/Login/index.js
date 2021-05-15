@@ -23,7 +23,7 @@ const Login = (props) => {
             console.log(res.headers)
             setLoggedIn({data:data, status:true})      
             localStorage.setItem('headers', header);
-            history.push("/")
+            history.push("/home")
             setLoginError("")
         }).catch(e=>{
             setLoginError(`Email ou Senha incorretos. ${e}`);
@@ -34,7 +34,7 @@ const Login = (props) => {
     useEffect(() => {
         document.title = `INCLUCAD - Login`;
         if(context.loggedIn.status){
-            history.push("/")
+            history.push("/home")
         }
       },[]);
     return (
