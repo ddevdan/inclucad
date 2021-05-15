@@ -166,6 +166,7 @@ export default function RegisterPerson({ title, GoBack }: props) {
               <input
                 type="date"
                 name="born_date"
+                className="select-custom"
                 {...register("disabled_person..born_date")}
               />
               <s.Errors>

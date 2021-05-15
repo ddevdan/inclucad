@@ -85,7 +85,7 @@ function Evaluate(props) {
 
   const defiency_type = [
     ["VISUAL", "visual"],
-    ["FÍSICA", "fisica"],
+    ["FÍSICA", "física"],
     ["INTELECTUAL", "intelectual"],
     ["AUDITIVA", "auditiva"],
     ["OSTOMIA", "ostomia"],
