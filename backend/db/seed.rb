@@ -7,6 +7,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+require 'faker'
 
 # descomentar daqui pra baixo
 codes = JSON.parse(File.read("#{Rails.root}/lib/cif_codes/codes.json"))
@@ -51,7 +52,7 @@ User.create!(name:"Agente de Saúde", agente: true, agente_code: 12345, cpf: 114
 User.create!(name:"Fisioterapeuta", agente: false, agente_code: nil, cpf: 11479618401,
                 email: "fisio@inclucad.com", fisio_code: 12345,
                 provider: "email", uid: "fisio@inclucad.com", 
-                password:123456, health_center: health_centers[0])
+                password:123456, health_center: health_centers[1])
 
 d1 = DisabledPerson.create(name: "Joao da Silva", cpf: "11479618402", 
                         email: "joao@inclucad.com", born_date: "2000-20-02", 
@@ -100,5 +101,90 @@ e2 = Evaluation.new(health_center: d2.health_center)
 d2.evaluation = e2
 
 
-Graph::BarChart::Init.structure()
-puts 'end'
+
+def person
+cpf = 11111111111+rand(10000)
+
+    scholarity = ['ensino fundamental completo', 
+'ensino fundamental incompleto', 
+'ensino médio completo','ensino médio imcompleto', 
+'ensino superior completo','ensino superior incompleto']
+social_situation = ["a", "b", "c", "d", "e"]
+
+deficiency_type = [
+    "auditiva",
+    "física",
+    "intelectual",
+    "multiplas",
+    "ostomia",
+    "visual",]
+
+    type=["celular", "fixo"]
+health_centers = [HealthCenter.first, HealthCenter.last]
+
+    scholarity_rand = scholarity[rand(scholarity.length-1)]
+    social_situation_rand = social_situation[rand(social_situation.length-1)]
+    health_center_rand = health_centers[rand(health_centers.length-1)]
+    deficiency_type_rand = deficiency_type[rand(deficiency_type.length-1)]
+    type_rand = type[rand(type.length-1)]
+    puts cpf
+    {
+        email:Faker::Internet.email,
+        card_id: Faker::IDNumber.brazilian_id,
+        work_card_id: Faker::IDNumber.brazilian_id,
+        sus_id: Faker::IDNumber.brazilian_id,
+        # cpf: Faker::IDNumber.brazilian_citizen_number,
+        cpf: cpf,
+        mother_name:Faker::Name.name,
+        name:Faker::Name.name,
+        father_name:Faker::Name.name,
+        gender:Faker::Gender.short_binary_type,        
+        born_date: Faker::Date.birthday(min_age: 18, max_age: 65),
+        scholarity: scholarity_rand,
+        acquisition_form: Faker::Lorem.paragraphs,
+        society_limitation: Faker::Lorem.paragraphs,
+        social_situation:social_situation_rand,
+        health_center:health_center_rand,
+        infos_add: Faker::Lorem.paragraphs,
+        deficiency_type:deficiency_type_rand,
+        cep:Faker::Address.zip_code,
+        ad_number: rand(200),
+        street: Faker::Address.street_name,
+        state: Faker::Address.state,
+        neighborhood: Faker::Address.mail_box ,
+        city:Faker::Address.city ,
+        country: Faker::Address.country,
+        ph_number: Faker::PhoneNumber.cell_phone_in_e164,
+        type: type_rand
+
+}
+end
+
+
+
+1000.times do 
+    person = person()
+    d = DisabledPerson.create(name: person[:name], cpf: person[:cpf], 
+                        email: person[:email], born_date: person[:born_date], 
+                        gender: person[:gender], father_name: person[:father_name],
+                        mother_name: person[:mother_name], 
+                        card_id: person[:card_id], sus_id: person[:sus_id],
+                        work_card_id: person[:work_card_id], scholarity: person[:scholarity],
+                        acquisition_form: person[:acquisition_form], society_limitation: person[:society_limitation],
+                        social_situation: person[:social_situation], infos_add: person[:infos_add], deficiency_type: person[:deficiency_type],
+                        health_center: person[:health_center],
+                        address_attributes:{cep: person[:cep], 
+                                                street: person[:street], number: person[:ad_number],
+                                                neighborhood: person[:neighborhood],
+                                                city: person[:city], state: person[:state],
+                                                country: person[:country], complement: ""},
+                        
+                        phones_attributes:[{ number: person[:ph_number], type:person[:type] }],
+                        
+                        )
+
+
+e = Evaluation.new(health_center: d.health_center)
+d.evaluation = e
+
+end
