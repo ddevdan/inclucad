@@ -279,3 +279,8 @@ export const ReadOnlyField = styled.div`
   align-items: flex-start;
   position: relative;
 `;
+
+
+export const CodeCif = styled.div`
+font-size:14px;
+`
