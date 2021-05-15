@@ -61,3 +61,7 @@ gem 'rack-cors', :require => 'rack/cors'
 # faker
 
 gem 'faker'
+
+
+# oj optimize json
+gem 'oj'

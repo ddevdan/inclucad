@@ -3,6 +3,7 @@ import { useRouteMatch } from "react-router";
 import EvaluationCard from "../../components/EvaluationCard";
 import api from "../../api/api";
 import * as s from "./style";
+import StatusNotification from "../../components/StatusNotification";
 
 function Evaluations(props) {
   let match = useRouteMatch();
@@ -14,6 +15,7 @@ function Evaluations(props) {
   const [evaluations, setEvaluations] = useState([]);
   const [undone_default_data, set_undone_default_data] = useState([]);
   const [done_default_data, set_done_default_data] = useState([]);
+  const [loading, setLoading] = useState(true)
   // const undone_default_data = evaluations.filter(undone_filter)
   // const done_default_data = evaluations.filter(done_filter)
 
@@ -21,7 +23,6 @@ function Evaluations(props) {
   const [done, setDone] = useState(done_default_data);
 
   function undone_filter(value) {
-    console.log(value.done);
     return value.done === false;
   }
 
@@ -36,7 +37,7 @@ function Evaluations(props) {
     if (value.length !== 0) {
       return setUndone(
         undone_default_data.filter((ev) =>
-          ev.disabled_person.name.toLowerCase().includes(value.toLowerCase())
+          ev.name && ev.name.toLowerCase().includes(value.toLowerCase())
         )
       );
     }
@@ -50,7 +51,7 @@ function Evaluations(props) {
     if (value.length !== 0) {
       return setDone(
         done_default_data.filter((ev) =>
-          ev.disabled_person.name.toLowerCase().includes(value.toLowerCase())
+          ev.name && ev.name.toLowerCase().includes(value.toLowerCase())
         )
       );
     }
@@ -62,14 +63,27 @@ function Evaluations(props) {
     api.evaluations.get().then((response) => {
       setEvaluations(response.data);
       const data = response.data;
-      const undone = data.filter(undone_filter);
-      const done = data.filter(done_filter);
+      let done = []
+      let undone = []
+      data.forEach(element => {
+        switch (element.evaluation && element.evaluation.done) {
+          case true:
+            done.push(element)
+            break;
+          default:
+            undone.push(element)
+            break;
+        }
+        setLoading(!loading)
+      });
+      // undone = data.filter(undone_filter);
+      // done = data.filter(done_filter);
       set_undone_default_data(undone);
       set_done_default_data(done);
       setUndone(undone);
       setDone(done);
 
-      console.log(undone);
+      // console.log(undone);
     });
   }, []);
 
@@ -80,6 +94,8 @@ function Evaluations(props) {
       <GoBack></GoBack>
 
       <s.Title>{title}</s.Title>
+      {loading ? <StatusNotification text="Carregando..." marginTop="120px"/> : 
+      <>
       <s.WrapECards>
         <h2>Pendentes</h2>
         <input
@@ -91,16 +107,17 @@ function Evaluations(props) {
         {undone.length === 0 ? (
           <NotFound />
         ) : (
-          undone.map((e) => {
+          undone.map((d, index) => {
+            index === 0 && console.log(d)
             return (
               <EvaluationCard
-                id={e._id && e._id.$oid}
-                status={e.done}
-                name={e.disabled_person && e.disabled_person.name}
-                cpf={e.disabled_person && e.disabled_person.cpf}
-                disabled_type={e.disabled_type && e.disabled_type.toUpperCase()}
-                key={e._id && e._id.$oid}
-                match={`${match.url}/${e._id && e._id.$oid}`}
+                id={d.evaluation && d.evaluation._id.$oid}
+                status={d.evaluation && d.evaluation.done}
+                name={d && d.name}
+                cpf={d && d.cpf}
+                evaluated_at={d.evaluation && d.evaluation.evaluated_at.toUpperCase()}
+                key={d.evaluation && d.evaluation._id.$oid}
+                match={`${match.url}/${d.evaluation && d.evaluation._id.$oid}`}
               />
             );
           })
@@ -118,21 +135,22 @@ function Evaluations(props) {
         {done.length === 0 ? (
           <NotFound />
         ) : (
-          done.map((e) => {
+          done.map((d) => {
             return (
               <EvaluationCard
-                id={e._id && e._id.$oid}
-                status={e.done}
-                name={e.disabled_person && e.disabled_person.name}
-                cpf={e.disabled_person && e.disabled_person.cpf}
-                disabled_type={e.disabled_type && e.disabled_type.toUpperCase()}
-                key={e._id && e._id.$oid}
-                match={`${match.url}/${e._id && e._id.$oid}`}
-              />
+              id={d.evaluation._id && d.evaluation._id.$oid}
+              status={d.evaluation.done}
+              name={d && d.name}
+              cpf={d && d.cpf}
+              evaluated_at={d.evaluation.evaluated_at && d.evaluation.evaluated_at.toUpperCase()}
+              key={d.evaluation._id && d.evaluation._id.$oid}
+              match={`${match.url}/${d.evaluation._id && d.evaluation._id.$oid}`}
+            />
             );
           })
         )}
-      </s.WrapECards>
+      </s.WrapECards> 
+      </>}
     </s.Evaluations>
   );
 }

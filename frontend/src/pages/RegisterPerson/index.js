@@ -4,10 +4,12 @@ import { useForm } from "react-hook-form";
 import { useHistory } from "react-router-dom";
 import TypeForm from "react-typeform";
 import api from "../../api/api";
+import StatusNotification from '../../components/StatusNotification'
 export default function RegisterPerson({ title, GoBack }: props) {
   const [toSendData, setToSendData] = useState({});
   const [valueHealthCenter, setValueHealthCenter] = useState("");
   const [heatlh_centers, setHealthCenter] = useState(null);
+  const [loading, setLoading] = useState(true);
   const {
     register,
     handleSubmit,
@@ -42,6 +44,7 @@ export default function RegisterPerson({ title, GoBack }: props) {
             const first_id = res.data[0]["_id"]["$oid"];
             console.log("first_id", typeof first_id);
             console.log("RESSSS", res.data[0]["_id"]["$oid"]);
+            setLoading(!loading)
           })
           .catch((err) => console.log(err));
   }
@@ -86,6 +89,7 @@ export default function RegisterPerson({ title, GoBack }: props) {
     <s.RegisterPerson>
       <GoBack></GoBack>
       <s.Title>{title}</s.Title>
+      {loading ? <StatusNotification text="Carregando..." marginTop="120px"/> :
 
       <form onSubmit={handleSubmit(onSubmit)}>
         <TypeForm
@@ -466,7 +470,7 @@ export default function RegisterPerson({ title, GoBack }: props) {
                 <option value="other">other</option>
             </select>
             <input type="submit" /> */}
-      </form>
+      </form>}
     </s.RegisterPerson>
   );
 }

@@ -21,7 +21,7 @@ class DisabledPeopleController < ApplicationController
   def create
     @disabled_person = DisabledPerson.new(disabled_person_params)
     if @disabled_person.save!
-      @disabled_person.evaluation = Evaluation.new(health_center: @disabled_person.health_center)
+      @disabled_person.evaluation = Evaluation.new(health_center: @disabled_person.health_center, evaluated_at: Time.now)
       @disabled_person.evaluation.save!
       render json: @disabled_person, include:[:address, :phones], status: :created, location: @disabled_person
     else

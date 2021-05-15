@@ -7,6 +7,7 @@ import api from "../../api/api";
 import Select from "react-select";
 import VerticalBar from "../../components/graphs/VerticalBar";
 import AuthContext from "../../contexts/auth";
+import StatusNotification from "../../components/StatusNotification";
 
 function Dashboard(props) {
   const { title, GoBack} = props;
@@ -54,6 +55,8 @@ function Dashboard(props) {
     <s.Dashboard>
       <GoBack/>
       <s.Title>Painel de Controle</s.Title>
+      {loading ? <StatusNotification text="Carregando..." marginTop="120px"/> :
+      <>
       <s.WraperFields>
         <s.Field>
       <label>Cidade</label>
@@ -65,7 +68,7 @@ function Dashboard(props) {
       </s.WraperFields>
       {loading ? <p>Carrengando...</p> : 
       <VerticalBar currentCity={currentCity} data={charts.bar_chart}/>}
-      
+   </> }
     </s.Dashboard> 
   )
 }

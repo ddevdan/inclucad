@@ -5,11 +5,13 @@ import * as s from "./style";
 import TypeForm from "react-typeform";
 import api from "../../api/api";
 import Select from "react-select";
+import StatusNotification from '../../components/StatusNotification'
 
 function Evaluate(props) {
   const { title, GoBack } = props;
   let { id } = useParams();
   const [toSendData, setToSendData] = useState({});
+  const [loading, setLoading] = useState(true);
   const [disabledPerson, setDisabledPerson] = useState({});
   const [evaluation, setEvaluation] = useState({});
   const [cifCodes, setCifCodes] = useState({});
@@ -70,6 +72,8 @@ function Evaluate(props) {
       // setCifCodesEvaluation(data.cif_codes && data.cif_codes);
       setCifCodesEvaluation(data.cif_codes)
       console.log(data)
+      setLoading(!loading)
+      
     });
     
 
@@ -103,11 +107,16 @@ function Evaluate(props) {
       <GoBack />
       <s.wrapTitle>
         <s.Title>{title}</s.Title>
+        {loading ? <></> :
+        <>
         <s.PacientName className="title__name">
           {disabledPerson && disabledPerson.name} -{disabledPerson && disabledPerson.cpf}
         </s.PacientName>
+        </>}
       </s.wrapTitle>
-     {evaluation && !evaluation.done ? <form onSubmit={handleSubmit(onSubmit)}>
+      {loading ? <StatusNotification text="Carregando..." marginTop="120px"/> :
+      <>
+      {evaluation && !evaluation.done ? <form onSubmit={handleSubmit(onSubmit)}>
         <TypeForm
           backBtnClass="back"
           backBtnText="Anterior"
@@ -121,13 +130,6 @@ function Evaluate(props) {
           <s.WraperFields>
             <s.Field key={evaluation && evaluation.cif_codes}>
               <label>Código CIF</label>
-              {/* <input
-                placeholder="Pesquisar..."
-                name="name"
-                defaultValue={evaluation.cif_codes}
-                {...register("evaluation.cif_codes")}
-              /> */}
-
               <Controller
                 name="evaluation.cif_codes"
                 control={control}
@@ -220,7 +222,7 @@ function Evaluate(props) {
       
       </s.ReadOnlyInfos>
      
-      }
+      }</>}
     </s.Form>
   );
 }

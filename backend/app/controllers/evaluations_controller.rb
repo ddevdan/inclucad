@@ -7,9 +7,14 @@ class EvaluationsController < ApplicationController
   # Rota que retorna todas as avaliações 
   def index
     @health_center = current_user.health_center unless current_user.nil?
-    @evaluations = Evaluation.where(health_center: @health_center)
+    # @evaluations = Evaluation.includes(:disabled_person, :health_center).where(health_center: @health_center)
+    @evaluations = DisabledPerson.only(:name, :cpf).includes(:evaluation).where(health_center: @health_center)
 
-    render json: @evaluations, include: [:user, :disabled_person, :cif_codes]
+    # render json: @evaluations.as_json(include: { disabled_person: {
+    #                                               include: {address:{only: [:street, :neighborhood, :number]}},
+    #                                               only: [:cpf, :name]} })
+    # render json: @evaluations.as_json(include: :evaluation, include: {address:{only: [:street, :neighborhood, :number, :city]}})
+    render json: @evaluations.as_json(include: {evaluation: {only: [:done, :evaluated_at, :_id]}})
   end
   
 

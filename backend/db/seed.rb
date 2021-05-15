@@ -47,12 +47,12 @@ health_centers = [HealthCenter.first, HealthCenter.last]
 User.create!(name:"Agente de Saúde", agente: true, agente_code: 12345, cpf: 11479618400,
                 email: "agente@inclucad.com", fisio_code: nil,
                 provider: "email", uid: "agente@inclucad.com", 
-                password:123456, health_center: health_centers[1])
+                password:123456, health_center: health_centers[0])
 
 User.create!(name:"Fisioterapeuta", agente: false, agente_code: nil, cpf: 11479618401,
                 email: "fisio@inclucad.com", fisio_code: 12345,
                 provider: "email", uid: "fisio@inclucad.com", 
-                password:123456, health_center: health_centers[1])
+                password:123456, health_center: health_centers[0])
 
 d1 = DisabledPerson.create(name: "Joao da Silva", cpf: "11479618402", 
                         email: "joao@inclucad.com", born_date: "2000-20-02", 
@@ -62,7 +62,7 @@ d1 = DisabledPerson.create(name: "Joao da Silva", cpf: "11479618402",
                         work_card_id: "123456789", scholarity: "ensino fundamental incompleto",
                         acquisition_form: "queda", society_limitation: "limitação da sociedade",
                         social_situation: "nenhuma", infos_add: "", deficiency_type: "física",
-                        health_center:health_centers[0],
+                        health_center:health_centers[1],
                         address_attributes:{cep: "50010010", 
                                                 street: "Estr. do Arraial", number: "4155",
                                                 neighborhood: "Casa Amarela",
@@ -74,7 +74,7 @@ d1 = DisabledPerson.create(name: "Joao da Silva", cpf: "11479618402",
                         )
 
 
-e1 = Evaluation.new(health_center: d1.health_center)
+e1 = Evaluation.new(health_center: d1.health_center, evaluated_at: Time.now)
 d1.evaluation = e1
 
 d2 = DisabledPerson.create(name: "Maria da Silva", cpf: "11479618409", 
@@ -85,7 +85,7 @@ d2 = DisabledPerson.create(name: "Maria da Silva", cpf: "11479618409",
                         work_card_id: "123456788", scholarity: "ensino fundamental completo",
                         acquisition_form: "queda", society_limitation: "limitação da sociedade",
                         social_situation: "nenhuma", infos_add: "", deficiency_type: "visual",
-                        health_center:health_centers[0],
+                        health_center:health_centers[1],
                         address_attributes:{cep: "50010010", 
                                                 street: "Estr. do Arraial", number: "4155",
                                                 neighborhood: "Casa Amarela",
@@ -97,7 +97,7 @@ d2 = DisabledPerson.create(name: "Maria da Silva", cpf: "11479618409",
                         )
 
 
-e2 = Evaluation.new(health_center: d2.health_center)
+e2 = Evaluation.new(health_center: d2.health_center, evaluated_at: Time.now)
 d2.evaluation = e2
 
 
@@ -120,14 +120,12 @@ deficiency_type = [
     "visual",]
 
     type=["celular", "fixo"]
-health_centers = [HealthCenter.first, HealthCenter.last]
 
     scholarity_rand = scholarity[rand(scholarity.length-1)]
     social_situation_rand = social_situation[rand(social_situation.length-1)]
-    health_center_rand = health_centers[rand(health_centers.length-1)]
+    # health_center_rand = health_centers[rand(health_centers.length-1)]
     deficiency_type_rand = deficiency_type[rand(deficiency_type.length-1)]
     type_rand = type[rand(type.length-1)]
-    puts cpf
     {
         email:Faker::Internet.email,
         card_id: Faker::IDNumber.brazilian_id,
@@ -144,7 +142,7 @@ health_centers = [HealthCenter.first, HealthCenter.last]
         acquisition_form: Faker::Lorem.paragraphs,
         society_limitation: Faker::Lorem.paragraphs,
         social_situation:social_situation_rand,
-        health_center:health_center_rand,
+        # health_center:health_center_rand,
         infos_add: Faker::Lorem.paragraphs,
         deficiency_type:deficiency_type_rand,
         cep:Faker::Address.zip_code,
@@ -160,9 +158,11 @@ health_centers = [HealthCenter.first, HealthCenter.last]
 }
 end
 
+health_centers = [HealthCenter.first.id, HealthCenter.last.id]
 
-
-1000.times do 
+1000.times do |i|
+    puts "#{i}/1000"
+    rand_health = health_centers[rand(health_centers.length-1)]
     person = person()
     d = DisabledPerson.create(name: person[:name], cpf: person[:cpf], 
                         email: person[:email], born_date: person[:born_date], 
@@ -172,7 +172,7 @@ end
                         work_card_id: person[:work_card_id], scholarity: person[:scholarity],
                         acquisition_form: person[:acquisition_form], society_limitation: person[:society_limitation],
                         social_situation: person[:social_situation], infos_add: person[:infos_add], deficiency_type: person[:deficiency_type],
-                        health_center: person[:health_center],
+                        health_center_id: rand_health,
                         address_attributes:{cep: person[:cep], 
                                                 street: person[:street], number: person[:ad_number],
                                                 neighborhood: person[:neighborhood],
@@ -183,8 +183,11 @@ end
                         
                         )
 
-
-e = Evaluation.new(health_center: d.health_center)
+born_with = [true, false]
+born_with_rand = born_with[rand(born_with.length - 1)]
+e = Evaluation.new(health_center: d.health_center, evaluated_at: Time.now)
 d.evaluation = e
 
 end
+
+

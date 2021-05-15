@@ -13,5 +13,5 @@ class Address
   belongs_to :address, polymorphic: true
 
   validates :cep, :street, :number, :neighborhood, :city, :state, :country, presence: true
-  validates :cep, length:{is: 8}
+  # validates :cep, length:{is: 8}
 end

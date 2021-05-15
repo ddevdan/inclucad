@@ -23,6 +23,9 @@ module Backend
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
+    # config.mongoid.preload_models = false
+    # config.mongoid.logger = Logger.new(STDERR, :warn)
+
 
     # Configuration for the application, engines, and railties goes here.
     #
