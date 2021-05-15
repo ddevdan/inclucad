@@ -74,7 +74,7 @@ d1 = DisabledPerson.create(name: "Joao da Silva", cpf: "11479618402",
                         )
 
 
-e1 = Evaluation.new
+e1 = Evaluation.new(health_center: d1.health_center)
 d1.evaluation = e1
 
 d2 = DisabledPerson.create(name: "Maria da Silva", cpf: "11479618409", 
@@ -97,6 +97,9 @@ d2 = DisabledPerson.create(name: "Maria da Silva", cpf: "11479618409",
                         )
 
 
-e2 = Evaluation.new
+e2 = Evaluation.new(health_center: d2.health_center)
 d2.evaluation = e2
 
+
+Graph::BarChart::Init.structure()
+puts 'end'

@@ -7,6 +7,7 @@ class Evaluation
   field :done, type: Mongoid::Boolean, default: false
   belongs_to :user, optional:true
   belongs_to :disabled_person
+  belongs_to :health_center
   belongs_to :cif_code, optional:true
   accepts_nested_attributes_for :user, :disabled_person
 

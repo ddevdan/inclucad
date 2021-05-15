@@ -5,6 +5,7 @@ class HealthCenter
   has_one :address, as: :address, dependent: :destroy
   has_many :phones, as: :phone, dependent: :destroy 
   has_many :users
+  has_many :evaluations
   has_many :disabled_people
   
   accepts_nested_attributes_for :phones

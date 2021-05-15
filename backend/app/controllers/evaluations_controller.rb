@@ -6,7 +6,8 @@ class EvaluationsController < ApplicationController
   # GET /evaluations
   # Rota que retorna todas as avaliações 
   def index
-    @evaluations = Evaluation.all
+    @health_center = current_user.health_center unless current_user.nil?
+    @evaluations = Evaluation.where(health_center: @health_center)
 
     render json: @evaluations, include: [:user, :disabled_person, :cif_code]
   end
