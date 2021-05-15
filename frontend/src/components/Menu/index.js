@@ -1,7 +1,7 @@
 import React, { useState, useEffect} from 'react'
 import  { useHistory } from 'react-router-dom'
 import * as s from './style'
-import LogoImg from '../../assets/images/logo.svg'
+import LogoImg from '../../assets/images/logo_animated.svg'
 import MenuImg from '../../assets/images/menu.svg'
 import CloseImg from '../../assets/images/close.svg'
 import DashButton from '../DashButton'
@@ -74,9 +74,7 @@ function Menu(props) {
                 <div onClick={handleMenuOpen} className="menu__cursor">
                     <img className="menu__icon" src={MenuImg} alt="Menu Icon" />
                 </div>
-                <Link to="/" className="menu__cursor">
                 <img src={LogoImg} alt="INCLUCAD Logo Icon" />
-                </Link>
             </s.WrapMenuItems>
         </s.Menu>
         : <></>
